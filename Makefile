@@ -1,8 +1,9 @@
-PY ?= python3
+PY ?= .venv/bin/python
 
 .PHONY: install fetch fetch-alerts fetch-portal fetch-drugs fetch-refs parse gold synth validate
 
 install:
+	python3 -m venv .venv
 	$(PY) -m pip install -r requirements.txt
 
 fetch: fetch-alerts fetch-portal fetch-drugs fetch-refs
