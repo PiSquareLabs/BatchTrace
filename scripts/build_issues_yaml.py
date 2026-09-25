@@ -12,6 +12,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from issue_details import CRITICAL_PATH, DETAILS, STEPS_OVERRIDE  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = ROOT / "CLAUDE_CODE_TEAM_PLAN.md"
 OUT = ROOT / "issues" / "issues.yaml"
@@ -23,6 +26,7 @@ MILESTONES = {  # title -> due (IST date); due_on is 23:59 IST = 18:29:59Z
     "M3 · Intelligence & App": "2026-10-02",
     "M4 · Ship": "2026-10-04",
 }
+PEOPLE = {"A": "xreedev", "B": "safar-byte", "C": "Fahad-Sajeem"}  # chosen at creation time (see issues/created.json)
 ROLES = {"A": "A: Data & Pipeline", "B": "B: Intelligence", "C": "C: Platform & Product"}
 FIELD_KEYS = {"Tasks": "tasks", "CoCo CLI": "coco", "Acceptance": "acceptance", "Depends on": "depends",
               "Assignees": "assignees", "Body": "body"}
@@ -130,19 +134,27 @@ def parse(lines: list[str]) -> list[dict]:
     return issues
 
 
-def as_md(parts: list[str], checkbox: bool) -> str:
-    """Field lines -> markdown. Sub-bullets become checkboxes; a lone sentence becomes one checkbox."""
-    lead, out = (parts[0] if parts else ""), []
+def as_md(parts: list[str], checkbox: bool, numbered: bool = False) -> str:
+    """Field lines -> markdown. Sub-bullets become checkboxes (optionally numbered steps)."""
+    lead, out, n = (parts[0] if parts else ""), [], 0
     lead = lead[:1].upper() + lead[1:]
     rest = parts[1:]
     has_bullets = any(re.match(r"^\s*(- |\d+\. )", r) for r in rest)
+    def box(item: str) -> str:
+        nonlocal n
+        n += 1
+        item = item[:1].upper() + item[1:]
+        if numbered:
+            item = re.sub(r"^\(\d+\)\s*", "", item)  # "(1) Alert Inbox" -> "Alert Inbox"
+            return f"- [ ] **{n}.** {item}"
+        return f"- [ ] {item}"
     if lead:
-        out.append((f"- [ ] {lead}" if checkbox and not has_bullets and not any(r.strip() for r in rest) else lead))
+        out.append(box(lead) if checkbox and not has_bullets and not any(r.strip() for r in rest) else lead)
     for r in rest:
         b = re.match(r"^(\s*)- (.*)$", r)
         if b:
             indent, item = b.group(1), b.group(2).rstrip(";").rstrip()
-            out.append(f"{indent}- [ ] {item}" if checkbox and not indent else f"{indent}- {item}")
+            out.append(box(item) if checkbox and not indent else f"{indent}- {item}")
         else:
             out.append(r)
     txt = "\n".join(out).strip()
@@ -159,56 +171,116 @@ def dep_ids(text: str, all_ids: list[int], by_ms: dict[str, list[int]]) -> list[
     return sorted(i for i in ids if i in all_ids)
 
 
+MS_ORDER = list(MILESTONES)
+# Dependencies the plan implies but does not list (input is consumed directly)
+EXTRA_DEPS = {19: {14: "severity/category from #14 is an input to the exposure table"}}
+
+
+def work_order(items: list[dict]) -> list[int]:
+    """Dependency-respecting order: earliest milestone first, critical-path items first, then id."""
+    deps = {i["id"]: set(i["depends_on"]) for i in items}
+    ms = {i["id"]: MS_ORDER.index(i["milestone"]) for i in items}
+    done: list[int] = []
+    left = {i["id"] for i in items if i["id"] != 40}
+    while left:
+        ready = [i for i in left if deps[i] <= set(done)]
+        nxt = min(ready, key=lambda i: (ms[i], i not in CRITICAL_PATH, i))
+        done.append(nxt)
+        left.remove(nxt)
+    return done
+
+
 def build(issues: list[dict]) -> list[dict]:
     all_ids = [i["id"] for i in issues]
     by_ms: dict[str, list[int]] = {}
     for i in issues:
         by_ms.setdefault(i["milestone"], []).append(i["id"])
-    out = []
+    titles = {i["id"]: i["title"] for i in issues}
+    base = []
     for i in issues:
         f = i["fields"]
+        dep_text = " ".join(x for x in f.get("depends", []) if x.strip())
+        d = set(dep_ids(dep_text, all_ids, by_ms)) | set(EXTRA_DEPS.get(i["id"], {}))
+        base.append({**i, "depends_on": sorted(d), "dep_text": dep_text,
+                     "added_deps": EXTRA_DEPS.get(i["id"], {})})
+    order = work_order(base)
+    step = {iid: k + 1 for k, iid in enumerate(order)}
+    unblocks: dict[int, list[int]] = {}
+    for i in base:
+        for d in i["depends_on"]:
+            unblocks.setdefault(d, []).append(i["id"])
+    person_queue: dict[str, list[int]] = {}
+    for iid in order:
+        owner_raw = next(i["owner_raw"] for i in base if i["id"] == iid)
+        for o in owner_raw.split("+"):
+            person_queue.setdefault(o, []).append(iid)
+
+    def ref(n: int) -> str:
+        state = "✅ done" if n in CLOSED_AT_CREATION else "open"
+        return f"#{n} {titles[n]} _({state})_"
+
+    out = []
+    for i in base:
+        f = i["fields"]
+        iid = i["id"]
         owners = [o for o in i["owner_raw"].split("+")]
         owner = "A" if len(owners) > 1 else owners[0]  # #37: owner A, assigned to all three
-        prio = next((x for x in i["labels_raw"] if re.fullmatch(r"P[0-2]", x)), "P1" if i["id"] == 40 else None)
-        labels = ([f"owner:{owner}"] if i["id"] != 40 else ["owner:C"]) + i["labels_raw"]
+        prio = next((x for x in i["labels_raw"] if re.fullmatch(r"P[0-2]", x)), "P1" if iid == 40 else None)
+        labels = ([f"owner:{owner}"] if iid != 40 else ["owner:C"]) + i["labels_raw"]
         assignees = [f"@PERSON_{o}" for o in owners]
-        dep_text = " ".join(x for x in f.get("depends", []) if x.strip())
-        deps = dep_ids(dep_text, all_ids, by_ms)
-        if i["id"] == 40:
+        deps = i["depends_on"]
+        ms_code = i["milestone"].split(" ")[0]
+        title = f"[{ms_code}] [{i['owner_raw']}] {i['title']}"
+        if iid == 40:
             body = "_(Generated at creation time: task list of every issue grouped by milestone, owner table, key dates.)_"
         else:
-            tasks_md = as_md(f.get("tasks", []), checkbox=True)
+            det = DETAILS[iid]
+            tasks_md = STEPS_OVERRIDE.get(iid) or as_md(f.get("tasks", []), checkbox=True, numbered=True)
+            tasks_md = tasks_md.replace("in three tiers:", "in four tiers:")  # #17 lists 4 (incl. blank batch)
             acc_md = as_md(f.get("acceptance", []), checkbox=True)
-            coco_md = as_md(f.get("coco", [""]), checkbox=False) or COCO_DEFAULT.get(i["id"], "") or "_Optional — log any notable CoCo session in `docs/coco_log.md`._"
-            feats = FEATURES[i["id"]]
-            ctx = (f"**Owner:** Person {' + '.join(owners)} ({', '.join(ROLES[o] for o in owners)}) · "
-                   f"**Milestone:** {i['milestone']} · **Priority:** {prio}\n\n"
-                   f"Part of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #{i['id']}). "
-                   "Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, "
-                   "\"needs clinician review\" wording, protect the credits.")
-            if i["id"] in STATUS_NOTES:
-                ctx += f"\n\n> **Status:** {STATUS_NOTES[i['id']]}"
-            if len(deps) > 6:
-                dep_md = "- " + ", ".join(f"#{d}" for d in deps)
+            coco_md = as_md(f.get("coco", [""]), checkbox=False) or COCO_DEFAULT.get(iid, "") or "_Optional — log any notable CoCo session in `docs/coco_log.md`._"
+            feats = FEATURES[iid]
+            who = " + ".join(f"@{PEOPLE[o]} ({ROLES[o]})" for o in owners)
+            due = MILESTONES[i["milestone"]]
+            queue = "; ".join(f"{o}'s {person_queue[o].index(iid) + 1} of {len(person_queue[o])}" for o in owners)
+            ctx = (f"**Goal:** {det['goal']}\n\n"
+                   "| Owner | Milestone · due (IST) | Priority | Critical path | Order |\n|---|---|---|---|---|\n"
+                   f"| {who} | {i['milestone']} · {due} | {prio} | {'**yes**' if iid in CRITICAL_PATH else 'no'} | "
+                   f"step {step[iid]} of {len(order)} · {queue} |")
+            if iid in STATUS_NOTES:
+                ctx += f"\n\n> **Status:** {STATUS_NOTES[iid]}"
+            ctx += "\n\n**You need before starting:**\n" + "\n".join(f"- {x}" for x in det["inputs"])
+            deliver = "\n".join(f"- [ ] {x}" for x in det["outputs"])
+            if deps:
+                dep_md = "\n".join(f"- {ref(d)}" for d in deps) if len(deps) <= 6 else \
+                    "- " + ", ".join(f"#{d}" for d in deps)
             else:
-                dep_md = "\n".join(f"- #{d}" for d in deps) if deps else "_None_"
-            extra = re.sub(r"#\d+(?:\s*[–-]\s*#?\d+)?,?", "", dep_text).strip(" ,")
+                dep_md = "_None._" if iid in CLOSED_AT_CREATION else "_Nothing — can start now._"
+            extra = re.sub(r"#\d+(?:\s*[–-]\s*#?\d+)?,?", "", i["dep_text"]).strip(" ,()")
             if extra:
                 dep_md += f"\n\n_Note: {extra}_"
+            for dd, why in i["added_deps"].items():
+                dep_md += f"\n\n_#{dd} added to the plan's list: {why}._"
+            ub = unblocks.get(iid, [])
+            dep_md += "\n\n**Unblocks:** " + (", ".join(f"#{u}" for u in sorted(ub)) if ub else "_nothing directly (end of a chain)_")
             body = "\n\n".join([
                 "## Context\n" + ctx,
-                "## Tasks\n" + tasks_md,
+                "## Tasks\n" + tasks_md + "\n\n**Deliverables (commit / create these):**\n" + deliver,
                 "## Snowflake features\n" + ("\n".join(f"- {x}" for x in feats) if feats else "_None: this item is outside Snowflake._"),
                 "## CoCo CLI\n" + coco_md,
                 "## Acceptance criteria\n" + acc_md,
                 "## Depends on\n" + dep_md,
+                "---\n_Plan item #" + str(iid) + " in `CLAUDE_CODE_TEAM_PLAN.md` §8 · Principles: Snowflake-first, everything as code "
+                "under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits. "
+                "Branch `" + str(iid) + "-short-name`, PR says `Closes #" + str(iid) + "`._",
             ])
-        if i["id"] in CLOSED_AT_CREATION:
+        if iid in CLOSED_AT_CREATION:
             body = body.replace("- [ ] ", "- [x] ")
-        out.append({"id": i["id"], "close_at_creation": i["id"] in CLOSED_AT_CREATION, "title": f"[{i['owner_raw']}] {i['title']}", "owner": owner,
+        out.append({"id": iid, "close_at_creation": iid in CLOSED_AT_CREATION, "title": title, "owner": owner,
                     "assignees": assignees, "labels": labels, "priority": prio,
                     "milestone": i["milestone"], "milestone_due": MILESTONES[i["milestone"]],
-                    "depends_on": deps, "status_note": STATUS_NOTES.get(i["id"], ""), "body": body})
+                    "depends_on": deps, "unblocks": sorted(unblocks.get(iid, [])),
+                    "order": step.get(iid, 0), "status_note": STATUS_NOTES.get(iid, ""), "body": body})
     return out
 
 
@@ -226,7 +298,7 @@ def to_yaml(items: list[dict]) -> str:
     for it in items:
         lines.append(f"  - id: {it['id']}")
         for k in ("title", "close_at_creation", "owner", "assignees", "labels", "priority", "milestone", "milestone_due",
-                  "depends_on", "status_note"):
+                  "depends_on", "unblocks", "order", "status_note"):
             lines.append(f"    {k}: {q(it[k])}")
         lines.append("    body: |-")
         lines += [("      " + ln) if ln else "" for ln in it["body"].splitlines()]
