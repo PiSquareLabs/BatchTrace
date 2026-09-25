@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+data/tmp/
+.kaggle/
+kaggle.json
+# full upstream drug master (licence unclear -> only the subset is committed; see docs/DATA_SOURCES.md)
+data/raw/drug_master/indian_medicine_data.csv
