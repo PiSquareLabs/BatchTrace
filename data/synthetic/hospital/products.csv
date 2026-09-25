@@ -1,0 +1,1591 @@
+product_id,brand_name,generic_composition,dosage_form,manufacturer,is_nsq_seeded,schedule
+PR00001,Menorise 1000mg Injection,Meropenem (1000mg),injection,Tridev Pharmaceutical,False,H
+PR00002,Glucotrac Plus 5mg/500mg Tablet,Glibenclamide (5mg) + Metformin (500mg),tablet,Intra Labs India Pvt Ltd,False,H
+PR00003,Nillbloc Saline Nasal Spray/Drop,Sodium Chloride (0.65% w/v),drops,Insutik pharmaceuticals Private Limited,False,H
+PR00004,Autidine 20mg Tablet,Famotidine (20mg),tablet,Veritaz Healthcare Ltd,False,H
+PR00005,Supero Z 200mg/500mg Tablet,Ofloxacin (200mg) + Ornidazole (500mg),tablet,Endurance Healthcare Ltd,False,H
+PR00006,Genticyn 60mg Injection,Gentamicin (60mg),injection,Abbott,False,H
+PR00007,Kripred 4 Tablet,Methylprednisolone (4mg),tablet,Krishgir Pharmaceuticals Pvt Ltd,False,H
+PR00008,Pazole 40mg Tablet,Pantoprazole (40mg),tablet,Admac Pharma Ltd,False,H
+PR00009,B Penem 125mg Injection,Meropenem (125mg),injection,Biovista Lifesciences,False,H
+PR00010,Telstat 40 Tablet,Telmisartan (40mg),tablet,Biochem Pharmaceutical Industries,False,H
+PR00011,Rifafix 550mg Tablet,Rifaximin (550mg),tablet,Green Bract Lifesciences,False,H
+PR00012,Arvast 15 Tablet,Rosuvastatin (15mg),tablet,Intas Pharmaceuticals Ltd,False,H
+PR00013,Ceftrisone 250mg Injection,Ceftriaxone (250mg),injection,Shreya Life Sciences Pvt Ltd,False,H
+PR00014,Matinor Oral Suspension,Metronidazole (100mg) + Norfloxacin (100mg),syrup,Mapra Laboratories Pvt Ltd,False,H
+PR00015,Vyneuron PG Capsule,Benfotiamine (7.5mg) + Folic Acid (0.75mg),capsule,Vvyeth Pharmaceuticals Pvt Ltd,False,H
+PR00016,Efoglim MV 2mg/500mg/0.3mg Tablet SR,Glimepiride (2mg) + Metformin (500mg),tablet,Oldmed Healthcare Pvt Ltd,False,H
+PR00017,Feeta 1000mg Oral Suspension,Sucralfate (1000mg),syrup,Athens Wellness,False,H
+PR00018,Cazodep-XT Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.5mg),tablet,Deepkamal Health Services Private Limited,False,OTC
+PR00019,Urichek 80mg Tablet,Febuxostat (80mg),tablet,Metamorf Lifesciences,False,H
+PR00020,Sebnate 25mg Injection,Nandrolone Decanoate (25mg),injection,Sebert Lifesciences,False,H
+PR00021,Adhestop 25000IU Injection,Heparin (25000IU),injection,Varenyam Healthcare Pvt Ltd,False,H
+PR00022,Acpro TH 100mg/4mg Tablet,Aceclofenac (100mg) + Thiocolchicoside (4mg),tablet,Vsab Healthcare,False,H
+PR00023,Estye SP 100mg/325mg/15mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Starzac Formulations,False,H
+PR00024,Oraz 20mg Capsule,Omeprazole (20mg),capsule,Vaishali Pharmaceuticals,False,H
+PR00025,Iviroxime 250mg Injection,Cefuroxime (250mg),injection,Vhb Life Sciences Inc,False,H
+PR00026,Xcip 500mg Tablet,Ciprofloxacin (500mg),tablet,Alvid Biocare,False,H
+PR00027,Tel OD 40mg Tablet,Telmisartan (40mg),tablet,Disecure Pharma,False,H
+PR00028,Glycifit 1000mg Tablet,Metformin (1000mg),tablet,Shreya Life Sciences Pvt Ltd,False,H
+PR00029,Afixe DS 50mg Syrup,Cefixime (50mg),syrup,Anant Pharmaceuticals Pvt Ltd,False,H1
+PR00030,Herpival 500mg Tablet,Valacyclovir (500mg),tablet,KLM Laboratories Pvt Ltd,False,H
+PR00031,Ferocad Injection,Ferrous Ascorbate (NA) + Folic Acid (NA),injection,Cadila Pharmaceuticals Ltd,False,H
+PR00032,Megazole-DR Capsule,Domperidone (30mg) + Pantoprazole (40mg),capsule,SAF Fermion Ltd,False,H
+PR00033,Dexalone Syrup,Dextromethorphan Hydrobromide (NA),syrup,Delvin Formulations Pvt Ltd,False,H
+PR00034,Waklert 100mg Tablet,Armodafinil (100mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00035,Atsofine 100mg Injection,Amikacin (100mg),injection,RSM Kilitch Pharma Pvt Ltd,False,H
+PR00036,Dapafor V 5mg/100mg Tablet,Dapagliflozin (5mg) + Vildagliptin (100mg),tablet,Zuventus Healthcare Ltd,False,H
+PR00037,Peg Xphil 6mg Injection,Pegfilgrastim (6mg),injection,Sun Pharmaceutical Industries Ltd,False,H
+PR00038,Brivgard 100 Tablet,Brivaracetam (100mg),tablet,Lupin Ltd,False,H
+PR00039,Acecott SP 100mg/325mg/15mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Dycott Healthcare,False,H
+PR00040,I Sartan 50mg Tablet,Losartan (50mg),tablet,Carise Pharmaceuticals Pvt Ltd,False,H
+PR00041,Azidok 500mg Tablet,Azithromycin (500mg),tablet,Advok Pharmacia Private Limited,False,H
+PR00042,As-Plus Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Asmed Healthcare,False,H
+PR00043,Blockasol Injection,Heparin (5000iu/5ml),injection,Shree Ganesh Pharmaceuticals,False,H
+PR00044,Dozep 75mg Tablet,Dosulepin (75mg),tablet,Talent India ,False,H
+PR00045,Lovbebi 100mg Tablet,Sildenafil (100mg),tablet,Allied Chemicals & Pharmaceuticals Pvt Ltd,False,H
+PR00046,Liptry 5mg Tablet,Levocetirizine (5mg),tablet,Try Drugs Pharmaceuticals,False,H
+PR00047,Stucuf-LS Syrup,Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml),syrup,Monark Biocare Pvt Ltd,False,H
+PR00048,Adfrar Injection,Adalimumab (40mg/0.8ml),injection,Torrent Pharmaceuticals Ltd,False,H
+PR00049,Telmac-H 40mg/12.5mg Tablet,Telmisartan (40mg) + Hydrochlorothiazide (12.5mg),tablet,Mac Laboratories Ltd,False,H
+PR00050,Moviz 3D Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,J B Chemicals and Pharmaceuticals Ltd,False,H
+PR00051,Feepod AZ 200mg/250mg Tablet,Cefpodoxime Proxetil (200mg) + Azithromycin (250mg),tablet,Zedlon Pharmaceuticals,False,H1
+PR00052,Prozoten 5mg Tablet XL,Prazosin (5mg),tablet,East West Pharma,False,H
+PR00053,Anapara 250mg Syrup,Paracetamol (250mg),syrup,Anabolic Remedies Pvt Ltd,False,OTC
+PR00054,Sitnac P 100mg/325mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Sitnez Biocare Pvt Ltd,False,H
+PR00055,Akurab LS 75mg/20mg Capsule SR,Levosulpiride (75mg) + Rabeprazole (20mg),capsule,Hybrand Pharmaceuticals,False,H
+PR00056,Yocet M 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Granmed Pharma,False,H
+PR00057,Ibtel 20mg Tablet,Telmisartan (20mg),tablet,Indiabulls pharmaceutical ltd,False,H
+PR00058,Dentonum Injection,Lidocaine (2%) + Adrenaline (0.005mg),injection,KPH Cosmos Pvt Ltd,False,H
+PR00059,Tricoplus Syrup,Cyproheptadine (2mg) + Tricholine Citrate (275mg),syrup,Mint Life Sciences Pvt Ltd,False,H
+PR00060,Fixcof-LS Syrup,Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml),syrup,Healthtree Pharma (India) Private Limited,False,H
+PR00061,Debrilyse Tablet,Bromelain (90mg) + Trypsin (48mg),tablet,Macleods Pharmaceuticals Pvt Ltd,False,H
+PR00062,Cipzole TZ 500 mg/600 mg Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,Khandelwal Laboratories Pvt Ltd,False,H
+PR00063,Duoyug 2mg/500mg Tablet SR,Glimepiride (2mg) + Metformin (500mg),tablet,Yug Pharmaceuticals,False,H
+PR00064,Algonac-R 200mg/20mg Capsule,Aceclofenac (200mg) + Rabeprazole (20mg),capsule,Neiss Labs Pvt Ltd,False,H
+PR00065,Azitar 500mg Tablet,Azithromycin (500mg),tablet,Altar Healthcare Pvt Ltd,False,H
+PR00066,Gride M 4mg/500mg Tablet,Glimepiride (4mg) + Metformin (500mg),tablet,East West Pharma,False,H
+PR00067,Hypopride M 1mg/500mg Tablet,Glimepiride (1mg) + Metformin (500mg),tablet,Agonist Healthcare,False,H
+PR00068,Labtocin 5IU Injection,Oxytocin (5IU),injection,Laborate Pharmaceuticals India Ltd,False,H
+PR00069,Listy H 50mg/12.5mg Tablet,Losartan (50mg) + Hydrochlorothiazide (12.5mg),tablet,Capri Pharmaceuticals,False,H
+PR00070,Ciprovin 500mg Tablet,Ciprofloxacin (500mg),tablet,Torino Labs (P) Ltd,False,H
+PR00071,Megimine XL 750mcg/75mg Capsule,Methylcobalamin (750mcg) + Pregabalin (75mg),capsule,Green Cross Remedies,False,H
+PR00072,Tomox 250mg Tablet DT,Amoxycillin (250mg),tablet,Totem Biotech Pvt Ltd,False,H
+PR00073,Uzimet G Forte 2mg/1000mg Tablet SR,Glimepiride (2mg) + Metformin (1000mg),tablet,Dr Kumars Pharmaceuticals,False,H
+PR00074,Neonate Plus 10mg/10mg/2.5mg Tablet,Doxylamine (10mg) + Vitamin B6 (Pyridoxine) (10mg),tablet,Loremchem Pharmaceutical,False,H
+PR00075,Arsulide S Tablet,Nimesulide (100mg) + Serratiopeptidase (15mg),tablet,Surmuont,False,H
+PR00076,Clomaxin 250mg/50mg Injection,Amoxycillin  (250mg) + Clavulanic Acid (50mg),injection,Krishgir Pharmaceuticals Pvt Ltd,False,H
+PR00077,R Brox LS Syrup,Levosalbutamol (1mg/5ml) + Ambroxol (30mg/5ml),syrup,Remalthea Pharmaceuticals Private Limited,False,H
+PR00078,Telmitac H 40mg/12.5mg Tablet,Telmisartan (40mg) + Hydrochlorothiazide (12.5mg),tablet,Novalife Healthcare,False,H
+PR00079,Rucken SP 100mg/325mg/15mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Veasley Pharmaceuticals Private Limited,False,H
+PR00080,Symoprox CV Syrup,Cefpodoxime Proxetil (50mg) + Clavulanic Acid (31.25mg),syrup,Symbiosis Pharmaceuticals Pvt Ltd,False,H1
+PR00081,Nometh-PG  Capsule,Methylcobalamin (750mcg) + Pregabalin (75mg),capsule,Acinom Healthcare,False,H
+PR00082,Nu Tbr Tablet,Bromelain (180mg) + Trypsin (96mg),tablet,Nudrug Pharmaceutical Pvt Ltd,False,H
+PR00083,Defstead 24mg Tablet,Deflazacort (24mg),tablet,Steadfast Medishield Pvt Ltd,False,H
+PR00084,N S 0.45% Infusion,Sodium Chloride (0.45% w/v),injection,Baxter India Pvt Ltd,False,H
+PR00085,Ovax 200mg Tablet,Ofloxacin (200mg),tablet,Lanark Laboratories Pvt Ltd,False,H
+PR00086,Aknerv-G Tablet,Gabapentin (300mg) + Methylcobalamin (500mcg),tablet,Akmed Biotech,False,H
+PR00087,Stfaz 500mg Tablet,Azithromycin (500mg),tablet,Alde Medi Impex Ltd,False,H
+PR00088,Impraz L Capsule SR,Levosulpiride (75mg) + Esomeprazole (40mg),capsule,Aleixo Pharma,False,H
+PR00089,S Dip 2.5mg Tablet,S-Amlodipine (2.5mg),tablet,Martyn Nikk Pharma Private Limited,False,H
+PR00090,Xylotox Injection,Lidocaine (2%) + Adrenaline (0.005mg),injection,Akme Biotec,False,H
+PR00091,Bilaxta M 20mg/10mg Tablet,Bilastine (20mg) + Montelukast (10mg),tablet,Synokem Pharmaceuticals Ltd,False,H
+PR00092,HEPALIM 25000IU INJECTION,Heparin (25000IU),injection,Ancalima Lifesciences Ltd,False,H
+PR00093,Strobon 500mg/250IU Tablet,Calcium (500mg) + Vitamin D3 (250IU),tablet,Vivid Labs Pvt Ltd,False,OTC
+PR00094,Himocin 200mg Tablet,Ofloxacin (200mg),tablet,Ratchet Biotech Pvt Ltd,False,H
+PR00095,Mixotil 500mg Tablet,Cefuroxime (500mg),tablet,Philanto Healthcare,False,H
+PR00096,Blupidox 50 Dry Syrup,Cefpodoxime Proxetil (50mg),syrup,Bluepipes Healthcare Private Limited,False,H1
+PR00097,Telmos 40mg Tablet,Telmisartan (40mg),tablet,Mosfet Healthcare Pvt Ltd,False,H
+PR00098,Rebogil-DSR Capsule,Domperidone (30mg) + Rabeprazole (20mg),capsule,Gilpod Healthcare,False,H
+PR00099,Adeone TAZ 1.125gm Injection,Ceftriaxone (1000mg) + Tazobactum (125mg),injection,Adept Biocare,False,H
+PR00100,Moon L 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,MedHeal Pharmaceuticals,False,H
+PR00101,Panroll 40mg Tablet,Pantoprazole (40mg),tablet,Aerozest Life Science,False,H
+PR00102,AX Cold Syrup,Cetirizine (2.5mg/5ml) + Ambroxol (30mg/5ml),syrup,Elixir Life Care Pvt Ltd,False,OTC
+PR00103,Ceftrilla 250 Injection,Ceftriaxone (250mg),injection,Skylla Pharmaceuticals,False,H
+PR00104,Monzap-LC Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Serum Institute Of India Ltd,False,H
+PR00105,Glimidart M Forte 2mg/1000mg Tablet,Glimepiride (2mg) + Metformin (1000mg),tablet,Oswin Pharmaceuticals,False,H
+PR00106,Etoriday 90mg Tablet,Etoricoxib (90mg),tablet,Mankind Pharma Ltd,False,H
+PR00107,Olcoxib 90mg Tablet,Etoricoxib (90mg),tablet,Olcare Laboratories,False,H
+PR00108,Betanol 20mg Capsule,Propranolol (20mg),capsule,Solvate Laboratries Pvt Ltd,False,H
+PR00109,Ambroved TG Syrup,Ambroxol (15mg/5ml) + Guaifenesin (50mg/5ml),syrup,Anuveda Life Sciences Pvt Ltd,False,H
+PR00110,Mecotaz PG 1500mcg/75mg Tablet SR,Methylcobalamin (1500mcg) + Pregabalin (75mg),tablet,Human Biolife India Pvt Ltd,False,H
+PR00111,Zonelix S 1000mg/500mg Injection,Ceftriaxone (1000mg) + Sulbactam (500mg),injection,Elixir Life Care Pvt Ltd,False,H
+PR00112,Cerebatam-P Syrup,Citicoline (500mg) + Piracetam (400mg),syrup,Renata Healthcare,False,H
+PR00113,Zebita XT Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.5mg),tablet,Indchemie Health Specialities Pvt Ltd,False,OTC
+PR00114,Ompon 20mg Capsule,Omeprazole (20mg),capsule,Fitwel Pharmaceuticals Private Limited,False,H
+PR00115,Cypozit Syrup,Cyproheptadine (2mg/5ml) + Tricholine Citrate (275mg/5ml),syrup,Zither Pharmaceutical Pvt Ltd,False,H
+PR00116,PD Lyte P Infusion,Calcium Phosphate (0.13gm) + Dextrose (5gm),injection,Parenteral Drugs India Ltd,False,H
+PR00117,Aciloc 150 Tablet,Ranitidine (150mg),tablet,Cadila Pharmaceuticals Ltd,False,H
+PR00118,Bilavel-M Tablet,Bilastine (20mg) + Montelukast (10mg),tablet,Astraea Life Sciences Pvt Ltd,False,H
+PR00119,Haxel 200mg/28.5mg Tablet,Amoxycillin  (200mg) + Clavulanic Acid (28.5mg),tablet,Mathis Pharma,False,H
+PR00120,Nusetron 2mg Syrup,Ondansetron (2mg),syrup,Abia Pharmaceuticals Pvt. Ltd.,False,H
+PR00121,Zygenta Plus 40mg Injection,Gentamicin (40mg),injection,Zydus Cadila,False,H
+PR00122,Idetel 40mg Tablet,Telmisartan (40mg),tablet,Ideal Life Sciences Pvt Ltd,False,H
+PR00123,Defcort 1mg Tablet,Deflazacort (1mg),tablet,Macleods Pharmaceuticals Pvt Ltd,False,H
+PR00124,Merigenta Eye Drop,Gentamicin (0.3%),drops,Mercury Laboratories Ltd,False,H
+PR00125,Glocip 250mg Tablet,Ciprofloxacin (250mg),tablet,Globus Remedies Ltd,False,H
+PR00126,Preciolid Tablet,Linezolid (600mg),tablet,Neocell Science Pharmaceuticals Pvt Ltd,False,H1
+PR00127,Ompec 20mg Capsule,Omeprazole (20mg),capsule,Win-Medicare Pvt Ltd,False,H
+PR00128,Entracid DXR Capsule,Domperidone (30mg) + Pantoprazole (40mg),capsule,Nexcellence Lifesciences,False,H
+PR00129,Diphecol Cough Syrup,Chlorpheniramine Maleate (4mg) + Codeine (10mg),syrup,Jagsonpal Pharmaceuticals Ltd,False,OTC
+PR00130,Etoz OD Capsule SR,Domperidone (30mg) + Esomeprazole (40mg),capsule,Dorris Pharmaceutical Pvt Ltd,False,H
+PR00131,Syntocinon Injection,Oxytocin (5IU),injection,Mylan Pharmaceuticals Pvt Ltd,False,H
+PR00132,Jazmet 1000mg Tablet,Metformin (1000mg),tablet,Duken Pharmaceuticals,False,H
+PR00133,Mumzole 20mg Capsule,Omeprazole (20mg),capsule,Horean Healthcare Private Limited,False,H
+PR00134,Mugent 80mg Injection,Gentamicin (80mg),injection,P R G Pharma Pvt Ltd,False,H
+PR00135,Ekgest 500mg Injection,Hydroxyprogesterone (500mg),injection,Ekansh Pharma,False,H
+PR00136,Cetmet Tcf Syrup,Ambroxol (15mg/5ml) + Dextromethorphan Hydrobromide (10mg/5ml),syrup,Almet Corporation Ltd,False,H
+PR00137,Amloven 5mg Tablet,Amlodipine (5mg),tablet,Aventure Pharma,False,H
+PR00138,Mepyro 500mg/325mg Tablet,Mefenamic Acid (500mg) + Paracetamol (325mg),tablet,Wells Biosciences,False,H
+PR00139,Fioset 80mg Tablet,Febuxostat (80mg),tablet,Vinson pharma,False,H
+PR00140,Rampit 200mg Capsule,Itraconazole (200mg),capsule,BAMPS Health Care,False,H
+PR00141,Supod 100mg Dry Syrup,Cefpodoxime Proxetil (100mg),syrup,Sunroxx Pharma,False,H1
+PR00142,Hyglim M 1mg/500mg Tablet SR,Glimepiride (1mg) + Metformin (500mg),tablet,Sunniva Life Science,False,H
+PR00143,Rapri 20 Tablet,Rabeprazole (20mg),tablet,Vatican Life Sciences Pvt Ltd,False,H
+PR00144,Von P 40mg Tablet,Pantoprazole (40mg),tablet,Von Remedies,False,H
+PR00145,Rancid D 10mg/150mg Tablet,Domperidone (10mg) + Ranitidine (150mg),tablet,Sanko Biotech,False,H
+PR00146,Cloclinda-VT Tablet,Clindamycin (100mg) + Metronidazole (100mg),tablet,Tas Med India Pvt Ltd,False,H
+PR00147,Panzop 40 Tablet,Pantoprazole (40mg),tablet,Bionexa Organic,False,H
+PR00148,Radoxetine 37.5 CR Tablet,Paroxetine (37.5mg),tablet,Psychocare Health Pvt Ltd,False,H
+PR00149,Omricoxib 90 Tablet,Etoricoxib (90mg),tablet,Omni Lifesciences Pvt Ltd,False,H
+PR00150,Amstat 10mg Tablet,Atorvastatin (10mg),tablet,Ambromide Pharma Private Limited,False,H
+PR00151,Nishclav 625 LB Tablet,Amoxycillin (500mg) + Clavulanic Acid (125mg),tablet,Ronish Bioceuticals,False,H
+PR00152,Zencort 5mg Tablet,Prednisolone (5mg),tablet,Zenon Healthcare Ltd,False,H
+PR00153,Elmik 100mg Injection,Amikacin (100mg),injection,Elfin Pharma Pvt Ltd,False,H
+PR00154,Panthor DX Syrup,Dextromethorphan Hydrobromide (10mg/5ml) + Guaifenesin (100mg/5ml),syrup,Juggat Pharma,False,H
+PR00155,Brom Syrup,Bromocriptine (NA),syrup,Hi Tech Pharmaceuticals Pvt Ltd,False,H
+PR00156,Nusaid SP Tablet,Aceclofenac (100mg) + Paracetamol (500mg),tablet,Molekule India Pvt Ltd,False,H
+PR00157,Azixon 500mg Tablet,Azithromycin (500mg),tablet,Biomexon Pharmaceutical Pvt Ltd,False,H
+PR00158,Ultac 25mg Injection,Ranitidine (25mg),injection,Cipla Ltd,False,H
+PR00159,Minonil ER 65 Tablet,Minocycline (65mg),tablet,Ajanta Pharma Ltd,False,H
+PR00160,Voglibite-GM 1 Tablet SR,Glimepiride (1mg) + Metformin (500mg),tablet,Corona Remedies Pvt Ltd,False,H
+PR00161,Methyron Gold Injection,Methylcobalamin (1500mcg) + Niacinamide (100mg),injection,Junifer Pharmaceuticals,False,H
+PR00162,Numol Plus Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Numed,False,H
+PR00163,Atoreen 20mg Tablet,Atorvastatin (20mg),tablet,Homogreen Pharmaceutical,False,H
+PR00164,Ceflin CV 200mg/125mg Tablet,Cefixime (200mg) + Clavulanic Acid (125mg),tablet,Allenchem,False,H1
+PR00165,Mobidase 50mg/10mg Tablet,Diclofenac (50mg) + Serratiopeptidase (10mg),tablet,Diya Health Care Pvt Ltd,False,H
+PR00166,Iorox 150mg Tablet,Roxithromycin (150mg),tablet,Dion Pharmaceuticals,False,H
+PR00167,Alerg Total 75mg/5mg/10mg Tablet,Ambroxol (75mg) + Levocetirizine (5mg),tablet,Cordial Lifesciences Pvt Ltd,False,H
+PR00168,Tobotor DM Eye Drop,Dexamethasone (0.1% w/v) + Tobramycin (0.3% w/v),drops,Appasamy Ocular Device Pvt Ltd,False,H
+PR00169,Ranimeg 75mg  Syrup,Ranitidine (75 mg/5ml),syrup,Ridhima Biocare,False,H
+PR00170,Ceficorn-OX Dry Syrup,Cefixime (50mg/5ml) + Ofloxacin (50mg/5ml),syrup,Bioshine Healthcare Pvt Ltd,False,H1
+PR00171,Witopod 200mg Tablet,Cefpodoxime Proxetil (200mg),tablet,Hummed Healthcare,False,H1
+PR00172,Tiruleset LM 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Tiruvision Medicare,False,H
+PR00173,Lenira-M Kid Tablet DT,Levocetirizine (2.5mg) + Montelukast (5mg),tablet,Huadiz Pharmaceuticals,False,H
+PR00174,Diclogenta Eye Drop,Gentamicin (0.3%),drops,Centaur Pharmaceuticals Pvt Ltd,False,H
+PR00175,Unirab D 30mg/20mg Capsule SR,Domperidone (30mg) + Rabeprazole (20mg),capsule,Unigrow Pharmaceuticals,False,H
+PR00176,Genta Swift Eye Drop,Gentamicin (0.3% w/v),drops,Ind Swift Laboratories Ltd,False,H
+PR00177,Redivit-LMF Tablet,L-Methyl Folate (1mg) + Methylcobalamin (1500mcg),tablet,Best Biotech,False,H
+PR00178,Mahather Injection,Arteether (NA),injection,Themis Medicare Ltd,False,H
+PR00179,Cilatone-Trio 6.25 Tablet,Telmisartan (40mg) + Cilnidipine (10mg),tablet,Aishwarya Healthcare,False,H
+PR00180,Meritocin 5IU Injection,Oxytocin (5IU),injection,Mercury Laboratories Ltd,False,H
+PR00181,Calsym-Plus Soft Gel Capsule,Calcitriol (0.25mcg) + Calcium Carbonate (500mg),capsule,Symbiosis Lab,False,H
+PR00182,Telzun-AM 40mg/5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Katzung Pharmaceuticals Pvt Ltd,False,H
+PR00183,Naprex D 250mg/10mg Tablet,Naproxen (250mg) + Domperidone (10mg),tablet,Sanity Pharma,False,H
+PR00184,Wayferol Oral Suspension,Ferrous Ascorbate (30mg) + Folic Acid (550mg),syrup,Waylon,False,OTC
+PR00185,Acelogic Plus 100mg/325mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Novostart Life Science,False,H
+PR00186,Azimira 250mg Tablet,Azithromycin (250mg),tablet,Biomirra Biogenics Pvt Ltd,False,H
+PR00187,Atovib 10 Tablet,Atorvastatin (10mg),tablet,Vibcare Pharma Pvt Ltd,False,H
+PR00188,Ranibond 75mg Syrup Mint,Ranitidine (75mg/5ml),syrup,Brinton Pharmaceuticals Pvt Ltd,False,H
+PR00189,Kapiart 60mg Injection,Artesunate (60mg),injection,Godrams Lifeline,False,H
+PR00190,Moovila-Plus Oral Suspension Mango,Mefenamic Acid (50mg) + Paracetamol (125mg),syrup,Evitalife Pharma Private Limited,False,H
+PR00191,Dollos S Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Disecure Pharma,False,H
+PR00192,Famofast 40mg Tablet,Famotidine (40mg),tablet,FDC Ltd,False,H
+PR00193,Omcef 200mg Tablet,Cefixime (200mg),tablet,Instant Remedies Pvt Ltd,False,H1
+PR00194,Cozymin Vapocaps Capsule,Cetirizine (25mg) + Paracetamol (NA),capsule,Unimarck Healthcare Ltd,False,H
+PR00195,Fontel CH 40 Tablet,Telmisartan (40mg) + Chlorthalidone (12.5mg),tablet,Foncer Pharma Pvt Ltd,False,H
+PR00196,Timken 5mg Tablet,Levocetirizine (5mg),tablet,Orion Biotech Pvt Ltd,False,H
+PR00197,Benzydol P 1.5mg Tablet,Haloperidol (1.5mg),tablet,La Pharmaceuticals,False,H
+PR00198,Sayoflox-TZ 200mg/600mg Tablet,Ofloxacin (200mg) + Tinidazole (600mg),tablet,Zota Health care Ltd,False,H
+PR00199,Dclonom AQ 75mg Injection,Diclofenac (75mg),injection,Acinom Healthcare,False,H
+PR00200,Arony LS Oral Drops,Ambroxol (7.5mg/5ml) + Levosalbutamol (0.25mg/5ml),drops,Progressive Life Care,False,H
+PR00201,Glocip-TZ Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,Globus Remedies Ltd,False,H
+PR00202,Occumox DM Eye Drop,Moxifloxacin (0.5% w/v) + Dexamethasone (0.1% w/v),drops,Sunways India Pvt Ltd,False,H1
+PR00203,Azibook 200mg Oral Suspension,Azithromycin (200mg),syrup,Elgoog Health Series,False,H
+PR00204,Tdl P 37.5mg/325mg Tablet,Tramadol (37.5mg) + Paracetamol (325mg),tablet,Medok Life Sciences Pvt Ltd,False,H1
+PR00205,Nimelore P 100mg/325mg Tablet,Nimesulide (100mg) + Paracetamol (325mg),tablet,Hublore Healthcare Pvt Ltd,False,H
+PR00206,Ibimox BD Oral Suspension,Amoxycillin  (200mg/5ml) + Clavulanic Acid (28.5mg/5ml),syrup,Indiabulls pharmaceutical ltd,False,H
+PR00207,Preface 2.5mg Tablet,Ramipril (2.5mg),tablet,Centaur Pharmaceuticals Pvt Ltd,False,H
+PR00208,P Norm R 2mg/25mg Injection,Ondansetron (2mg) + Ranitidine (25mg),injection,Panm Labs India,False,H
+PR00209,Citic P 500mg/800mg Capsule,Citicoline (500mg) + Piracetam (800mg),capsule,Carise Pharmaceuticals Pvt Ltd,False,H
+PR00210,Respira D 2mg/10mg Syrup,Chlorpheniramine Maleate (2mg) + Dextromethorphan Hydrobromide (10mg),syrup,Geno Pharmaceuticals Ltd,False,OTC
+PR00211,Ondifly 2mg Syrup,Ondansetron (2mg),syrup,Brostin Seizz Biocare,False,H
+PR00212,Mucophen Plus Syrup,Ammonium Chloride (60mg) + Chlorpheniramine Maleate (2.5mg),syrup,Bonsai Pharma,False,H
+PR00213,Haital Syrup Sugar Free,Cyproheptadine (2mg) + Tricholine Citrate (275mg),syrup,Anista Healthcare,False,H
+PR00214,Pregalon Capsule,Alpha Lipoic Acid (100mg) + Folic Acid (1.5mg),capsule,Apellon Biotech,False,H
+PR00215,Dipara-SZ Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Reltic Labs,False,H
+PR00216,Atrocord 40mg Tablet,Atorvastatin (40mg),tablet,Helios Pharmaceuticals,False,H
+PR00217,Aloja-M Forte Tablet,Alogliptin (12.5mg) + Metformin (1000mg),tablet,Indoco Remedies Ltd,False,H
+PR00218,Blisdic P 50mg/325mg Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Blismed Pharmaceuticals Pvt. Ltd,False,H
+PR00219,Montelyn 5mg Tablet,Levocetirizine (5mg),tablet,Madlyn Biotech,False,H
+PR00220,Raciper-L Capsule PR,Levosulpiride (75mg) + Esomeprazole (40mg),capsule,Emcure Pharmaceuticals Ltd,False,H
+PR00221,Imifaith 500mg/500mg Injection,Imipenem (500mg) + Cilastatin (500mg),injection,Unifaith Biotech (P) Limited,False,H
+PR00222,Lextum 250mg Tablet,Cefuroxime (250mg),tablet,Lexus Organics,False,H
+PR00223,Dicoliv S 50 mg/10 mg Tablet,Diclofenac (50mg) + Serratiopeptidase (10mg),tablet,Ind Swift Laboratories Ltd,False,H
+PR00224,Zipcin 250mg Tablet,Ciprofloxacin (250mg),tablet,Gufic Bioscience Ltd,False,H
+PR00225,Kapinem 500mg Injection,Imipenem (250mg) + Cilastatin (250mg),injection,Godrams Lifeline,False,H
+PR00226,Cytoheal 200mcg Tablet,Misoprostol (200mcg),tablet,Healing Pharma India Pvt Ltd,False,H
+PR00227,Agumox 500mg/125mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Big Laboratories Pvt Ltd,False,H
+PR00228,Riofenac-P Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Riomedica Healthcare Pvt Ltd,False,H
+PR00229,Famowal 40mg Tablet,Famotidine (40mg),tablet,Wallace Pharmaceuticals Pvt Ltd,False,H
+PR00230,Amlonis H Tablet,Losartan (50mg) + Amlodipine (5mg),tablet,Adonis Laboratories Pvt Ltd,False,H
+PR00231,Lonazep 0.25 Tablet,Clonazepam (0.25mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00232,Neuron 1500mcg Injection,Methylcobalamin (1500mcg),injection,Axodin Pharmaceuticals Pvt. Ltd.,False,H
+PR00233,Trulock 40mg Tablet,Pantoprazole (40mg),tablet,Sia Life Sciences,False,H
+PR00234,Amixius 50mg Tablet,Amisulpride (50mg),tablet,Enrico Pharmaceuticals,False,H
+PR00235,Conticort 6mg Tablet,Deflazacort (6mg),tablet,Neiss Labs Pvt Ltd,False,H
+PR00236,Flupishine-P Tablet,Flupirtine (100mg) + Paracetamol (325mg),tablet,Unilight Pharma,False,H
+PR00237,Coblamix P 750mcg/75mg Capsule,Methylcobalamin (750mcg) + Pregabalin (75mg),capsule,Future Pharma Pvt Ltd,False,H
+PR00238,Meflamus Tablet,Mefenamic Acid (500mg) + Paracetamol (325mg),tablet,Lamicon Pharma Private Limited,False,H
+PR00239,Sodcef 250mg Injection,Ceftriaxone (250mg),injection,Avin Pharma,False,H
+PR00240,Escitalent 5 Tablet,Escitalopram Oxalate (5mg),tablet,Talent India ,False,H
+PR00241,Samzone S 1000mg/500mg Injection,Ceftriaxone (1000mg) + Sulbactam (500mg),injection,Samson Laboratories Pvt Ltd,False,H
+PR00242,Defowel 6mg Tablet,Deflazacort (6mg),tablet,S.P Pharmaceuticals,False,H
+PR00243,Ofcin M Suspension,Ofloxacin (50mg) + Metronidazole (100mg),syrup,Alpic Remedies Ltd,False,H
+PR00244,N TZ Suspension,Metronidazole (100mg) + Norfloxacin (100mg),syrup,Avalanche Pharmaceuticals,False,H
+PR00245,Acidmute-DSR Capsule,Domperidone (30mg) + Esomeprazole (40mg),capsule,Meditouch Wellness,False,H
+PR00246,Cytocarb 450mg Injection,Carboplatin (450mg),injection,Cipla Ltd,False,H
+PR00247,Gabaript G 300mg/500mcg Tablet,Gabapentin (300mg) + Methylcobalamin (500mcg),tablet,Kript Pharmaceuticals Private Limited,False,H
+PR00248,Cefipride 200mg Tablet,Cefixime (200mg),tablet,Pride Healthcare,False,H1
+PR00249,Esy Breath Nasal Drop,Sodium Chloride (0.65% w/v),drops,Eshbilords Pharmaceuticals,False,H
+PR00250,Tenlip-M Tablet SR,Metformin (500mg) + Teneligliptin (20mg),tablet,Sinsan Pharmaceuticals,False,H
+PR00251,Fightworm 6mg/400mg Tablet,Ivermectin  (6mg) + Albendazole (400mg),tablet,Neiss Labs Pvt Ltd,False,H
+PR00252,Ibrex 120mg Tablet,Fexofenadine (120mg),tablet,Cadila Pharmaceuticals Ltd,False,H
+PR00253,Azimel 250mg Tablet,Azithromycin (250mg),tablet,Meltic Healthcare Pvt Ltd,False,H
+PR00254,Flabra 20mg Injection,Rabeprazole (20mg),injection,Suncruz Pharmaceuticals,False,H
+PR00255,Temi 4000mg/500mg Injection,Piperacillin (4000mg) + Tazobactum (500mg),injection,Eveson Pharma,False,H
+PR00256,Vomidamp 2mg Injection,Ondansetron (2mg),injection,Edmund Healthcare,False,H
+PR00257,Oxyvon Forte Tablet,Ibuprofen (400mg) + Paracetamol (325mg),tablet,Mac Millon Pharmaceuticals Pvt Ltd,False,H
+PR00258,Ticspas Dry Syrup,Mefenamic Acid (50mg) + Paracetamol (125mg),syrup,Asiatic Pharmaceuticals,False,H
+PR00259,Pentosec Tablet,Pantoprazole (40mg),tablet,Cipla Ltd,False,H
+PR00260,Parafen Forte Tablet,Ibuprofen (400mg) + Paracetamol (325mg),tablet,Healthy Life Pharma Pvt Ltd,False,H
+PR00261,Lyxim 100mg Tablet,Cefixime (100mg),tablet,Wens Drugs India Pvt Ltd,False,H1
+PR00262,Montvax-L Syrup,Levocetirizine (2.5mg) + Montelukast (4mg),syrup,Vaxova Drugs Pvt Ltd,False,H
+PR00263,Aceraise-P Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Megnesia Neurocare,False,H
+PR00264,Flarid 150mg Tablet,Fluconazole (150mg),tablet,Dewallace Pharmaceuticals,False,H
+PR00265,Cifowin 500mg Tablet,Ciprofloxacin (500mg),tablet,Biocare Remedies,False,H
+PR00266,Q Press 10mg Tablet,Quinapril (10mg),tablet,Aristo Pharmaceuticals Pvt Ltd,False,H
+PR00267,Shicam Injection,Piroxicam (20mg),injection,Shivon Lifesciences Pvt Ltd,False,H
+PR00268,Torsigard 20 Tablet,Torasemide (20mg),tablet,Kelvin Remedies,False,H
+PR00269,Verilac 5000IU Injection,Heparin (5000IU),injection,Veritaz Healthcare Ltd,False,H
+PR00270,Cupine 5mg Tablet,Amlodipine (5mg),tablet,Cubit Healthcare,False,H
+PR00271,Omeron 20mg Capsule,Omeprazole (20mg),capsule,Agron Remedies Pvt Ltd,False,H
+PR00272,Febugood 120mg Tablet,Febuxostat (120mg),tablet,Torrent Pharmaceuticals Ltd,False,H
+PR00273,Reeborn A Tablet,Trypsin (48mg) + Rutoside (100mg),tablet,Johnlee Pharmaceuticals Pvt Ltd,False,H
+PR00274,C Pime 250mg Injection,Cefepime (250mg),injection,Emcure Pharmaceuticals Ltd,False,H
+PR00275,Glimison-MP 2 Tablet SR,Glimepiride (2mg) + Metformin (500mg),tablet,Unison Pharmaceuticals Pvt Ltd,False,H
+PR00276,Gaba Plus Tablet,Gabapentin (300mg) + Methylcobalamin (500mcg),tablet,D D Pharmaceuticals,False,H
+PR00277,Zenitoin 20 Soft Gelatin Capsule,Isotretinoin (20mg),capsule,Zhenpi Life Sciences Pvt Ltd,False,H
+PR00278,G-Cerin Tablet,Glucosamine (750mg) + Diacerein (50mg),tablet,Frankfurt Pharma Pvt Ltd,False,H
+PR00279,Etrax 60mg Tablet,Etoricoxib (60mg),tablet,Progressive Life Care,False,H
+PR00280,Alrik 100mg Tablet,Allopurinol (100mg),tablet,Cipla Ltd,False,H
+PR00281,Logofix AZ 200mg/250mg Tablet,Cefixime (200mg) + Azithromycin (250mg),tablet,Novalab Healthcare Pvt Ltd,False,H1
+PR00282,Eltacuf AT Syrup,Ambroxol (15mg) + Guaifenesin (50mg),syrup,Kenrox Healthcare Pvt. Ltd,False,H
+PR00283,Cefigen-O Tablet,Cefixime (200mg) + Ofloxacin (200mg),tablet,Hnf Care Pvt Ltd,False,H1
+PR00284,Dzicot 6mg Oral Suspension,Deflazacort (6mg),syrup,Wells Biosciences,False,H
+PR00285,FM 20mg Tablet,Famotidine (20mg),tablet,Caplet India Pvt Ltd,False,H
+PR00286,Negadix M Tablet,Nalidixic Acid (300mg) + Metronidazole (200mg),tablet,Adcock Ingram Healthcare Pvt Ltd,False,H
+PR00287,Azjoy Plus 0.5mg/10mg Tablet,Clonazepam (0.5mg) + Escitalopram Oxalate (10mg),tablet,Azkka Pharmaceuticals Pvt Ltd,False,H
+PR00288,XTRAGESIC 400MG/500MG TABLET,Ibuprofen (400mg) + Paracetamol (500mg),tablet,Ranbaxy Laboratories Ltd,False,H
+PR00289,Cilaheart 5 Tablet,Cilnidipine (5mg),tablet,Mankind Pharma Ltd,False,H
+PR00290,Cefera T 1000mg/125mg Injection,Ceftriaxone (1000mg) + Tazobactum (125mg),injection,Shreya Life Sciences Pvt Ltd,False,H
+PR00291,Vildanat-M 500mg/50mg Tablet,Metformin  (500mg) + Vildagliptin (50mg),tablet,Natco Pharma Ltd,False,H
+PR00292,Ultragin 500mg Injection,Metamizole (500mg),injection,Pfizer Ltd,False,H
+PR00293,Kyoxol-L Oral Drops,Ambroxol (7.5mg) + Levosalbutamol (0.25mg),drops,Lifekyor Pharmaceuticals,False,H
+PR00294,Lorempar MR 250mg/50mg/325mg Tablet,Chlorzoxazone (250mg) + Diclofenac (50mg),tablet,Loremchem Pharmaceutical,False,H
+PR00295,Nexzi 250mg Tablet,Azithromycin (250mg),tablet,Gurnex Biotech,False,H
+PR00296,Synotis-MK Syrup,Levocetirizine (2.5mg) + Montelukast (4mg),syrup,Reantis Pharmaceuticals Pvt. Ltd.,False,H
+PR00297,Dolomec Suspension,Ibuprofen (100mg) + Paracetamol (162.5mg),syrup,McW Healthcare,False,H
+PR00298,Telcrest 20mg Tablet,Telmisartan (20mg),tablet,Crestmed Pharmaceuticals Private Limited,False,H
+PR00299,Seprix-T 1.125 Injection,Ceftriaxone (1000mg) + Tazobactum (125mg),injection,Sepik Life Sciences,False,H
+PR00300,Biodexone G Eye/Ear Drops,Gentamicin (0.3%) + Dexamethasone (0.1%),drops,Biochem Pharmaceutical Industries,False,H
+PR00301,Cinaloc 10mg Tablet,Cilnidipine (10mg),tablet,Ajanta Pharma Ltd,False,H
+PR00302,Glycozen 5mg Tablet,Glibenclamide (5mg),tablet,Elder Pharmaceuticals Ltd,False,H
+PR00303,Ariphrenz 10mg Tablet,Aripiprazole (10mg),tablet,Alkem Laboratories Ltd,False,H
+PR00304,Lignosure ADR + Injection,Lidocaine (24.64mg) + Adrenaline (0.0125mg),injection,Amwin Pharmaceuticals,False,H
+PR00305,Taricin TZ 200mg/600mg Tablet,Ofloxacin (200mg) + Tinidazole (600mg),tablet,Eden Healthcare Pvt Ltd,False,H
+PR00306,Conphorio-O Tablet,Cefixime (200mg) + Ofloxacin (200mg),tablet,Veasley Pharmaceuticals Private Limited,False,H1
+PR00307,Kacef S 1000mg/500mg Injection,Ceftriaxone (1000mg) + Sulbactam (500mg),injection,Peenak Pharma,False,H
+PR00308,Lornifen P 8mg/325mg Tablet,Lornoxicam (8mg) + Paracetamol (325mg),tablet,Hauz Pharma Pvt Ltd,False,H
+PR00309,Lectez  8cm,Levosalbutamol (1mg) + Ambroxol (30mg),syrup,Roma Pharma Pvt Ltd,False,H
+PR00310,Brivee 50mg Tablet,Brivaracetam (50mg),tablet,Talent India ,False,H
+PR00311,Banco 400mg Tablet,Albendazole (400mg),tablet,Cortina Laboratories Pvt Ltd,False,H
+PR00312,Ketojet 200mg Tablet,Ketoconazole (200mg),tablet,Levent Biotech Pvt Ltd,False,H
+PR00313,Ceficorn-SL 375 Injection,Ceftriaxone (250mg) + Sulbactam (125mg),injection,Bioshine Healthcare Pvt Ltd,False,H
+PR00314,Rosycap D3 10 mg/1000 IU Tablet,Rosuvastatin (10mg) + Vitamin D3 (1000IU),tablet,Akumentis Healthcare Ltd,False,H
+PR00315,Linipred 80mg Injection,Methylprednisolone (80mg),injection,Sarthi Life Sciences,False,H
+PR00316,Predera 16mg Tablet,Methylprednisolone (16mg),tablet,Iscon Life Sciences,False,H
+PR00317,Cofout CP Syrup,Phenylephrine (5mg/5ml) + Chlorpheniramine Maleate (2mg/5ml),syrup,Natco Pharma Ltd,False,H
+PR00318,Zidkof-LS Syrup,Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml),syrup,Zidwell Healthcare,False,H
+PR00319,Normonal 10mg Tablet CR,Norethisterone (10mg),tablet,TTK Healthcare Ltd,False,H
+PR00320,Micro-D3 Chewable Tablet,Vitamin D3 (60000IU),tablet,Micro Labs Ltd,False,OTC
+PR00321,Gasodec 40mg Tablet,Pantoprazole (40mg),tablet,Ebx Healthcare Llp,False,H
+PR00322,Covax-NZ Tablet,Nitazoxanide (500mg) + Ofloxacin (200mg),tablet,Blubell Pharma,False,H
+PR00323,Pentacid 40mg Tablet,Pantoprazole (40mg),tablet,Stadchem Of India,False,H
+PR00324,Onsee MD 4 Tablet,Ondansetron (4mg),tablet,Brilliant Lifesciences Pvt Ltd,False,H
+PR00325,Metroz 4mg Tablet,Methylprednisolone (4mg),tablet,Octavius Pharma Pvt Ltd,False,H
+PR00326,Montewok LC Syrup,Levocetirizine (2.5mg) + Montelukast (4mg),syrup,Wockhardt Ltd,False,H
+PR00327,Aridone Oral Drops,Ondansetron (2mg),drops,Aries Drugs Pvt Ltd,False,H
+PR00328,Pantapil 40mg Tablet,Pantoprazole (40mg),tablet,Psychotropics India Ltd,False,H
+PR00329,Tolvad 15mg Tablet,Tolvaptan (15mg),tablet,Chemo Healthcare Pvt Ltd,False,H
+PR00330,Rexime 100 DT Tablet,Cefixime (100mg),tablet,Reltic Labs,False,H1
+PR00331,Doxylin 100mg Capsule,Doxycycline (100mg),capsule,Entod Pharmaceuticals Ltd,False,H
+PR00332,Gastopride 50mg Tablet,Itopride (50mg),tablet,Chemo Healthcare Pvt Ltd,False,H
+PR00333,Nevol H 5mg/12.5mg Tablet,Nebivolol (5mg) + Hydrochlorothiazide (12.5mg),tablet,Medley Pharmaceuticals,False,H
+PR00334,Glimiprex MF Forte 3mg/1000mg Tablet,Glimepiride (3mg) + Metformin (1000mg),tablet,Aristo Pharmaceuticals Pvt Ltd,False,H
+PR00335,Gemitrol Kit,Calcitriol (0.25mcg) + Calcium Carbonate (500mg),capsule,Torrent Pharmaceuticals Ltd,False,H
+PR00336,Wikoryl Oral Suspension American Ice Cream,Chlorpheniramine Maleate (1mg/5ml) + Paracetamol (125mg/5ml),syrup,Alembic Pharmaceuticals Ltd,False,OTC
+PR00337,Rabestin D 10mg/20mg Tablet,Domperidone (10mg) + Rabeprazole (20mg),tablet,Brostin Seizz Biocare,False,H
+PR00338,Imivate 500mg/500mg Injection,Imipenem (500mg) + Cilastatin (500mg),injection,Alleviate Pharmaceuticals Pvt. Ltd.,False,H
+PR00339,Rapillin 200mg Tablet SR,Acebrophylline (200mg),tablet,Haustus Biotech Pvt Ltd,False,H
+PR00340,Kolchilax 4mg Capsule,Thiocolchicoside (4mg),capsule,Psychotropics India Ltd,False,H
+PR00341,Symbocip TZ 500mg/600mg Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,Symbiosis Pharmaceuticals Pvt Ltd,False,H
+PR00342,Biotor 20mg Tablet,Atorvastatin (20mg),tablet,Lividus Pharmaceuticals Pvt Ltd,False,H
+PR00343,Gluconorm-G 3 Tablet PR,Glimepiride (3mg) + Metformin (500mg),tablet,Lupin Ltd,False,H
+PR00344,Telmecaid CH40 Tablet,Telmisartan (40mg) + Chlorthalidone (12.5mg),tablet,Medicaid Labs LLP,False,H
+PR00345,Covel DX Syrup,Cetirizine (5mg) + Dextromethorphan Hydrobromide (10mg),syrup,Jabs Biotech Pvt Ltd,False,OTC
+PR00346,Limit-LC Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Analeptic Manufacturing India,False,H
+PR00347,Tenameh 20/1000mg Tablet ER,Metformin (1000mg) + Teneligliptin (20mg),tablet,Ameha Healthcare,False,H
+PR00348,Conpride 1mg Tablet,Glimepiride (1mg),tablet,Concertina Pharma Pvt Ltd,False,H
+PR00349,Levorhine M 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Topmed Pharmaceuticals Pvt Ltd,False,H
+PR00350,Beka 25mg Injection,Nandrolone Decanoate (25mg),injection,Osvel Pharma,False,H
+PR00351,Famdo 40mg Tablet,Famotidine (40mg),tablet,Shine Pharmaceuticals Ltd,False,H
+PR00352,Stedmoxt Tablet,Amoxycillin (500mg) + Tinidazole (300mg),tablet,Stedman Pharmaceuticals Pvt Ltd,False,H
+PR00353,Ambrofast Syrup,Ambroxol (15mg/5ml) + Guaifenesin (50mg/5ml),syrup,Axis Life Science Pvt Ltd,False,H
+PR00354,Oxystar 5IU Injection,Oxytocin (5IU),injection,Cadila Pharmaceuticals Ltd,False,H
+PR00355,Tritum 250mg/125mg Injection,Ceftriaxone (250mg) + Sulbactam (125mg),injection,Saffron Medicare Pvt Ltd,False,H
+PR00356,Biocof New Syrup,Phenylephrine (2.5mg) + Chlorpheniramine Maleate (2mg),syrup,Zydus Cadila,False,H
+PR00357,Taurmox C 500mg/125mg Capsule,Amoxycillin  (500mg) + Clavulanic Acid (125mg),capsule,Taurus Laboratories Pvt Ltd,False,H
+PR00358,Dexarain 4mg Injection,Dexamethasone (4mg),injection,Rainbow Laboratories (india) Pvt Ltd,False,H
+PR00359,Zemcy 60K Softgel Capsule,Vitamin D3 (60000IU),capsule,Rhophic Health Care,False,H
+PR00360,Iqdox 200mg Tablet,Cefpodoxime Proxetil (200mg),tablet,Oracle Health Park Pvt Ltd,False,H1
+PR00361,Voglidin 0.2mg Tablet,Voglibose (0.2mg),tablet,Edinburgh Pharmaceuticals,False,H
+PR00362,Rebafex 120 Tablet,Fexofenadine (120mg),tablet,Rebanta Health Care (P) Limited,False,H
+PR00363,Noxid Syrup,Magaldrate (480mg) + Simethicone (20mg),syrup,Biometrix Pharma,False,H
+PR00364,Cefclo-TZ 250mg/31.25mg Injection,Ceftriaxone (250mg) + Tazobactum (31.25mg),injection,Nanocea Biotec,False,H
+PR00365,Delcon LM 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Veritaz Healthcare Ltd,False,H
+PR00366,Dicamol-SR Plus Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Zeelab Pharmacy Pvt Ltd,False,H
+PR00367,Mikacas 250mg Injection,Amikacin (250mg),injection,Casca Remedies Pvt Ltd,False,H
+PR00368,Ibitor F 10mg/160mg Tablet,Atorvastatin (10mg) + Fenofibrate (160mg),tablet,Indiabulls pharmaceutical ltd,False,H
+PR00369,Nidcort M 16mg Tablet,Methylprednisolone (16mg),tablet,Nidus Pharma Pvt Ltd,False,H
+PR00370,Omequick 20mg Capsule,Omeprazole (20mg),capsule,Cure Quick Pharmaceuticals,False,H
+PR00371,Ciprokem 500mg Tablet,Ciprofloxacin (500mg),tablet,Alkem Laboratories Ltd,False,H
+PR00372,Clindoz-CH 10/6.25 Tablet,Cilnidipine (10mg) + Chlorthalidone (6.25mg),tablet,Care Formulation Labs Pvt Ltd,False,H
+PR00373,Meliglip M2 Tablet SR,Glimepiride (2mg) + Metformin (500mg),tablet,Astranova Biotech,False,H
+PR00374,Medidase DP 50mg/500mg/10mg Tablet,Diclofenac (50mg) + Paracetamol (500mg),tablet,Medicross Pharmaceuticals,False,H
+PR00375,Arirab-Dsr 30mg/20mg Capsule,Domperidone (30mg) + Rabeprazole (20mg),capsule,Sarian Healthcare,False,H
+PR00376,Medclomin 2500mcg Injection,Methylcobalamin (2500mcg),injection,Medbionic Healthcare,False,H
+PR00377,Gentaz 10mg Injection,Gentamicin (10mg/ml),injection,Axis Life Science Pvt Ltd,False,H
+PR00378,Lehist 5mg Tablet,Levocetirizine (5mg),tablet,MMC Healthcare Ltd,False,H
+PR00379,Alkamax MB Alkamax MB6 Oral Solution,Potassium Citrate (1100mg/5ml) + Magnesium Citrate (375mg/5ml),syrup,Overseas Healthcare Pvt Ltd,False,H
+PR00380,Micro-D3 Chewable Tablet,Vitamin D3 (60000IU),tablet,Micro Labs Ltd,False,OTC
+PR00381,Chafe Oral Suspension,Magaldrate (400mg) + Simethicone (20mg),syrup,Charan Laboratories Pvt Ltd,False,H
+PR00382,Pyrakem 125mg/5ml Suspension,Paracetamol (125mg/5ml),syrup,Alkem Laboratories Ltd,False,OTC
+PR00383,Eslopam 20mg Tablet,Escitalopram Oxalate (20mg),tablet,Genome Therapeutics Corporation,False,H
+PR00384,Derbo Eye Drop,Dexamethasone (0.1% w/v) + Tobramycin (0.3% w/v),drops,Essential Pharmaceuticals,False,H
+PR00385,Amikoff T Syrup,Ambroxol (15mg) + Guaifenesin (50mg),syrup,Hindustan Pharmaceuticals,False,H
+PR00386,Syco Plus 5 mg/2 mg Tablet,Trifluoperazine (5mg) + Trihexyphenidyl (2mg),tablet,Pacific Drugs & Chemicals,False,H
+PR00387,Merigenta 20mg/2ml Injection,Gentamicin (20mg/2ml),injection,Mercury Laboratories Ltd,False,H
+PR00388,Escipeace-Plus Tablet,Clonazepam (0.5mg) + Escitalopram Oxalate (10mg),tablet,Drugswell Pvt Ltd,False,H
+PR00389,Clofent 100mg Tablet,Clomiphene (100mg),tablet,TNT Lifesciences,False,H
+PR00390,Geben MP 5mg/500mg/15mg Tablet,Glibenclamide (5mg) + Metformin (500mg),tablet,Shinto Organics (P) Limited,False,H
+PR00391,Rabona L 75mg/20mg Capsule,Levosulpiride (75mg) + Rabeprazole (20mg),capsule,Zota Health care Ltd,False,H
+PR00392,Midonem 500mg Injection,Doripenem (500mg),injection,Micro Labs Ltd,False,H
+PR00393,Gracepod-O Tablet,Cefpodoxime Proxetil (200mg) + Ofloxacin (200mg),tablet,Lifegrace Pharmaceuticals Pvt Ltd,False,H1
+PR00394,Leevia Met 850mg/50mg Tablet,Metformin  (850mg) + Vildagliptin (50mg),tablet,Johnlee Pharmaceuticals Pvt Ltd,False,H
+PR00395,Pantakind-DSR Capsule,Domperidone (30mg) + Pantoprazole (40mg),capsule,Mankind Pharma Ltd,False,H
+PR00396,Leviox 500mg Tablet,Levofloxacin (500mg),tablet,Doctris Lifesciences,False,H1
+PR00397,Cirocod 4mg/10mg Linctus,Chlorpheniramine Maleate (4mg) + Codeine (10mg),syrup,Ciron Drugs & Pharmaceuticals Pvt Ltd,False,OTC
+PR00398,Clavsat Dry Syrup,Amoxycillin  (200mg) + Clavulanic Acid (28.5mg),syrup,Saturn Formulations Pvt Ltd,False,H
+PR00399,Etotan-H 25mg/12.5mg Tablet,Losartan (25mg) + Hydrochlorothiazide (12.5mg),tablet,Solitaire Pharmacia Pvt Ltd,False,H
+PR00400,Ziomi 15mg/10mg Capsule,Domperidone (15mg) + Omeprazole (10mg),capsule,Aanika Pharma,False,H
+PR00401,Encet D 5 mg/10 mg Tablet,Levocetirizine (5mg) + Phenylephrine (10mg),tablet,Endocard India Pvt Ltd,False,H
+PR00402,Zglivo 250mg Tablet,Levofloxacin (250mg),tablet,Zechstein Life Sciences,False,H1
+PR00403,Lipofix EX Tablet,Atorvastatin (10mg) + Ezetimibe (10mg),tablet,Bal Pharma Ltd,False,H
+PR00404,Tivazol-D 10mg/20mg Tablet,Domperidone (10mg) + Rabeprazole (20mg),tablet,Sanify Healthcare Pvt  Ltd,False,H
+PR00405,Trxamic 500mg Tablet,Tranexamic Acid (500mg),tablet,Systopic Laboratories Pvt Ltd,False,H
+PR00406,Lepred 250mg Injection,Methylprednisolone (250mg),injection,Plenum Biotech,False,H
+PR00407,Albewill-Plus Tablet,Ivermectin  (6mg) + Albendazole (400mg),tablet,Scotwin Healthcare,False,H
+PR00408,Topjen D 10mg/40mg Capsule,Domperidone (10mg) + Pantoprazole (40mg),capsule,Jenfer Biosciences Pvt Ltd,False,H
+PR00409,Dyclosic 250mg/50mg/325mg Tablet,Chlorzoxazone (250mg) + Diclofenac (50mg),tablet,Dynamic Laboratories Pvt Ltd,False,H
+PR00410,Qtuss Syrup,Dextromethorphan Hydrobromide (10mg/5ml) + Guaifenesin (50mg/5ml),syrup,Integra Life Sciences Pvt Ltd,False,H
+PR00411,Myovum-M Tablet,Myo-Inositol (550mg) + D-Chiro Inositol (13.8mg),tablet,Eastcoast Healthcare,False,H
+PR00412,Bilastero 20mg Tablet,Bilastine (20mg),tablet,Hetero Healthcare Limited,False,H
+PR00413,Lona 2mg Tablet,Clonazepam (2mg),tablet,Triton Healthcare Pvt Ltd,False,H
+PR00414,Axefire 20mg Capsule,Omeprazole (20mg),capsule,Genesis Biotech Inc,False,H
+PR00415,Cofzar DX Syrup,Phenylephrine (5mg) + Chlorpheniramine Maleate (2mg),syrup,Pelzar Healthcare,False,H
+PR00416,Ibubid 300mg Capsule TR,Ibuprofen (300mg),capsule,Sun Pharmaceutical Industries Ltd,False,H
+PR00417,Kep LS Oral Drops,Ambroxol (7.5mg/ml) + Levosalbutamol (0.25mg/ml),drops,Kepler Health Care,False,H
+PR00418,Amist L 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Amon Biotech,False,H
+PR00419,Linipan D 30mg/40mg Capsule SR,Domperidone (30mg) + Pantoprazole (40mg),capsule,Sarthi Life Sciences,False,H
+PR00420,B Coxi 60mg Tablet,Etoricoxib (60mg),tablet,Being Care Pharmaceuticals,False,H
+PR00421,Ajugram 500 Injection,Amikacin (500mg),injection,Ajuras Pharmaceutical Pvt Ltd,False,H
+PR00422,Protol 50 TL Tablet PR,Telmisartan (40mg) + Metoprolol Succinate (50mg),tablet,Eris Lifesciences Ltd,False,H
+PR00423,Isograce 30mg Tablet,Isotretinoin (30mg),tablet,Grace Derma Healthcare Pvt Ltd,False,H
+PR00424,Fenic Aqua  75mg,Diclofenac (75mg),injection,Astonea Labs Private Limited,False,H
+PR00425,Dotzide MR 60 Tablet,Gliclazide (60mg),tablet,Three Dots Lifescience,False,H
+PR00426,Esitopa 20mg Tablet,Escitalopram Oxalate (20mg),tablet,Trigat Lifesciences Pvt Ltd,False,H
+PR00427,Dexzort 6mg Tablet,Deflazacort (6mg),tablet,Widcure Healthcare,False,H
+PR00428,Cold-Free Suspension,Chlorpheniramine Maleate (2mg) + Paracetamol (250mg),syrup,Nilrise Pharmaceuticals Pvt Ltd,False,OTC
+PR00429,Corduo 5 mg/10 mg Tablet,Amlodipine (5mg) + Atorvastatin (10mg),tablet,Torrent Pharmaceuticals Ltd,False,H
+PR00430,Celegra 180mg Tablet,Fexofenadine (180mg),tablet,Cian Health Care Pvt Ltd,False,H
+PR00431,Silmi 70mg Tablet,Silymarin (70mg),tablet,Sidhbali Formulations,False,H
+PR00432,Baclowell 10mg Tablet,Baclofen (10mg),tablet,Astonea Labs Private Limited,False,H
+PR00433,Zyven OD 100 Tablet ER,Desvenlafaxine (100mg),tablet,Zydus Cadila,False,H
+PR00434,Gemet M Forte 3mg/1000mg Tablet,Glimepiride (3mg) + Metformin (1000mg),tablet,Bio Oxy Pharma,False,H
+PR00435,Gruclav 500mg/125mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Grubheal Care,False,H
+PR00436,Gliper MF 2 mg/500 mg Tablet,Glimepiride (2mg) + Metformin (500mg),tablet,Shreya Life Sciences Pvt Ltd,False,H
+PR00437,Healmust 90mg/48mg/100mg Tablet,Bromelain (90mg) + Trypsin (48mg),tablet,Hyeto Pharmaceuticals Private Limited,False,H
+PR00438,Nimtin-S 100mg/10mg Tablet,Nimesulide (100mg) + Serratiopeptidase (10mg),tablet,Unikind Pharma,False,H
+PR00439,Ranikit 75mg Syrup,Ranitidine (75mg/5ml),syrup,Rajat Care LLP,False,H
+PR00440,Emcort 1000mg Injection,Methylprednisolone (1000mg),injection,Lemford Biotech Pvt Ltd,False,H
+PR00441,Aceflec Oral Suspension,Aceclofenac (50mg) + Paracetamol (125mg),syrup,Tansy Molequle,False,H
+PR00442,Megafro-D 10mg/20mg Capsule,Domperidone (10mg) + Omeprazole (20mg),capsule,Medilente Pharma Pvt Ltd,False,H
+PR00443,Pantopine A 5mg/50mg Tablet,Amlodipine (5mg) + Atenolol (50mg),tablet,SB Lifesciences,False,H
+PR00444,Lap 30mg Capsule,Lansoprazole (30mg),capsule,Moreish Pharmaceuticals Pvt Ltd,False,H
+PR00445,Renolina M 500 Tablet,Metformin (500mg) + Linagliptin (2.5mg),tablet,Sidhbali Formulations,False,H
+PR00446,Bolanz 10mg Tablet,Olanzapine (10mg),tablet,Bondane Pharma,False,H
+PR00447,Ondgro 4mg Tablet,Ondansetron (4mg),tablet,Aggrowin Pharma,False,H
+PR00448,Xaio 500mg Injection,Amikacin (500mg),injection,Indo-Asia Pharma Care,False,H
+PR00449,Anti CC Tablet,Caffeine (30mg) + Chlorpheniramine Maleate (2mg),tablet,Embiotic Laboratories Pvt Ltd,False,H
+PR00450,Spasmopil 10 mg/500 mg/10 mg Tablet,Dicyclomine (10mg) + Paracetamol (500mg),tablet,Psychotropics India Ltd,False,H
+PR00451,Zenlong T 8 mg/8 mg Tablet,Lornoxicam (8mg) + Thiocolchicoside (8mg),tablet,Khandelwal Laboratories Pvt Ltd,False,H
+PR00452,Fzimax 10mg Tablet,Flunarizine (10mg),tablet,Rhine Biogenics Pvt Ltd,False,H
+PR00453,Xoneact SB 1000mg/500mg Injection,Ceftriaxone (1000mg) + Sulbactam (500mg),injection,Cee Bee Laboratories,False,H
+PR00454,Kosace-SP Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Kosmed Formulations,False,H
+PR00455,Levol 5mg Tablet MD,Levocetirizine (5mg),tablet,Talent Healthcare,False,H
+PR00456,Alflox D Eye/Ear Drops,Norfloxacin (0.3% w/v) + Dexamethasone (0.1% w/v),drops,Alkem Laboratories Ltd,False,H
+PR00457,G2 Kof Syrup,Ambroxol (15mg/5ml) + Guaifenesin (50mg/5ml),syrup,Goodman Gilman's Life Sciences Private Limited,False,H
+PR00458,Amolate Syrup,Bromhexine (4mg) + Chlorpheniramine Maleate (1.25mg),syrup,Will Impex,False,H
+PR00459,Colihenz P 400 Tablet,Citicoline (500mg) + Piracetam (400mg),tablet,La Renon Healthcare Pvt Ltd,False,H
+PR00460,Athro 250 Tablet,Azithromycin (250mg),tablet,Medifaith Biotech,False,H
+PR00461,Jmmith 8mg Tablet,Methylprednisolone (8mg),tablet,Junifer Pharmaceuticals,False,H
+PR00462,Cifomed-TZ Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,Aglowmed Limited,False,H
+PR00463,Avosic 10mg/10mg/2.5mg Tablet,Doxylamine (10mg) + Vitamin B6 (Pyridoxine) (10mg),tablet,Vasu Organics Pvt Ltd,False,H
+PR00464,Aarrab LSR Capsule,Levosulpiride (75mg) + Rabeprazole (20mg),capsule,Aar Biosys,False,H
+PR00465,Injop-DSR Capsule,Domperidone (30mg) + Pantoprazole (40mg),capsule,Injays Pharmaceuticals,False,H
+PR00466,Metoan H 25mg/12.5mg Tablet,Metoprolol Succinate (25mg) + Hydrochlorothiazide (12.5mg),tablet,Noel Pharma India Pvt Ltd,False,H
+PR00467,Dns Infusion,Dextrose (5% w/v) + Sodium Chloride (0.9% w/v),injection,AXA Parenterals Ltd,False,H
+PR00468,Eema-D Capsule,Dehydroepiandrosterone (Micronized) (25mg),capsule,Corona Remedies Pvt Ltd,False,H
+PR00469,Azzicin 100mg Oral Suspension,Azithromycin (100mg/5ml),syrup,Safe Life Care,False,H
+PR00470,Seacef 200mg Tablet,Cefixime (200mg),tablet,Symbiosis Pharmaceuticals Pvt Ltd,False,H1
+PR00471,Cefwom 50mg Dry Syrup,Cefixime (50mg),syrup,Sysmed Laboratories Pvt Ltd,False,H1
+PR00472,Olmefast A 20mg/5mg Tablet,Olmesartan Medoxomil (20mg) + Amlodipine (5mg),tablet,Cadbless Life Care,False,H
+PR00473,Orradex Syrup,Phenylephrine (5mg/5ml) + Chlorpheniramine Maleate (2mg/5ml),syrup,Nemi Pharmaceuticles,False,H
+PR00474,Alda 400mg Tablet,Albendazole (400mg),tablet,Yester Pharma Pvt Ltd,False,H
+PR00475,Telmisar 20mg Tablet,Telmisartan (20mg),tablet,Taj Pharma India Ltd,False,H
+PR00476,Thioq-AP Tablet,Thiocolchicoside (4mg) + Aceclofenac (100mg),tablet,Stanmark Pharmaceuticals,False,H
+PR00477,Sarglip 20mg Tablet,Teneligliptin (20mg),tablet,Sarcoma Remedies Pvt Ltd,False,H
+PR00478,Xciti P 500mg/800mg Tablet,Citicoline (500mg) + Piracetam (800mg),tablet,Sigmund Promedica,False,H
+PR00479,Glimiwa 2mg Tablet,Glimepiride (2mg),tablet,Kaytross Health Care,False,H
+PR00480,Febton 40mg Tablet,Febuxostat (40mg),tablet,Torance Healthcare Pvt Ltd,False,H
+PR00481,Sucrosen O Oral Suspension,Sucralfate (1000mg/10ml) + Oxetacaine (20mg/10ml),syrup,Senen Biotech,False,H
+PR00482,Algonac-MR Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Neiss Labs Pvt Ltd,False,H
+PR00483,Mikamic 250mg Injection,Amikacin (250mg/1ml),injection,Nectar Biopharma Pvt Limited,False,H
+PR00484,Rosutag 10mg Tablet,Rosuvastatin (10mg),tablet,Zenon Healthcare Ltd,False,H
+PR00485,Solpred 4mg Tablet,Methylprednisolone (4mg),tablet,Ernst Pharmacia,False,H
+PR00486,Saribro-LS Syrup,Ambroxol (30mg) + Levosalbutamol (1mg),syrup,Sarian Healthcare,False,H
+PR00487,Pepgard 20mg Tablet,Famotidine (20mg),tablet,Shreya Life Sciences Pvt Ltd,False,H
+PR00488,Sazomet 500mg Tablet SR,Metformin (500mg),tablet,Hauz Pharma Pvt Ltd,False,H
+PR00489,Alcepod 100mg Tablet DT,Cefpodoxime Proxetil (100mg),tablet,Algen Healthcare Limited,False,H1
+PR00490,Zolpam 0.5mg Tablet,Alprazolam (0.5mg),tablet,Neuracle Lifesciences Pvt Ltd,False,H1
+PR00491,Diflox MR 250mg/50mg/325mg Tablet,Chlorzoxazone (250mg) + Diclofenac (50mg),tablet,Wannock Pharmaceuticals,False,H
+PR00492,Minek 4mg Tablet,Methylprednisolone (4mg),tablet,Anitek Lifecare,False,H
+PR00493,Zoxicef AZ Tablet,Cefixime (200mg) + Azithromycin (250mg),tablet,Biochemix Health Care Pvt. Ltd.,False,H1
+PR00494,Zydexa Plus 4mg Injection,Dexamethasone (4mg),injection,German Remedies,False,H
+PR00495,Napoxy 5iu Injection,Oxytocin (5iu/1ml),injection,Miracalus Pharma Pvt Ltd,False,H
+PR00496,Esmopex-DSR Capsule,Domperidone (30mg) + Esomeprazole (40mg),capsule,Neuropex Pharmaceuticals Pvt. Ltd.,False,H
+PR00497,Cipaxime 200mg Tablet DT,Cefixime (200mg),tablet,Abony Healthcare Limited,False,H1
+PR00498,Ringer Lactate Infusion,Sodium Chloride (0.600gm) + Sodium Lactate (0.320gm),injection,Baxter India Pvt Ltd,False,H
+PR00499,Cuflift Tablet,Ambroxol (60mg) + Levocetirizine (5mg),tablet,Leeford Healthcare Ltd,False,H
+PR00500,Upod 100mg Tablet,Cefpodoxime Proxetil (100mg),tablet,Uninor Biotech,False,H1
+PR00501,Melfix O Dry Syrup,Cefixime (50mg) + Ofloxacin (50mg),syrup,Elwiss Biotech Private Limited,False,H1
+PR00502,Carbotroy 250mcg Injection,Carboprost (250mcg),injection,Troikaa Pharmaceuticals Ltd,False,H
+PR00503,Esover L 75mg/40mg Capsule SR,Levosulpiride (75mg) + Esomeprazole (40mg),capsule,Medcover Pharmaceuticals (OPC) Private Limited,False,H
+PR00504,Versatillin 500mg Injection,Ampicillin (500mg),injection,Sun Pharmaceutical Industries Ltd,False,H
+PR00505,Aceton R 200mg/20mg Capsule,Aceclofenac (200mg) + Rabeprazole (20mg),capsule,Sycon Healthcare Pvt Ltd,False,H
+PR00506,Nazecure Nasal Drops,Sodium Chloride (0.65% w/v),drops,Healthserch Pharma LLP,False,H
+PR00507,Signocare Tablet,Cefuroxime (500mg),tablet,Parnasa Mediworld Pvt Ltd,False,H
+PR00508,Fabupin 40 Tablet,Febuxostat (40mg),tablet,Pinarc Life Sciences,False,H
+PR00509,Trick-T Tablet,Tramadol (50mg) + Paracetamol (325mg),tablet,Vatican Life Sciences Pvt Ltd,False,H1
+PR00510,Etoxifen 90mg Tablet,Etoricoxib (90mg),tablet,Matins Pharma,False,H
+PR00511,Topcid 20 Tablet,Famotidine (20mg),tablet,Torrent Pharmaceuticals Ltd,False,H
+PR00512,Ambrion Syrup,Ambroxol (15mg) + Guaifenesin (50mg),syrup,Medshine Pharmaceutical,False,H
+PR00513,Cefiwok CV 200 mg/125 mg Tablet,Cefixime (200mg) + Clavulanic Acid (125mg),tablet,Wockhardt Ltd,False,H1
+PR00514,Oxymark-CD Tablet,Paracetamol (650mg) + Codeine (30mg),tablet,Unimarck Pharma India Ltd,False,OTC
+PR00515,Donagyl 100 mg/100 mg Tablet,Metronidazole (100mg) + Norfloxacin (100mg),tablet,Stanford Biotech Pvt Ltd,False,H
+PR00516,Tero 80mg Injection,Tobramycin (80mg),injection,Venus Remedies Ltd,False,H
+PR00517,Esomak D 30mg/40mg Capsule SR,Domperidone (30mg) + Esomeprazole (40mg),capsule,Trimak Lifesciences,False,H
+PR00518,Capcid 20mg Tablet,Omeprazole (20mg),tablet,Captab Biotec,False,H
+PR00519,Kola 15mg Tablet,Olanzapine (15mg),tablet,Kivi Labs Ltd,False,H
+PR00520,Microkold DS Oral Suspension,Chlorpheniramine Maleate (1mg/5ml) + Paracetamol (125mg/5ml),syrup,Micro Labs Ltd,False,OTC
+PR00521,Asvik 250 Tablet DT,Amoxycillin (250mg),tablet,Asvins Lifecare,False,H
+PR00522,Esorange 40mg Injection,Esomeprazole (40mg),injection,Orange Biotech Pvt Ltd,False,H
+PR00523,Mefton P Oral Suspension,Mefenamic Acid (50mg) + Paracetamol (125mg),syrup,Olamic Healthcare,False,H
+PR00524,Dumcef 500mg Injection,Ceftriaxone (500mg),injection,Medok Life Sciences Pvt Ltd,False,H
+PR00525,Exclusiv Dry Syrup,Amoxycillin  (200mg) + Clavulanic Acid (28.5mg),syrup,Cfl Pharmaceuticals Ltd,False,H
+PR00526,Monorin 300mg Tablet,Ranitidine (300mg),tablet,Alembic Pharmaceuticals Ltd,False,H
+PR00527,Ziomox CV 500mg/125mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Ziotic Life Sciences,False,H
+PR00528,Rabiflag 20mg Tablet,Rabeprazole (20mg),tablet,Bioshine Healthcare Pvt Ltd,False,H
+PR00529,Nuclav Duo 500mg/125mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Abbott Healthcare Private Limited,False,H
+PR00530,Telca Am 40mg/5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Bajaj Pharmaceutical,False,H
+PR00531,Ondanbic 2mg/5ml Syrup,Ondansetron (2mg/5ml),syrup,Alembic Pharmaceuticals Ltd,False,H
+PR00532,Glinil-M  Tablet,Glibenclamide (5mg) + Metformin (500mg),tablet,Cipla Ltd,False,H
+PR00533,Ibuflam 400 mg/500 mg Tablet,Ibuprofen (400mg) + Paracetamol (500mg),tablet,Natco Pharma Ltd,False,H
+PR00534,Wellnopod 100mg Tablet DT,Cefpodoxime Proxetil (100mg),tablet,Wells Biosciences,False,H1
+PR00535,Astesin 0.4mg/5mg Tablet,Tamsulosin (0.4mg) + Finasteride (5mg),tablet,Yaxon BioCare Pvt Ltd,False,H
+PR00536,Storvas 40 Tablet,Atorvastatin (40mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00537,Lantraz 200mg Capsule,Itraconazole (200mg),capsule,Med Manor Organics Pvt Ltd,False,H
+PR00538,Vilu Tablet,Vildagliptin (50mg),tablet,MSN Laboratories,False,H
+PR00539,Kaptocin 5IU Injection,Oxytocin (5IU),injection,Karnataka Antibiotics & Pharmaceuticals Ltd,False,H
+PR00540,Gluvoiz PM 2mg/500mg/15mg Tablet SR,Glimepiride (2mg) + Metformin (500mg),tablet,Ellanjey Lifesciences,False,H
+PR00541,Rossfero-XT Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.5mg),tablet,Chemross Lifesciences,False,OTC
+PR00542,Megat-L Syrup,Ambroxol (30.mg/5ml) + Levosalbutamol (1mg/5ml),syrup,Soinsvie Pharmacia Pvt Ltd,False,H
+PR00543,Bageo JeFe-XT Tablet,Folic Acid (1.5mg) + Methylcobalamin (NA),tablet,Bageo Pharmaceuticals Pvt Ltd,False,OTC
+PR00544,Rtd 150mg Tablet,Ranitidine (150mg),tablet,Jassons Formulations,False,H
+PR00545,Ebcold 2mg/500mg/10mg Tablet,Chlorpheniramine Maleate (2mg) + Paracetamol (500mg),tablet,MMC Healthcare Ltd,False,OTC
+PR00546,IB Statin-AC Tablet,Aspirin (75mg) + Rosuvastatin (10mg),tablet,Indiabulls pharmaceutical ltd,False,H
+PR00547,B Trax 1000mg Injection,Methotrexate (1000mg),injection,Health Biotech Limited,False,H
+PR00548,Systine 500mg/150mg Tablet,Taurine (500mg) + Acetylcysteine (150mg),tablet,Albus Healthcare Pvt Ltd,False,H
+PR00549,Smoltif MF Syrup,Mefenamic Acid (50mg) + Paracetamol (125mg),syrup,Smayan Healthcare Pvt Ltd,False,H
+PR00550,Edoclof-RB Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Edmund Healthcare,False,H
+PR00551,Normal Saline 0.9% Infusion,Sodium Chloride (0.9% w/v),injection,Otsuka Pharmaceuticals Pvt Ltd,False,H
+PR00552,Rixone 500 Injection,Ceftriaxone (500mg),injection,Rishab Healthcare pvt. Ltd.,False,H
+PR00553,Cfm 500 Tablet,Cefuroxime (500mg),tablet,Kav Laboratories,False,H
+PR00554,Monel-L Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Nelon Pharmceuticals,False,H
+PR00555,Apufix 200mg Tablet,Cefixime (200mg),tablet,Kritikos Care,False,H1
+PR00556,Satscot 4 Tablet,Methylprednisolone (4mg),tablet,Scotwin Healthcare,False,H
+PR00557,Clarimox CV LB 500mg/125mg Tablet,Amoxycillin (500mg) + Clavulanic Acid (125mg),tablet,Clarix Healthcare,False,H
+PR00558,Acinist P Oral Suspension,Aceclofenac (50mg) + Paracetamol (125mg),syrup,Venistro Biotech,False,H
+PR00559,Brtgesic D Tablet,Trypsin (48mg) + Bromelain (90mg),tablet,Signity Pharmaceuticals Pvt Ltd,False,H
+PR00560,Caldovis 500mg Capsule,Calcium Dobesilate (500mg),capsule,Salvador Visiontech,False,H
+PR00561,Wellact Tablet,Cetirizine (5mg) + Paracetamol (325mg),tablet,Fitwel Pharmaceuticals Private Limited,False,OTC
+PR00562,Pacliwel 100mg Injection,Paclitaxel (100mg),injection,Getwell Oncology Pvt Ltd,False,H
+PR00563,Ofxwell-OZ Tablet,Ofloxacin (200mg) + Ornidazole (500mg),tablet,Everwell Pharma Pvt Ltd,False,H
+PR00564,Escipex-Forte Tablet,Clonazepam (0.5mg) + Escitalopram Oxalate (10mg),tablet,Neuropex Pharmaceuticals Pvt. Ltd.,False,H
+PR00565,Beldec 50mg Injection,Nandrolone Decanoate (50mg),injection,Blubell Pharma,False,H
+PR00566,Nitzole 40mg Injection,Pantoprazole (40mg),injection,Nitin Lifesciences Ltd,False,H
+PR00567,Megahep 25000IU Injection,Heparin (25000IU),injection,Bipi Lifesciences Pvt Ltd,False,H
+PR00568,Cadee-O Dry Syrup,Cefixime (50mg/5ml) + Ofloxacin (50mg/5ml),syrup,Phelix Pharma,False,H1
+PR00569,Holytel CH 40mg/12.5mg Tablet,Telmisartan (40mg) + Chlorthalidone (12.5mg),tablet,Anax Lifescience,False,H
+PR00570,Spamox 250mg Tablet,Amoxycillin (250mg),tablet,Espee Formulation Pvt Ltd,False,H
+PR00571,Caremik 500mg Injection,Amikacin (500mg),injection,Carezone Healthcare,False,H
+PR00572,Alzero M Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Indchemie Health Specialities Pvt Ltd,False,H
+PR00573,Welartan C 40 mg/12.5 mg Tablet,Telmisartan (40mg) + Chlorthalidone (12.5mg),tablet,Delcure Life Sciences,False,H
+PR00574,Gero Eye/Ear Drops,Gentamicin (0.3% w/v) + Hydroxypropylmethylcellulose (0.25% w/v),drops,Scott Edil Pharmacia Ltd,False,H
+PR00575,Roxol 150mg Tablet,Roxithromycin (150mg),tablet,Olcare Laboratories,False,H
+PR00576,Baflocin OZ 200mg/500mg Tablet,Ofloxacin (200mg) + Ornidazole (500mg),tablet,Assure Pharma,False,H
+PR00577,Cefomet 500mg/500mg Injection,Cefoperazone (500mg) + Sulbactam (500mg),injection,Metlar Formulations,False,H
+PR00578,D 5% Infusion,Dextrose (5% w/v),injection,AXA Parenterals Ltd,False,H
+PR00579,Fixivin 100mg Tablet,Cefixime (100mg),tablet,Novus Life Sciences Pvt Ltd,False,H1
+PR00580,Amipar Eye/Ear Drops,Amikacin (0.3% w/v),drops,Biomedica International,False,H
+PR00581,Acedus 100mg/500mg Tablet,Aceclofenac (100mg) + Paracetamol (500mg),tablet,Radius Wellness Inc.,False,H
+PR00582,Acemek SP 100mg/325mg/15mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Elis Pharmaceuticals India Pvt Ltd,False,H
+PR00583,Ursoford 500 Tablet,Ursodeoxycholic Acid (500mg),tablet,Leeford Healthcare Ltd,False,H
+PR00584,Wellcuf-LS Syrup,Levosalbutamol (1mg/5ml) + Ambroxol (30mg/5ml),syrup,Welltrack Pharma,False,H
+PR00585,Avilpro D 10mg/20mg Capsule,Domperidone (10mg) + Omeprazole (20mg),capsule,Avillions Laboratories Pvt Ltd,False,H
+PR00586,Losto H 50mg/12.5mg Tablet,Losartan (50mg) + Hydrochlorothiazide (12.5mg),tablet,Staneil Pharma,False,H
+PR00587,Telefer-XT Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.5mg),tablet,Vitalae Healthcare,False,OTC
+PR00588,Met XL 3D 25/12.5,Chlorthalidone (12.5mg) + Metoprolol Succinate (25mg),tablet,Ajanta Pharma Ltd,False,H
+PR00589,Ciprowon TZ 500mg/600mg Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,Aan Pharma Pvt Ltd,False,H
+PR00590,Neuromalt Injection,Methylcobalamin (1000mcg) + Vitamin B6 (Pyridoxine) (100mg),injection,Mensdom Pharmaceutical Pvt Ltd,False,H
+PR00591,Venfax 75mg Tablet PR,Venlafaxine (75mg),tablet,Micro Labs Ltd,False,H
+PR00592,Wyset-M Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Wysr Healthcare,False,H
+PR00593,Triglimiprex 2mg/500mg/7.5mg Tablet,Glimepiride (2mg) + Metformin (500mg),tablet,Aristo Pharmaceuticals Pvt Ltd,False,H
+PR00594,Kaff Dry Syrup,Paracetamol (NA) + Pseudoephedrine (NA),syrup,Abaris Healthcare,False,OTC
+PR00595,Jeetac Injection,Ranitidine (25mg),injection,Akme Biotec,False,H
+PR00596,Amoflox D Eye Drop,Ofloxacin (0.3% w/v) + Dexamethasone (0.1% w/v),drops,Pfizer Ltd,False,H
+PR00597,Olmibp H 12.5mg/20mg Tablet,Hydrochlorothiazide (12.5mg) + Olmesartan Medoxomil (20mg),tablet,Astorion Pharmaceuticals Pvt Ltd,False,H
+PR00598,CYS-D 50mg/10mg Tablet,Diclofenac (50mg) + Serratiopeptidase (10mg),tablet,Cyno Pharmaceuticals Ltd,False,H
+PR00599,Mocip-TZ Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,ModHike Pvt Ltd,False,H
+PR00600,Ioxim OF 200mg/200mg Tablet,Cefixime (200mg) + Ofloxacin (200mg),tablet,Yew Biotech,False,H1
+PR00601,Cefvus O 200mg/200mg Tablet,Cefixime (200mg) + Ofloxacin (200mg),tablet,Novus Life Sciences Pvt Ltd,False,H1
+PR00602,D-Venizep 50 Tablet ER,Desvenlafaxine (50mg) + Clonazepam (0.5mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00603,Aanflam F 400mg/400mg Tablet,Ibuprofen (400mg) + Paracetamol (400mg),tablet,Aan Pharma Pvt Ltd,False,H
+PR00604,Mozasef 5mg Tablet,Mosapride (5mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00605,Fabutan 40mg Tablet,Febuxostat (40mg),tablet,Tanzer Lifecare Pvt Ltd,False,H
+PR00606,Losris 50mg Tablet,Losartan (50mg),tablet,Curis Lifecare,False,H
+PR00607,Dolar 4mg/7.5mg/5mg Syrup,Bromhexine (4mg) + Dextromethorphan Hydrobromide (7.5mg),syrup,Lark Laboratories Ltd,False,H
+PR00608,MP Nova Suspension,Ondansetron (2mg),syrup,Novakind Bioscience Pvt Ltd,False,H
+PR00609,Vindflox 200mg Tablet,Ofloxacin (200mg),tablet,Vindcare Lifesciences,False,H
+PR00610,Respicure-LS Syrup,Ambroxol (30mg) + Levosalbutamol (1mg),syrup,Corona Remedies Pvt Ltd,False,H
+PR00611,Vomvax 2 Drops,Ondansetron (2mg),drops,Vaxova Drugs Pvt Ltd,False,H
+PR00612,Cefever O 200mg Tablet,Cefpodoxime Proxetil (200mg),tablet,Aver Pharmaceuticals Pvt Ltd,False,H1
+PR00613,Ticokuf D Syrup,Chlorpheniramine Maleate (4mg) + Dextromethorphan Hydrobromide (10mg),syrup,Vistica Life Sciences,False,OTC
+PR00614,Fulcef-S 250mg/125mg Injection,Ceftriaxone (250mg) + Sulbactam (125mg),injection,SAC Pharmaceuticals,False,H
+PR00615,Hycin 25mg Tablet,Losartan (25mg),tablet,Alembic Pharmaceuticals Ltd,False,H
+PR00616,Zengat P Eye Drop,Gatifloxacin (0.3% w/v) + Prednisolone (1% w/v),drops,Klar Sehen Pvt Ltd,False,H
+PR00617,Lxoglim M 2mg/500mg Tablet,Glimepiride (2mg) + Metformin (500mg),tablet,Lxora Life Sciences,False,H
+PR00618,Glimtide Plus 1mg/500mg Tablet,Glimepiride (1mg) + Metformin (500mg),tablet,Orchid Chemicals & Pharmaceuticals Ltd,False,H
+PR00619,Ansurose 20mg Injection,Iron (20mg),injection,Ancalima Lifesciences Ltd,False,H
+PR00620,Atchol Gold 10 Capsule,Aspirin (75mg) + Atorvastatin (10mg),capsule,Aristo Pharmaceuticals Pvt Ltd,False,H
+PR00621,Zim OZ 200mg/500mg Tablet,Cefixime (200mg) + Ornidazole (500mg),tablet,Nitro Organics,False,H1
+PR00622,Clid VL Tablet VT,Clindamycin (100mg) + Metronidazole (100mg),tablet,Bennet Pharmaceuticals Limited,False,H
+PR00623,Myorate SP 100mg/15mg Tablet,Aceclofenac (100mg) + Paracetamol (15mg),tablet,Mancop Remedies,False,H
+PR00624,Molvast 10mg Tablet,Atorvastatin (10mg),tablet,Molekule India Pvt Ltd,False,H
+PR00625,Telpha H 40mg/12.5mg Tablet,Telmisartan (40mg) + Hydrochlorothiazide (12.5mg),tablet,Precise Lifescience,False,H
+PR00626,Ramicon 1.25mg Tablet,Ramipril (1.25mg),tablet,Ikon Remedies Pvt Ltd,False,H
+PR00627,Cefdic 200mg Tablet DT,Cefixime (200mg),tablet,Ventus Pharmaceuticals Pvt Ltd,False,H1
+PR00628,Hippoclav 1000 mg/200 mg Injection,Amoxycillin  (1000mg) + Clavulanic Acid (200mg),injection,Genesis Biotech Inc,False,H
+PR00629,Montoss L 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Novalab Healthcare Pvt Ltd,False,H
+PR00630,Cobanerve-G 300mg/500mcg Tablet,Gabapentin (300mg) + Methylcobalamin (500mcg),tablet,Invision Medi Sciences Pvt Ltd,False,H
+PR00631,Cetranic M 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Mednic Healthcare,False,H
+PR00632,Tyzit 100mg Suspension,Azithromycin (100mg/5ml),syrup,Tyrant Pharma Pvt Ltd,False,H
+PR00633,Trimedor 20mg Tablet,Trimetazidine (20mg),tablet,Avinash Health Products Pvt Ltd,False,H
+PR00634,Raycob P 750mcg/75mg Tablet,Methylcobalamin (750mcg) + Pregabalin (75mg),tablet,Rayrise Healthcare,False,H
+PR00635,Tudofen Forte 400 mg/325 mg Tablet,Ibuprofen (400mg) + Paracetamol (325mg),tablet,Ozone Pharmaceuticals Ltd,False,H
+PR00636,Cociapan-DSR Capsule,Domperidone (30mg) + Pantoprazole (40mg),capsule,Scocia Labs,False,H
+PR00637,Vermistar Plus Oral Suspension,Ivermectin  (1.5mg) + Albendazole (200mg),syrup,Zenstar Life Sciences,False,H
+PR00638,Canzol 150mg Tablet,Fluconazole (150mg),tablet,Dagon Pharmaceuticals Pvt Ltd,False,H
+PR00639,Taskpan D 30mg/40mg Capsule SR,Domperidone (30mg) + Pantoprazole (40mg),capsule,Ericure Remedies Pvt Ltd,False,H
+PR00640,Gudcef 100mg/5ml Syrup,Cefpodoxime Proxetil (100mg/5ml),syrup,Mankind Pharma Ltd,False,H1
+PR00641,Nanriv D 50mg Injection,Nandrolone Decanoate (50mg),injection,East African (India) Overseas,False,H
+PR00642,Livcare Syrup,L-Ornithine L-Aspartate (150mg) + Pancreatin (100mg),syrup,Sun Pharmaceutical Industries Ltd,False,H
+PR00643,Loscad H 50mg/12.5mg Tablet,Losartan (50mg) + Hydrochlorothiazide (12.5mg),tablet,Caddes Life Sciences,False,H
+PR00644,Telmaheal 40 AMH Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Healing Pharma India Pvt Ltd,False,H
+PR00645,Edebro 100mg Tablet,Acebrophylline (100mg),tablet,Edelweiss Lifecare Pvt Ltd,False,H
+PR00646,Fillace-SP Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Scotwin Healthcare,False,H
+PR00647,Zempred 8 Tablet,Methylprednisolone (8mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00648,Brikuff LS Syrup,Levosalbutamol (1mg/5ml) + Ambroxol (30mg/5ml),syrup,Abrik Remedies Private Limited,False,H
+PR00649,Dr. D3 Injection,Vitamin D3 (600000IU/ml),injection,Johnlee Pharmaceuticals Pvt Ltd,False,H
+PR00650,Moltres H 12.5mg/20mg Tablet,Hydrochlorothiazide (12.5mg) + Olmesartan Medoxomil (20mg),tablet,Cmg Biotech Pvt Ltd,False,H
+PR00651,Mprol AM 5mg/50mg Tablet,Amlodipine (5mg) + Metoprolol Succinate (50mg),tablet,Unison Pharmaceuticals Pvt Ltd,False,H
+PR00652,Aziclub 500mg Tablet,Azithromycin (500mg),tablet,Nusmith Pharma Pvt. Ltd,False,H
+PR00653,Vertiline 8mg Tablet,Betahistine (8mg),tablet,Johnlee Pharmaceuticals Pvt Ltd,False,H
+PR00654,Tenelis-M Tablet SR,Metformin (500mg) + Teneligliptin (20mg),tablet,Elis Pharmaceuticals India Pvt Ltd,False,H
+PR00655,Uv Dol 37.5mg/325mg Tablet,Tramadol (37.5mg) + Paracetamol (325mg),tablet,DSV Healthcare,False,H1
+PR00656,Sandimmun Neoral 50mg Soft Gelatin Capsule,Ciclosporin (50mg),capsule,Novartis India Ltd,False,H
+PR00657,Fentex 150mg Tablet,Tolperisone (150mg),tablet,Astonea Labs Private Limited,False,H
+PR00658,Solonis 4mg Tablet,Methylprednisolone (4mg),tablet,H & Care Incorp,False,H
+PR00659,Etabet P 60mg/325mg Tablet,Etoricoxib (60mg) + Paracetamol (325mg),tablet,Morecare Pharmatec Pvt Ltd,False,H
+PR00660,Zexime 50mg Tablet DT,Cefixime (50mg),tablet,Mexon Healthcare Ltd,False,H1
+PR00661,Dekan MR 250mg/50mg/325mg Tablet,Chlorzoxazone (250mg) + Diclofenac (50mg),tablet,Kiama Lifesciences,False,H
+PR00662,Tritum 500mg Injection,Ceftriaxone (500mg),injection,Saffron Medicare Pvt Ltd,False,H
+PR00663,Rabelense-L Capsule SR,Levosulpiride (75mg) + Rabeprazole (20mg),capsule,Medilance Healthcare,False,H
+PR00664,Catobar Eye Drop,Potassium Iodide (3.3% w/v) + Sodium Chloride (0.83% w/v),drops,Austrak Pvt Ltd,False,H
+PR00665,Cefind 200mg Tablet,Cefixime (200mg),tablet,Indu Drugs Pvt Ltd,False,H1
+PR00666,Recpar TH 100mg/4mg Tablet,Aceclofenac (100mg) + Thiocolchicoside (4mg),tablet,Shiron Pharmaceuticals,False,H
+PR00667,Trubid-CV 625 Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,IGP Medventures Pvt Ltd,False,H
+PR00668,Bisotril H 2.5mg/6.5mg Tablet,Bisoprolol (2.5mg) + Hydrochlorothiazide (6.5mg),tablet,Leeford Healthcare Ltd,False,H
+PR00669,NMC Injection,Methylcobalamin (1000mcg),injection,Heal  India  Laboratories,False,H
+PR00670,Nactab-AB Tablet,Acebrophylline (100mg) + Acetylcysteine (600mg),tablet,Obsurge Biotech Ltd,False,H
+PR00671,Ranizac Mps Syrup,Aluminium Hydroxide (NA) + Dimethicone (NA),syrup,Parenteral Drugs India Ltd,False,H
+PR00672,Leecast-M Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Macmay Pharmaceuticals Pvt Ltd,False,H
+PR00673,Dgenta Ear Drop,Gentamicin (0.3% w/v) + Clotrimazole (1% w/v),drops,Dr. D Pharma,False,H
+PR00674,Seacure 400mg Tablet SR,Progesterone (Natural Micronized) (400mg),tablet,Akumentis Healthcare Ltd,False,H
+PR00675,Dolosal P 37.5mg/325mg Tablet,Tramadol (37.5mg) + Paracetamol (325mg),tablet,Salveo Lifecare,False,H1
+PR00676,San G 2mg Tablet,Glimepiride (2mg),tablet,Sanatio Pharmaceuticals Private Limited,False,H
+PR00677,Hibrid 500mg/125mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Shreya Life Sciences Pvt Ltd,False,H
+PR00678,Etoversa-MR Tablet,Etoricoxib (60mg) + Thiocolchicoside (4mg),tablet,V R Med Healthcare,False,H
+PR00679,Osthozest-SP Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Zestwin Lifesciences,False,H
+PR00680,Kestil 20mg Tablet,Ebastine (20mg),tablet,Fawn Incorporation,False,H
+PR00681,Reokin 250mg Injection,Amikacin (250mg),injection,Solitaire Pharmacia Pvt Ltd,False,H
+PR00682,Rabikon-D Capsule SR,Domperidone (30mg) + Rabeprazole (20mg),capsule,Kontest Chemicals Ltd,False,H
+PR00683,Wan-DSR Capsule,Domperidone (30mg) + Rabeprazole (20mg),capsule,Mediaim Pharmaceutical,False,H
+PR00684,G Rox 50mg Tablet,Roxithromycin (50mg),tablet,Gracure Pharmaceuticals Ltd,False,H
+PR00685,Ceflet CV 250mg/125mg Tablet,Cefuroxime (250mg) + Clavulanic Acid (125mg),tablet,Ikon Remedies Pvt Ltd,False,H
+PR00686,Pansa 40 Tablet,Pantoprazole (40mg),tablet,Zuventus Healthcare Ltd,False,H
+PR00687,HB Hep 25000IU Injection,Heparin (25000IU),injection,Human Bio Organics Pvt Ltd,False,H
+PR00688,Markold Syrup,Chlorpheniramine Maleate (1mg) + Paracetamol (125mg),syrup,Elixir Life Care Pvt Ltd,False,OTC
+PR00689,Mecocob-M Injection,Methylcobalamin (1000mcg) + Niacinamide (100mg),injection,Skyways Healthcare Pvt Ltd,False,H
+PR00690,Ivepred 4 Tablet,Methylprednisolone (4mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00691,Sarbimed Syrup,Tricholine Citrate (0.55gm) + Sorbitol (7.15gm),syrup,Medley Pharmaceuticals,False,H
+PR00692,Stenix CV Dry Syrup,Cefixime (50mg/5ml) + Clavulanic Acid (31.25mg/5ml),syrup,Stenhill Labs,False,H1
+PR00693,Indpride 4mg Tablet,Methylprednisolone (4mg),tablet,Indmark Biotech Private Limited,False,H
+PR00694,Lornex P 8mg/500mg Tablet,Lornoxicam (8mg) + Paracetamol (500mg),tablet,Biotic Healthcare,False,H
+PR00695,X Vis 125mg Syrup,Cefuroxime (125mg),syrup,Dolvis Bio Pharma Pvt Ltd,False,H
+PR00696,Telmitra-AM Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Remantra Pharma,False,H
+PR00697,Quick Action Oral Suspension,Chlorpheniramine Maleate (2mg/5ml) + Paracetamol (250mg/5ml),syrup,Ambience Pharma,False,OTC
+PR00698,Sucragift 500mg Syrup,Sucralfate (500mg/5ml),syrup,Stature Life Sciences,False,H
+PR00699,Madarat-S Oral Suspension,Magaldrate (400mg/5ml) + Simethicone (20mg/5ml),syrup,Sanify Healthcare Pvt  Ltd,False,H
+PR00700,Heof 100mg Syrup,Ofloxacin (100mg),syrup,Hecure Health Care Pvt Ltd,False,H
+PR00701,Cofenac Plus 50mg/325mg Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Cipla Ltd,False,H
+PR00702,Mepin AT 5mg/50mg Tablet,Amlodipine (5mg) + Atenolol (50mg),tablet,Mepro Pharmaceuticals,False,H
+PR00703,Amloden TM 40mg/5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Denglow Pharmaceuticals Private Limited,False,H
+PR00704,Rozy 20mg Injection,Rabeprazole (20mg),injection,Zodak Healthcare,False,H
+PR00705,Alfumet 100mg/300mg Tablet,Furazolidone (100mg) + Metronidazole (300mg),tablet,Albert David Ltd,False,H
+PR00706,Raboz D 30mg/20mg Capsule SR,Domperidone (30mg) + Rabeprazole (20mg),capsule,Freedom Healthcare Pvt Ltd,False,H
+PR00707,Acoperist Tablet,Acotiamide (100mg),tablet,Ordain Health Care Global Pvt Ltd,False,H
+PR00708,Acokryp P 50mg/125mg Oral Suspension,Aceclofenac (50mg) + Paracetamol (125mg),syrup,Kryptomed Formulations Pvt Ltd,False,H
+PR00709,Amicelo 40mg Injection,Triamcinolone (40mg),injection,Mediyork Pharma Pvt Ltd,False,H
+PR00710,Tusban-D Syrup,Chlorpheniramine Maleate (4mg) + Dextromethorphan Hydrobromide (10mg),syrup,Zenacts Pharma,False,OTC
+PR00711,Ofloxina OZ Syrup,Ofloxacin (50mg/5ml) + Ornidazole (125mg/5ml),syrup,Southshourne Corporation India,False,H
+PR00712,Haxone T 250mg/31.25mg Injection,Ceftriaxone (250mg) + Tazobactum (31.25mg),injection,Hiya Lifesciences Pvt Ltd,False,H
+PR00713,DC Tus Syrup,Chlorpheniramine Maleate (2mg) + Dextromethorphan Hydrobromide (10mg),syrup,Kineses Laboratories,False,OTC
+PR00714,Gic O 200mg/500mg Tablet,Ofloxacin (200mg) + Ornidazole (500mg),tablet,Plus India,False,H
+PR00715,Somaz 40mg Tablet,Esomeprazole (40mg),tablet,Marc Laboratories Pvt Ltd,False,H
+PR00716,Kufma Syrup,Dextromethorphan Hydrobromide (10mg/5ml) + Guaifenesin (100mg/5ml),syrup,Wings Biotech Ltd,False,H
+PR00717,Raliso D 30mg/40mg Capsule SR,Domperidone (30mg) + Esomeprazole (40mg),capsule,Otik Biotec,False,H
+PR00718,Famogreat 40mg Tablet,Famotidine (40mg),tablet,Mankind Pharma Ltd,False,H
+PR00719,Disan-AQ Injection,Diclofenac (75mg),injection,Disan Pharma,False,H
+PR00720,Gliptinita M 500mg/20mg Tablet,Metformin (500mg) + Teneligliptin (20mg),tablet,Ednita Healthcare,False,H
+PR00721,Germenta 0.18% Injection,Gentamicin (0.18%),injection,Zydus Cadila,False,H
+PR00722,Medcuff-L Syrup,Levosalbutamol (1mg/5ml) + Ambroxol (30mg/5ml),syrup,Medbeat Healthcare,False,H
+PR00723,Sufrate P Suspension,Sucralfate (1000mg),syrup,Eskag Pharma Pvt Ltd,False,H
+PR00724,Cloxide 10mg Tablet,Chlordiazepoxide (10mg),tablet,La Pharmaceuticals,False,H
+PR00725,Indryl Plus Syrup,Dextromethorphan Hydrobromide (15mg),syrup,Arehk Healthcare,False,H
+PR00726,Kaycide-T 1125 Injection,Ceftriaxone (1000mg) + Tazobactum (125mg),injection,Stenkem Molecules Pvt Ltd,False,H
+PR00727,Alor 10mg Tablet,Loratadine (10mg),tablet,Afive Pharma,False,H
+PR00728,Neoprota 5mg/2.5mg Capsule,Amlodipine (5mg) + Ramipril (2.5mg),capsule,Neon Laboratories Ltd,False,H
+PR00729,Rabgreen L 75mg/20mg Capsule,Levosulpiride (75mg) + Rabeprazole (20mg),capsule,Homogreen Pharmaceutical,False,H
+PR00730,Clopiwok 75mg Tablet,Clopidogrel (75mg),tablet,Wockhardt Ltd,False,H
+PR00731,Wellcal K2 7 Softgel Capsule,Calcitriol (0.25mcg) + Calcium Carbonate (500mg),capsule,Wellcuring Lifesciences Pvt Ltd,False,H
+PR00732,N Side 100mg Tablet,Nimesulide (100mg),tablet,Cfl Pharmaceuticals Ltd,False,H
+PR00733,Acetrial SP 100mg/325mg/15mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Werke Healthcare,False,H
+PR00734,Zolipax 0.25mg Tablet,Alprazolam (0.25mg),tablet,Reliance Formulation Pvt Ltd,False,H1
+PR00735,Fixihub CV Dry Syrup,Cefixime (50mg) + Clavulanic Acid (28.5mg),syrup,Trubeca Lifesciences,False,H1
+PR00736,Witpred 4mg Tablet,Methylprednisolone (4mg),tablet,Staneil Pharma,False,H
+PR00737,Acevis RZ Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Innova Formulations Pvt Ltd,False,H
+PR00738,Biocof- D Syrup,Bromhexine (4mg) + Dextromethorphan Hydrobromide (5mg),syrup,Biochem Pharmaceutical Industries,False,H
+PR00739,Freenac 200mg Tablet SR,Aceclofenac (200mg),tablet,HBC Lifesciences Pvt Ltd,False,H
+PR00740,Ubitel H 40mg/12.5mg Tablet,Telmisartan (40mg) + Hydrochlorothiazide (12.5mg),tablet,Staneil Pharma,False,H
+PR00741,Dilofen P 50 mg/500 mg Tablet,Diclofenac (50mg) + Paracetamol (500mg),tablet,P & B Pharmaceuticals  Ltd,False,H
+PR00742,Inquflox M Oral Suspension,Ofloxacin (50mg/5ml) + Metronidazole (120mg/5ml),syrup,Smayan Healthcare Pvt Ltd,False,H
+PR00743,Aziclub 200mg Dry Syrup,Azithromycin (200mg/5ml),syrup,Nusmith Pharma Pvt. Ltd,False,H
+PR00744,Lox 2% Adrenaline Injection,Lidocaine (2%) + Adrenaline (0.005mg),injection,Neon Laboratories Ltd,False,H
+PR00745,Vomiemm Injection,Ondansetron (4mg),injection,Ess Emm Pharma Pvt Ltd,False,H
+PR00746,Asinac-D Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Sarvit Life Sciences,False,H
+PR00747,Moxulab 625 Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Unigrow Pharmaceuticals,False,H
+PR00748,Vancement 50mg Tablet XL,Metoprolol Succinate (50mg),tablet,OAK Vance Life Sciences Pvt. Ltd.,False,H
+PR00749,Maxflo OZ 200mg/500mg Tablet,Ofloxacin (200mg) + Ornidazole (500mg),tablet,Max Life Science,False,H
+PR00750,Azobat AX 500mg/60mg Tablet,Azithromycin (500mg) + Ambroxol (60mg),tablet,Intra Life,False,H
+PR00751,Zerotuss-D Syrup Sugar Free,Chlorpheniramine Maleate (2mg/5ml) + Dextromethorphan Hydrobromide (10mg/5ml),syrup,Aristo Pharmaceuticals Pvt Ltd,False,OTC
+PR00752,Blogan 20mg/500mg Tablet,Dicyclomine (20mg) + Paracetamol (500mg),tablet,Jackson Laboratories Pvt Ltd,False,H
+PR00753,Glucored Tablet,Glibenclamide (2.5mg) + Metformin (400mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00754,Levodon 250mg Tablet,Levofloxacin (250mg),tablet,Mankind Pharma Ltd,False,H1
+PR00755,Difit IT 200mg Capsule,Itraconazole (200mg),capsule,Divine Lifecare Pvt Ltd,False,H
+PR00756,Usehep 5000IU Injection,Heparin (5000IU),injection,Uniword Pharma,False,H
+PR00757,Chemoxy CV Plus Dry Syrup,Amoxycillin  (400mg) + Clavulanic Acid (57mg),syrup,Jchem Pharmaceuticals,False,H
+PR00758,Cheston DX Syrup Pineapple & Raspberry,Chlorpheniramine Maleate (2mg) + Dextromethorphan Hydrobromide (10mg),syrup,Cipla Ltd,False,OTC
+PR00759,Perizine Syrup,Cetirizine (NA),syrup,Leeford Healthcare Ltd,False,OTC
+PR00760,Esopraz D 10mg/40mg Tablet,Domperidone (10mg) + Esomeprazole (40mg),tablet,Biosys Medisciences,False,H
+PR00761,Losacar 25 Tablet,Losartan (25mg),tablet,Zydus Cadila,False,H
+PR00762,Zypsin-D 50mg/50000IU Tablet,Diclofenac (50mg) + Trypsin Chymotrypsin (50000IU),tablet,Zodley Pharmaceuticals Pvt Ltd,False,H
+PR00763,Cofdel LS Syrup,Ambroxol (30mg) + Levosalbutamol (1mg),syrup,Dalcon Drugs Pvt Ltd,False,H
+PR00764,Omnitel 400mg Tablet,Albendazole (400mg),tablet,Pharmed Ltd,False,H
+PR00765,Telpha AMH 40mg/5mg/12.5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Precise Lifescience,False,H
+PR00766,DNS Infusion,Dextrose (5% w/v) + Sodium Chloride (0.9% w/v),injection,Claris Lifesciences Ltd,False,H
+PR00767,Sertan 25mg Tablet,Sertraline (25mg),tablet,Suraksha Pharma Pvt Ltd,False,H
+PR00768,Tamisul 0.4mg Tablet,Tamsulosin (0.4mg),tablet,Allenge India,False,H
+PR00769,Taxone O 25mg Oral Drops,Cefixime (25mg),drops,Mapra Laboratories Pvt Ltd,False,H1
+PR00770,Rabimon-Plus Capsule SR,Levosulpiride (75mg) + Rabeprazole (20mg),capsule,Sanoti Laboratories,False,H
+PR00771,Naresol 0.65% Nasal Drops,Sodium Chloride (0.65% w/v),drops,Alembic Pharmaceuticals Ltd,False,H
+PR00772,Donzinol 10mg Tablet,Donepezil (10mg),tablet,Knoll Pharmaceuticals Ltd,False,H
+PR00773,Paxotus Plus 25mg/0.5mg Capsule,Paroxetine (25mg) + Clonazepam (0.5mg),capsule,Emcure Pharmaceuticals Ltd,False,H
+PR00774,Levazeo 25 Tablet,Levosulpiride (25mg),tablet,Torrent Pharmaceuticals Ltd,False,H
+PR00775,Aciba 25mg Injection,Ranitidine (25mg),injection,Systacare Remedies,False,H
+PR00776,Dunapan M 40mg/15mg Tablet,Pantoprazole (40mg) + Mosapride (15mg),tablet,Dunamed Pharmaceuticals (P) Ltd,False,H
+PR00777,Goldcox 90mg Tablet,Etoricoxib (90mg),tablet,Grivety Lifecare LLP,False,H
+PR00778,Traxreen MF 500mg/250mg Tablet,Tranexamic Acid (500mg) + Mefenamic Acid (250mg),tablet,Homogreen Pharmaceutical,False,H
+PR00779,Cetlov 5mg Tablet,Levocetirizine (5mg),tablet,Cortina Laboratories Pvt Ltd,False,H
+PR00780,Bencomide 5mg Tablet,Glibenclamide (5mg),tablet,Sunniva Life Science,False,H
+PR00781,Avifam 20mg Tablet,Famotidine (20mg),tablet,Bhavishya Pharmaceuticals Pvt Ltd,False,H
+PR00782,Mix CV Duo Dry Syrup,Amoxycillin  (400mg) + Clavulanic Acid (57mg),syrup,Torance Healthcare Pvt Ltd,False,H
+PR00783,Recemin 500mg Tablet SR,Metformin (500mg),tablet,Bharti Life Sciences,False,H
+PR00784,Cethexa M Oral Suspension,Levocetirizine (2.5mg) + Montelukast (4mg),syrup,Skywell Healthcare Pvt Ltd,False,H
+PR00785,Gesipara Oral Suspension,Aceclofenac (50mg) + Paracetamol (125mg),syrup,Veecube Healthcare Pvt Ltd,False,H
+PR00786,Dpine AT 5mg/50mg Tablet,Amlodipine (5mg) + Atenolol (50mg),tablet,Dr. Edwin Lab,False,H
+PR00787,Tenelect 20mg Tablet,Teneligliptin (20mg),tablet,Elinor Pharmaceuticals Pvt Ltd,False,H
+PR00788,Trazaril 25mg Tablet,Trazodone (25mg),tablet,Reliance Formulation Pvt Ltd,False,H
+PR00789,Ravitop D 10mg/40mg Tablet,Domperidone (10mg) + Pantoprazole (40mg),tablet,Penardo Biotech,False,H
+PR00790,Medirab 40mg Tablet,Rabeprazole (40mg),tablet,Puremed Biotech,False,H
+PR00791,Oxymetrin 50IU Injection,Oxytocin (50IU),injection,Cadila Pharmaceuticals Ltd,False,H
+PR00792,Easworm 400mg Tablet,Albendazole (400mg),tablet,Kylsans Drugs & Chemicals P Ltd,False,H
+PR00793,Ciprodex 500mg Tablet,Ciprofloxacin (500mg),tablet,Parenteral Drugs India Ltd,False,H
+PR00794,C Rox CV LB 500mg/125mg Tablet,Amoxycillin (500mg) + Clavulanic Acid (125mg),tablet,Veecube Healthcare Pvt Ltd,False,H
+PR00795,Lofh 5000IU Injection,Heparin (5000IU),injection,Abbott,False,H
+PR00796,Montipel-LC Kid Tablet DT,Levocetirizine (2.5mg) + Montelukast (4mg),tablet,Pelzar Healthcare,False,H
+PR00797,Satcort 6mg Oral Suspension,Deflazacort (6mg/5ml),syrup,Saturn Formulations Pvt Ltd,False,H
+PR00798,Hep Lock Solution,Heparin (10IU),injection,Gland Pharma Limited,False,H
+PR00799,Zitomox CV 1000mg/200mg Injection,Amoxycillin  (1000mg) + Clavulanic Acid (200mg),injection,Uniark Healthcare Pvt Ltd,False,H
+PR00800,Topp 40 Tablet,Pantoprazole (40mg),tablet,Systopic Laboratories Pvt Ltd,False,H
+PR00801,Cet A Tablet,Cetirizine (NA) + Ambroxol (NA),tablet,Targof Pure Drugs Td,False,OTC
+PR00802,Rxtor Gold 10 Capsule,Aspirin (75mg) + Rosuvastatin (10mg),capsule,Ipca Laboratories Ltd,False,H
+PR00803,Medea 4mg Tablet,Methylprednisolone (4mg),tablet,Larion Life Sciences Pvt Ltd,False,H
+PR00804,Amlozip 5mg Tablet,Amlodipine (5mg),tablet,Zorion Drugs & Herbs Pvt. Ltd.,False,H
+PR00805,Kivokast L Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Kivonyx Healthcare,False,H
+PR00806,Razib 20 Tablet,Rabeprazole (20mg),tablet,Geneda Pharma,False,H
+PR00807,Nurokind-G  Tablet,Gabapentin (300mg) + Methylcobalamin (500mcg),tablet,Mankind Pharma Ltd,False,H
+PR00808,Bristan HT Tablet,Losartan (50mg) + Hydrochlorothiazide (12.5mg),tablet,Brilliant Lifesciences Pvt Ltd,False,H
+PR00809,Fernim 5 Injection,Iron Sucrose (100mg),injection,Anvicure Drugs,False,H
+PR00810,Ampiod-C 325 Tablet,Cefpodoxime Proxetil (200mg) + Clavulanic Acid (125mg),tablet,Ampira Biotechnics Pvt Ltd,False,H1
+PR00811,Cardiomart H 40mg/12.5mg Tablet,Telmisartan (40mg) + Hydrochlorothiazide (12.5mg),tablet,10 Drug Mart,False,H
+PR00812,Ondaly 2mg Injection,Ondansetron (2mg),injection,NovoLilly Pharmaceutical Pvt Ltd,False,H
+PR00813,Pregamet 75 Capsule,Methylcobalamin (750mcg) + Pregabalin (75mg),capsule,Abbott,False,H
+PR00814,L Box 500mg Tablet,Levofloxacin (500mg),tablet,Bionexa Organic,False,H1
+PR00815,Glybonil Plus 5mg/500mg Tablet,Glibenclamide (5mg) + Metformin (500mg),tablet,ABS Remedies Pvt Ltd,False,H
+PR00816,Xonocef 1000mg/500mg Injection,Ceftriaxone (1000mg) + Sulbactam (500mg),injection,Isis Healthcare Pvt Ltd,False,H
+PR00817,Oflotoss OZ Oral Suspension,Ofloxacin (50mg/5ml) + Ornidazole (125mg/5ml),syrup,Novalab Healthcare Pvt Ltd,False,H
+PR00818,Acepine-TH Tablet,Aceclofenac (100mg) + Thiocolchicoside (4mg),tablet,Deon Healthcare,False,H
+PR00819,Stamox 250 mg/250 mg Capsule,Amoxycillin (250mg) + Cloxacillin (250mg),capsule,Innova Formulations Pvt Ltd,False,H
+PR00820,Dexoram P Eye/Ear Drops,Chloramphenicol (1% w/v) + Dexamethasone (0.1% w/v),drops,Parex Pharmaceuticals Pvt Ltd,False,H
+PR00821,Queenolar 300mg Injection,Quinine (300mg),injection,Lark Laboratories Ltd,False,H
+PR00822,Cadrex Syrup,Chlorpheniramine Maleate (4mg) + Codeine (10mg),syrup,Accilex Nutricorp,False,OTC
+PR00823,Z-TEL-H 40MG/12.5MG TABLET,Telmisartan (40mg) + Hydrochlorothiazide (12.5mg),tablet,Corazon Pharma Pvt Ltd,False,H
+PR00824,Acogesic Capsule,Ibuprofen (NA) + Paracetamol (NA),capsule,Accosts Remedies Pvt Ltd,False,H
+PR00825,Serowalk 10mg Tablet,Serratiopeptidase (10mg),tablet,Invision Medi Sciences Pvt Ltd,False,H
+PR00826,Maxxpod 200mg Tablet DT,Cefpodoxime Proxetil (200mg),tablet,Maxx Farmacia (India) Lip,False,H1
+PR00827,Panzole D 10mg/20mg Capsule,Domperidone (10mg) + Omeprazole (20mg),capsule,Panm Labs India,False,H
+PR00828,L Montus Kid Tablet,Levocetirizine (2.5mg) + Montelukast (4mg),tablet,Fourrts India Laboratories Pvt Ltd,False,H
+PR00829,Hylosoft Eye Drop,Sodium Hyaluronate (0.1% w/v),drops,Neomedix Healthcare India Private Limited,False,H
+PR00830,Fungirap 200mg Capsule,Itraconazole (200mg),capsule,Raptam Healthcare,False,H
+PR00831,Walcobal Plus Injection,Methylcobalamin (1000mcg) + Niacinamide (100mg),injection,Leeford Healthcare Ltd,False,H
+PR00832,Forida-XT+ Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.5mg),tablet,Aishwarya Healthcare,False,OTC
+PR00833,Elowin 200mg Tablet,Ofloxacin (200mg),tablet,Evans Pharma,False,H
+PR00834,Femidin 40mg Tablet,Famotidine (40mg),tablet,Taj Pharma India Ltd,False,H
+PR00835,Daztor 10 Tablet,Atorvastatin (10mg) + Vitamin D3 (1000IU),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR00836,Compound Sodium Lacate Infusion,Ringer's lactate (NA),injection,Punjab Formulations Ltd,False,H
+PR00837,Argical HD Tablet,Calcium (1000mg) + Vitamin D3 (1000IU),tablet,Torway Pharmacia Pvt Ltd,False,OTC
+PR00838,Rebin -DSR Capsule,Domperidone (30mg) + Rabeprazole (20mg),capsule,Nelon Pharmceuticals,False,H
+PR00839,Syopred 4 Tablet,Methylprednisolone (4mg),tablet,Sycon Healthcare Pvt Ltd,False,H
+PR00840,Vexifix 100mg Tablet,Cefixime (100mg),tablet,Vexilla Healthcare,False,H1
+PR00841,StayHappi Nitrofurantoin 100mg Tablet,Nitrofurantoin (100mg),tablet,Sarvagunaushdhi Pvt Ltd,False,H
+PR00842,Zexflam P Oral Suspension,Aceclofenac (50mg) + Paracetamol (125mg),syrup,Zumax Biocare,False,H
+PR00843,Teraderm 250mg Tablet,Terbinafine (250mg),tablet,East West Pharma,False,H
+PR00844,Odoxim CV Dry Syrup,Cefpodoxime Proxetil (50mg) + Clavulanic Acid (28.5mg),syrup,Vervetic Healthcare Pvt Ltd,False,H1
+PR00845,Entracid-LS Capsule,Levosulpiride (75mg) + Esomeprazole (40mg),capsule,Nexcellence Lifesciences,False,H
+PR00846,Cethol M Kid 2.5mg/5mg Tablet DT,Levocetirizine (2.5mg) + Montelukast (5mg),tablet,Blair Remedies Pvt Ltd,False,H
+PR00847,Safacef-SB Injection,Cefoperazone (500mg) + Sulbactam (500mg),injection,Liza Life Sciences,False,H
+PR00848,Glygon M 80mg/500mg Tablet,Gliclazide (80mg) + Metformin (500mg),tablet,Paragon Pharmaceuticals,False,H
+PR00849,Oflora 50mg/5ml Suspension,Ofloxacin (50mg/5ml),syrup,Seron Pharma Pvt Ltd,False,H
+PR00850,Feburen 40mg Tablet,Febuxostat (40mg),tablet,Renakart Life Sciences Pvt Ltd,False,H
+PR00851,Lokcid 20mg Capsule,Omeprazole (20mg),capsule,Tas Med India Pvt Ltd,False,H
+PR00852,Liator 10 Tablet,Atorvastatin (10mg),tablet,Liaise Pharmaceuticals Pvt Ltd,False,H
+PR00853,Panmax 40mg Injection,Pantoprazole (40mg),injection,Max Life Science,False,H
+PR00854,OPD Syrup,Ofloxacin (50mg),syrup,Pharma Drugs & Chemicals,False,H
+PR00855,Kysolone 4mg Tablet,Methylprednisolone (4mg),tablet,Kyna Pharmaceuticals,False,H
+PR00856,Arnem 500mg Injection,Meropenem (500mg),injection,Alpha Aromatic Pvt Ltd,False,H
+PR00857,Levoset-M Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Mclain Laboratories,False,H
+PR00858,Leclyte G PL Infusion,Dextrose (5gm) + Sodium Chloride (0.37gm),injection,Albert David Ltd,False,H
+PR00859,Rabit 100mg Tablet,Aceclofenac (100mg),tablet,Tidal Laboratories Pvt Ltd,False,H
+PR00860,Venither 150mg Injection,Alpha-Beta Arteether (150mg),injection,Venistro Biotech,False,H
+PR00861,Telever AM 40mg/5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Orlife Healthcare,False,H
+PR00862,Cutin 40mg Tablet,Atorvastatin (40mg),tablet,Cubit Healthcare,False,H
+PR00863,DR Cvdol 12.5mg Tablet,Carvedilol (12.5mg),tablet,DR Best pharmaceuticals Pvt Ltd,False,H
+PR00864,Efelac 100 Tablet DT,Cefixime (100mg) + Lactobacillus (40Million spores),tablet,Jenburkt Pharmaceuticals Ltd,False,H1
+PR00865,Caregest 200mg Capsule,Progesterone (200mg),capsule,Ayurlife Remedies Pvt Ltd,False,H
+PR00866,Solucort 500 Injection,Methylprednisolone (500mg),injection,Venus Remedies Ltd,False,H
+PR00867,Drudrol 40mg Injection,Methylprednisolone (40mg),injection,Drukst Biotech Private Limited,False,H
+PR00868,Paxan 25 Tablet PR,Paroxetine (25mg),tablet,Sanus Life Sciences,False,H
+PR00869,Zavicin 250mg Tablet,Azithromycin (250mg),tablet,Zavik Drugs,False,H
+PR00870,Telmitic 80mg Tablet,Telmisartan (80mg),tablet,Cardiatic Care,False,H
+PR00871,CF-Ccm Tablet,Calcium Citrate Malate (250mg) + Vitamin D3 (100IU),tablet,Conceptive Farmacia Pvt Ltd,False,OTC
+PR00872,Cijofer-XT Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.1mg),tablet,Cijor Biosciences Pvt Ltd,False,OTC
+PR00873,Alercid M Syrup,Levocetirizine (2.5mg) + Montelukast (4mg),syrup,Elivia Life Sciences Pvt Ltd,False,H
+PR00874,Sefrotil 100mg Tablet,Cefpodoxime Proxetil (100mg),tablet,Signova Pharma Pvt Ltd,False,H1
+PR00875,Cefpona DS 100mg Dry Syrup,Cefpodoxime Proxetil (100mg),syrup,Plena Remedies,False,H1
+PR00876,Ceficon OX 200mg/200mg Tablet,Cefixime (200mg) + Ofloxacin (200mg),tablet,Maxnova Healthcare,False,H1
+PR00877,Leofast M 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Biogensis Biotechnic,False,H
+PR00878,Redate-XT Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.5mg),tablet,Maverick Pharma Pvt Ltd,False,OTC
+PR00879,Levoxol Syrup,Ambroxol (30mg) + Levosalbutamol (1mg),syrup,Richfaith Pharmaceuticals,False,H
+PR00880,Cearium 1000mg/500mg Injection,Ceftriaxone (1000mg) + Sulbactam (500mg),injection,Shince Pharmaceuticals Pvt Ltd,False,H
+PR00881,Vomitris 4mg Tablet MD,Ondansetron (4mg),tablet,Doctris Lifesciences,False,H
+PR00882,Lvzin 5 Tablet,Levocetirizine (5mg),tablet,Brostin Seizz Biocare,False,H
+PR00883,Kuftan LS Syrup,Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml),syrup,Ridgecure Pharma,False,H
+PR00884,Medipod 200mg Tablet,Cefpodoxime Proxetil (200mg),tablet,Medlife Genetics,False,H1
+PR00885,Coldase Oral Suspension,Chlorpheniramine Maleate (2mg) + Paracetamol (250mg),syrup,Torainse Life Care Pvt Ltd,False,OTC
+PR00886,Scodoxim CV 200mg/125mg Tablet,Cefpodoxime Proxetil (200mg) + Clavulanic Acid (125mg),tablet,Scocia Labs,False,H1
+PR00887,Lecee AM 5mg/60mg Tablet,Levocetirizine (5mg) + Ambroxol (60mg),tablet,Klokter Life Sciences,False,H
+PR00888,Zynoff D Eye Drop,Ofloxacin (0.3% w/v) + Dexamethasone (0.1% w/v),drops,Nri Vision Care India Limited,False,H
+PR00889,Cetley M Syrup,Levocetirizine (2.5mg) + Montelukast (4mg),syrup,Zodley Pharmaceuticals Pvt Ltd,False,H
+PR00890,Naccefo-S 750mg/750mg Injection,Cefoperazone (750mg) + Sulbactam (750mg),injection,Nectar Biopharma Pvt Limited,False,H
+PR00891,Genomox CV Forte Dry Syrup,Amoxycillin  (400mg) + Clavulanic Acid (57mg),syrup,Geno Pharmaceuticals Ltd,False,H
+PR00892,Telsar 80 Tablet,Telmisartan (80mg),tablet,Torrent Pharmaceuticals Ltd,False,H
+PR00893,Fynmero 1000mg Injection,Meropenem (1000mg),injection,Cassopeia Pharmaceuticals Pvt Ltd,False,H
+PR00894,Cipromax 500mg Tablet,Ciprofloxacin (500mg),tablet,Unimax Laboratories pvt Ltd,False,H
+PR00895,Myopril 2.5mg Tablet,Ramipril (2.5mg),tablet,Germex Laboratories,False,H
+PR00896,Stencold Syrup,Cetirizine (2.5mg) + Paracetamol (125mg),syrup,Stenhill Labs,False,OTC
+PR00897,Electrolyte M 5% Infusion,Dextrose (5% w/v),injection,Baxter India Pvt Ltd,False,H
+PR00898,Okasma 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Sigman Wellness,False,H
+PR00899,Allwel CV LB 500mg/125mg Tablet,Amoxycillin (500mg) + Clavulanic Acid (125mg),tablet,Maksun Biotech Pvt Ltd,False,H
+PR00900,Aricef 100mg Tablet DT,Cefixime (100mg),tablet,Arika Healthcare,False,H1
+PR00901,Ciloflox 500 Tablet,Ciprofloxacin (500mg),tablet,Fawn Incorporation,False,H
+PR00902,Citcold 5mg/5mg/325mg Tablet,Levocetirizine (5mg) + Phenylephrine (5mg),tablet,Citric Labs,False,H
+PR00903,Vintel-M 25 Tablet ER,Telmisartan (40mg) + Metoprolol Succinate (25mg),tablet,Dios Lifesciences Pvt Ltd,False,H
+PR00904,Amoxible 500 Capsule,Amoxycillin (500mg),capsule,Zeelab Pharmacy Pvt Ltd,False,H
+PR00905,Nuroloc 1500 Injection,Methylcobalamin (1500mcg),injection,Medlock Healthcare Pvt Ltd,False,H
+PR00906,Flexilace SP 100mg/325mg/15mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Solace Biotech Ltd,False,H
+PR00907,Epitrate Injection 1 ml,Adrenaline (1mg) + Sodium Metabisulphite (0.1% w/v),injection,Sunways India Pvt Ltd,False,H
+PR00908,Fenplus Syrup,Ibuprofen (100mg) + Paracetamol (125mg),syrup,Healing Touch Pharmaceuticals Pvt Ltd,False,H
+PR00909,Amrofix 625 Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Psychocare Health Pvt Ltd,False,H
+PR00910,D-Liq Oral Drops,Vitamin D3 (800IU/1ml),drops,Delcure Life Sciences,False,OTC
+PR00911,Span 40mg Tablet,Pantoprazole (40mg),tablet,SS Healthcare,False,H
+PR00912,Telmsia 40mg Tablet,Telmisartan (40mg),tablet,Biovensia Pharmaceutical,False,H
+PR00913,Rabekath-DSR Capsule,Domperidone (30mg) + Rabeprazole (20mg),capsule,Kathkin Lifesciences Private Limited,False,H
+PR00914,Gidinil 16mg Tablet,Betahistine (16mg),tablet,Race Pharmaceuticals pvt ltd,False,H
+PR00915,Cefodon S 1000mg/500mg Injection,Cefoperazone (1000mg) + Sulbactam (500mg),injection,Alvonics Lifesciences Pvt Ltd,False,H
+PR00916,Insitrex 1gm Injection,Ceftriaxone (1000mg),injection,Insinius Pharmaceuticals,False,H
+PR00917,PQ Pan 40 Injection,Pantoprazole (40mg),injection,Bkyula Biotech,False,H
+PR00918,T Drot MF 80mg/250mg Tablet,Drotaverine (80mg) + Mefenamic Acid (250mg),tablet,Torance Healthcare Pvt Ltd,False,H
+PR00919,Kostram P 37.5mg/325mg Tablet,Tramadol (37.5mg) + Paracetamol (325mg),tablet,Zenstar Life Sciences,False,H1
+PR00920,Azitough 500mg Tablet,Azithromycin (500mg),tablet,Abbott,False,H
+PR00921,Z Pod CV Dry Syrup,Cefpodoxime Proxetil (50mg/5ml) + Clavulanic Acid (31.25mg/5ml),syrup,Arvincare Pharma,False,H1
+PR00922,Atortrue CL 10mg/75mg Capsule,Atorvastatin (10mg) + Clopidogrel (75mg),capsule,Truecure Healthcare Private Limited,False,H
+PR00923,Vyoglib 0.3mg Tablet,Voglibose (0.3mg),tablet,ABS Remedies Pvt Ltd,False,H
+PR00924,Ampi Syrup,Ampicillin (125mg),syrup,Shalina Laboratories Pvt Ltd,False,H
+PR00925,Panzap 40mg Tablet,Pantoprazole (40mg),tablet,Arovea Lifesciences Pvt Ltd,False,H
+PR00926,Lotam Tablet,Losartan (50mg) + Amlodipine (5mg),tablet,Tas Med India Pvt Ltd,False,H
+PR00927,Haemaccel Infusion,Calcium Chloride (0.070gm) + Potassium Chloride (0.038gm),injection,Abbott,False,H
+PR00928,Lixostate 40mg Tablet,Febuxostat (40mg),tablet,Human Biolife India Pvt Ltd,False,H
+PR00929,Flex 200mg Tablet,Ofloxacin (200mg),tablet,Siomond Pharmaceuticals Pvt Ltd,False,H
+PR00930,Presil Plus Syrup,Chlorpheniramine Maleate (4mg/5ml) + Dextromethorphan Hydrobromide (10mg/5ml),syrup,Kentreck Laboratories Pvt Ltd,False,OTC
+PR00931,Briclox 250mg/250mg Tablet,Amoxycillin (250mg) + Dicloxacillin (250mg),tablet,Dynamed Pharmaceuticals Pvt Ltd,False,H
+PR00932,Libopil 5 mg/2.5 mg Tablet,Chlordiazepoxide (5mg) + Clidinium (2.5mg),tablet,Psychotropics India Ltd,False,H
+PR00933,Ofnol Eye Drop,Ofloxacin (0.3% w/v) + Hydroxypropylmethylcellulose (0.025% w/v),drops,Zenlabs Ethica Ltd,False,H
+PR00934,Montzin Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Oster Remedies,False,H
+PR00935,Ranomine 1000mg Tablet XR,Ranolazine (1000mg),tablet,Shinto Organics (P) Limited,False,H
+PR00936,Molnumize 200mg Capsule,Molnupiravir (200mg),capsule,Torrent Pharmaceuticals Ltd,False,H
+PR00937,Nilpar 100mg/325mg Tablet,Nimesulide (100mg) + Paracetamol (325mg),tablet,Humbing Ethicals,False,H
+PR00938,Gabastone NT 100mg/10mg Tablet,Gabapentin (100mg) + Nortriptyline (10mg),tablet,Gladstone Pharma India Pvt Ltd,False,H
+PR00939,Nocid 20mg Tablet,Famotidine (20mg),tablet,TOSC International Pvt Ltd,False,H
+PR00940,Itcoz 200mg Capsule,Itraconazole (200mg),capsule,Derma Concepts,False,H
+PR00941,Talgesic 0.3mg Injection,Buprenorphine (0.3mg),injection,Indus Pharma Pvt Ltd,False,H
+PR00942,Avzone SB 250mg/125mg Injection,Ceftriaxone (250mg) + Sulbactam (125mg),injection,Aventura Healthcare Pvt Ltd,False,H
+PR00943,Inflorin 5000IU Injection,Heparin (5000IU),injection,Infallible Pharma Pvt Ltd,False,H
+PR00944,Emzed-D 10mg/20mg Tablet,Domperidone (10mg) + Omeprazole (20mg),tablet,Mits Healthcare Pvt Ltd,False,H
+PR00945,Areban Oral Suspension,Ivermectin  (1.5mg) + Albendazole (200mg),syrup,Aeryn Lifesciences Pvt Ltd,False,H
+PR00946,Kyzacort 6mg Oral Suspension,Deflazacort (6mg),syrup,Kyna Pharmaceuticals,False,H
+PR00947,Cefadron LB 500mg Tablet,Cefadroxil (500mg) + Lactobacillus Acidophilus (60Million spores),tablet,Agron Remedies Pvt Ltd,False,H
+PR00948,Yamnac-P Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Reqwell Pharma,False,H
+PR00949,Olmat 20 Tablet,Olmesartan Medoxomil (20mg),tablet,Micro Labs Ltd,False,H
+PR00950,ISOTOL 800MG TABLET,Ethambutol (800mg),tablet,Zee Laboratories,False,H1
+PR00951,Metciphage 500mg Tablet SR,Metformin (500mg),tablet,Sentosa Geigy (India) Labs Limited,False,H
+PR00952,Mot-LC Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,ADZO Lifesciences Pvt Ltd,False,H
+PR00953,Britel AM 40mg/5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Geniemed Pvt Ltd,False,H
+PR00954,Ulgram 500mg/600mg Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,Ultramark Healthcare Pvt Ltd,False,H
+PR00955,Giobose M 500mg/0.3mg Tablet,Metformin (500mg) + Voglibose (0.3mg),tablet,Mandevis Pharma,False,H
+PR00956,Bmagic-XT Tablet,Ferrous Ascorbate (60mg) + Folic Acid (1mg),tablet,Mac-Ris Pharma,False,OTC
+PR00957,Lectra-AM Tablet SR,Levocetirizine (5mg) + Ambroxol (60mg),tablet,H & Care Incorp,False,H
+PR00958,Siaomez 20mg Capsule,Omeprazole (20mg),capsule,Willow Pharmaceuticals Pvt Ltd,False,H
+PR00959,Coxlab 120mg Tablet,Etoricoxib (120mg),tablet,Green Lab Healthcare,False,H
+PR00960,Vikcip TZ 500 mg/600 mg Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,Anvik Biotech,False,H
+PR00961,Extranac 100mg/325mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Coastal Healthcare,False,H
+PR00962,Limer 1M Tablet PR,Glimepiride (1mg) + Metformin (500mg),tablet,Shine Pharmaceuticals Ltd,False,H
+PR00963,Cefclip 100mg Tablet,Cefixime (100mg),tablet,Clipwin Pharmaceuticals,False,H1
+PR00964,Telmiran AM 40mg/5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Meddox Formulations,False,H
+PR00965,X Tus Syrup,Ambroxol (15mg/5ml) + Guaifenesin (50mg/5ml),syrup,Jollen Medicare Pvt Ltd,False,H
+PR00966,Hydrogem 500mg Capsule,Hydroxyurea (500mg),capsule,Neon Laboratories Ltd,False,H
+PR00967,Sprot N 300 mg/200 mg Tablet,Nalidixic Acid (300mg) + Metronidazole (200mg),tablet,Mapra Laboratories Pvt Ltd,False,H
+PR00968,Cnoxrin 60mg Injection,Enoxaparin (60mg),injection,Health Biotech Limited,False,H
+PR00969,G Gesic Syrup,Aceclofenac (50mg) + Paracetamol (125mg),syrup,Getron Pharmaceuticals,False,H
+PR00970,Glucomust M 5 mg/500 mg Tablet,Glibenclamide (5mg) + Metformin (500mg),tablet,Mankind Pharma Ltd,False,H
+PR00971,Thiolaze A 100mg/4mg Tablet,Aceclofenac (100mg) + Thiocolchicoside (4mg),tablet,San Biomedics Pvt Ltd,False,H
+PR00972,Nevpod OX 200mg/200mg Tablet,Cefpodoxime Proxetil (200mg) + Ofloxacin (200mg),tablet,Nivia Lifescience,False,H1
+PR00973,Cadtocin 5IU Injection,Oxytocin (5IU),injection,German Remedies,False,H
+PR00974,Fedixim-O Tablet,Cefixime (200mg) + Ofloxacin (200mg),tablet,Walberg Pharmaceuticals,False,H1
+PR00975,Zulmectin 3mg/200mg Drop,Ivermectin  (3mg) + Albendazole (200mg),drops,SandMartin Pharmaceuticals Pvt Ltd,False,H
+PR00976,Sinarest New Tablet,Chlorpheniramine Maleate (2mg) + Paracetamol (500mg),tablet,Centaur Pharmaceuticals Pvt Ltd,False,OTC
+PR00977,Relemon 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Resilient Cosmeceuticals Pvt Ltd,False,H
+PR00978,Rigard 50mg Tablet,Losartan (50mg),tablet,Vhb Life Sciences Inc,False,H
+PR00979,Probicof Syrup,Ambroxol (15mg/5ml) + Guaifenesin (50mg/5ml),syrup,Abaris Healthcare,False,H
+PR00980,Domi UP Oral Solution,Ondansetron (2mg/5ml),syrup,Lincoln Pharmaceuticals Ltd,False,H
+PR00981,Dexorid 60mg Tablet SR,Dexchlorpheniramine (60mg),tablet,Global Care,False,H
+PR00982,Telbye AM 40mg/5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Salubry Life Sciences,False,H
+PR00983,Olmon-AM Tablet,Olmesartan Medoxomil (20mg) + Amlodipine (5mg),tablet,Veecube Healthcare Pvt Ltd,False,H
+PR00984,Dorbid 500mg Capsule,Calcium Dobesilate (500mg),capsule,Intra Labs India Pvt Ltd,False,H
+PR00985,Peptac 40mg Injection,Ranitidine (40mg),injection,Morepen Laboratories Ltd,False,H
+PR00986,Sleron Tablet MD,Ondansetron (4mg),tablet,Skylla Pharmaceuticals,False,H
+PR00987,Ompon-D 10mg/20mg Capsule,Domperidone (10mg) + Omeprazole (20mg),capsule,Fitwel Pharmaceuticals Private Limited,False,H
+PR00988,Dobical 500mg Capsule,Calcium Dobesilate (500mg),capsule,East West Pharma,False,H
+PR00989,Dexride D 30mg/10mg Capsule SR,Domperidone (30mg) + Dexrabeprazole (10mg),capsule,Cista Medicorp,False,H
+PR00990,Oxypar F Tablet,Diclofenac (50mg) + Paracetamol (500mg),tablet,Beekay Pharmaceuticals,False,H
+PR00991,Vobit R 1mg/0.3mg Tablet,Repaglinide (1mg) + Voglibose (0.3mg),tablet,Lupin Ltd,False,H
+PR00992,Atormac D 10 Tablet,Atorvastatin (10mg) + Vitamin D3 (1000IU),tablet,Macleods Pharmaceuticals Pvt Ltd,False,H
+PR00993,Moxysung 500mg/125mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Neoliva Formulations,False,H
+PR00994,Raxban Oral Suspension,Albendazole (400mg),syrup,Rax Health Care Pvt Ltd,False,H
+PR00995,Precobin Capsule,Methylcobalamin (750mcg) + Pregabalin (75mg),capsule,Remedial Healthcare,False,H
+PR00996,Curohep Syrup Sugar Free,Cyproheptadine (2mg) + Tricholine Citrate (275mg),syrup,Curolife Biochem Private Limited,False,H
+PR00997,Bropod CV Dry Syrup,Cefpodoxime Proxetil (50mg/5ml) + Clavulanic Acid (31.25mg/5ml),syrup,Brostin Seizz Biocare,False,H1
+PR00998,Gastrogyl DS 500 mg/600 mg Tablet,Ciprofloxacin (500mg) + Tinidazole (600mg),tablet,Biological E Ltd,False,H
+PR00999,Famochew Tablet,Famotidine (10mg) + Calcium (NA),tablet,Delvin Formulations Pvt Ltd,False,H
+PR01000,Gifate 500mg Oral Suspension,Sucralfate (500mg/5ml),syrup,Gifert Biosciences Pvt Ltd,False,H
+PR01001,Youpan 40mg Tablet,Pantoprazole (40mg),tablet,Yuventis Pharmaceuticals,False,H
+PR01002,Codilab DX Syrup,Chlorpheniramine Maleate (4mg/5ml) + Dextromethorphan Hydrobromide (10mg/5ml),syrup,Helplab Healthcare Pvt Ltd,False,OTC
+PR01003,Foetocin 5IU Injection,Oxytocin (5IU),injection,TTK Healthcare Ltd,False,H
+PR01004,Blisto 2 Tablet,Glimepiride (2mg),tablet,Biocon,False,H
+PR01005,Betanase 5mg Tablet,Glibenclamide (5mg),tablet,Cadila Pharmaceuticals Ltd,False,H
+PR01006,Recozon SL 1000mg/500mg Injection,Cefoperazone (1000mg) + Sulbactam (500mg),injection,Green Cross Remedies,False,H
+PR01007,Rabexin 20 Tablet,Rabeprazole (20mg),tablet,Daxin Pharmaceutical Pvt Ltd,False,H
+PR01008,Dexamox Kid Forte Tablet,Dexamethasone (250mg),tablet,Trident Pharma,False,H
+PR01009,Rabeto 20mg Tablet,Rabeprazole (20mg),tablet,Biocore Pharmaceuticals,False,H
+PR01010,Alitax 1000mg Injection,Ceftriaxone (1000mg),injection,Aileron Life Sciences Pvt Ltd,False,H
+PR01011,Lipivas 10mg Tablet,Atorvastatin (10mg),tablet,Elder Pharmaceuticals Ltd,False,H
+PR01012,Rikcin 250 Injection,Amikacin (250mg),injection,Rishab Healthcare pvt. Ltd.,False,H
+PR01013,Algeos 200mg Oral Suspension,Albendazole (200mg/5ml),syrup,Ajanta Pharma Ltd,False,H
+PR01014,Histac 300 Tablet,Ranitidine (300mg),tablet,Sun Pharmaceutical Industries Ltd,False,H
+PR01015,Telmaxx 40mg Tablet,Telmisartan (40mg),tablet,Maxx Farmacia (India) Lip,False,H
+PR01016,Micropod Dry Syrup,Cefpodoxime Proxetil (NA),syrup,Micro Labs Ltd,False,H1
+PR01017,Citiran 250mg Injection,Citicoline (250mg),injection,Ankran Biotech Pvt Ltd,False,H
+PR01018,Metrinadzole Infusion,Metronidazole (NA),injection,Wockhardt Ltd,False,H
+PR01019,AMLOKAN-AT 5MG/50MG TABLET,Amlodipine (5mg) + Atenolol (50mg),tablet,Kansas Labs,False,H
+PR01020,Muscare Forte Tablet,Diclofenac (NA),tablet,Win-Medicare Pvt Ltd,False,H
+PR01021,Gliclapack 80mg Tablet,Gliclazide (80mg),tablet,Koye Pharmaceuticals Pvt ltd,False,H
+PR01022,Lignox 2 % A Injection,Lidocaine (24.64mg) + Adrenaline (0.0125mg),injection,Indoco Remedies Ltd,False,H
+PR01023,Cizcan 50mg Injection,Cisplatin (50mg),injection,Neon Laboratories Ltd,False,H
+PR01024,Oprucet LM 5mg/10mg Tablet,Levocetirizine (5mg) + Montelukast (10mg),tablet,Oswald Pharmaceuticals,False,H
+PR01025,Tenywin 20mg Tablet,Teneligliptin (20mg),tablet,Syswin Pharmaceuticals Pvt Ltd,False,H
+PR01026,Azomaxx 500mg Tablet,Azithromycin (500mg),tablet,Maxx Farmacia (India) Lip,False,H
+PR01027,Eastor 20mg Tablet,Atorvastatin (20mg),tablet,Bison Biotec Pvt Ltd,False,H
+PR01028,Euser 10mg Tablet,Serratiopeptidase (10mg),tablet,Alpic Biotech Ltd,False,H
+PR01029,Diclomaze P 50mg/325mg Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Calen Biotech,False,H
+PR01030,Icosar 50 Tablet,Losartan (50mg),tablet,Icon Life Sciences,False,H
+PR01031,Sporidex 250 Capsule,Cefalexin (250mg),capsule,Sun Pharmaceutical Industries Ltd,False,H
+PR01032,Salphyllin 15 mg/1 mg Syrup,Ambroxol (15mg) + Salbutamol (1mg),syrup,Lincoln Pharmaceuticals Ltd,False,H
+PR01033,Jekocid-DSR Capsule,Domperidone (30mg) + Pantoprazole (40mg),capsule,Jk India Healthcare Pvt Ltd,False,H
+PR01034,Aanclox KID 125mg/125mg Tablet,Ampicillin (125mg) + Cloxacillin (125mg),tablet,Aan Pharma Pvt Ltd,False,H
+PR01035,Noxitus LS Syrup,Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml),syrup,Mars Therapeutics & Chemicals Ltd,False,H
+PR01036,L-Nin 200mg Injection,Teicoplanin (200mg),injection,Louis and Clark Pharmaceutical,False,H
+PR01037,Cuffript AM Syrup,Ambroxol (15mg/5ml) + Guaifenesin (50mg/5ml),syrup,Kript Pharmaceuticals Private Limited,False,H
+PR01038,Opnav D 10mg/20mg Capsule,Domperidone (10mg) + Omeprazole (20mg),capsule,Rayrise Healthcare,False,H
+PR01039,Etocon 120mg Tablet,Etoricoxib (120mg),tablet,Khandelwal Laboratories Pvt Ltd,False,H
+PR01040,Tobajoy Eye Drop,Tobramycin (0.3% w/v),drops,Optiva Pharma Pvt Ltd,False,H
+PR01041,Rosudart 10mg Tablet,Rosuvastatin (10mg),tablet,Oswin Pharmaceuticals,False,H
+PR01042,PPG 0.2 Tablet,Voglibose (0.2mg),tablet,Abbott,False,H
+PR01043,Sefpine-TZ 2250mg Injection,Cefepime (2000mg) + Tazobactum (250mg),injection,Unifaith Biotech (P) Limited,False,H
+PR01044,Dothcer 75mg Tablet,Dosulepin (75mg),tablet,Ceras Pharmaceutical,False,H
+PR01045,Sintel H 40mg/12.5mg Tablet,Telmisartan (40mg) + Hydrochlorothiazide (12.5mg),tablet,Candor Biotech Ltd,False,H
+PR01046,Flagorin 5000IU Injection,Heparin (5000IU/ml),injection,Flagship Biotech International,False,H
+PR01047,M Cob PG 1500mcg/75mg Capsule,Methylcobalamin (1500mcg) + Pregabalin (75mg),capsule,Mediwill Life Sciences,False,H
+PR01048,Advent 600mg Injection,Amoxycillin  (500mg) + Clavulanic Acid (100mg),injection,Cipla Ltd,False,H
+PR01049,Metide 125mg Injection,Ceftazidime (125mg),injection,Amon Biotech,False,H
+PR01050,Galferga M 10mg/120mg Tablet,Montelukast (10mg) + Fexofenadine (120mg),tablet,Galpha Laboratories Ltd,False,H
+PR01051,Tegrital Suspension,Carbamazepine (100mg/5ml),syrup,Novartis India Ltd,False,H
+PR01052,Nitopod 50mg Tablet DT,Cefpodoxime Proxetil (50mg),tablet,Edymax Lifesciences Private Limited,False,H1
+PR01053,Moxpin CL 250mg/250mg Capsule,Amoxycillin (250mg) + Cloxacillin (250mg),capsule,Pinarc Life Sciences,False,H
+PR01054,Kubik DSR 30 mg/40 mg Tablet,Domperidone (30mg) + Pantoprazole (40mg),tablet,Adonis Laboratories Pvt Ltd,False,H
+PR01055,Riazole DSR Capsule,Domperidone (30mg) + Omeprazole (20mg),capsule,Man Serve Pharma,False,H
+PR01056,Radomir 30mg/20mg Capsule SR,Domperidone (30mg) + Rabeprazole (20mg),capsule,Aletheia Medicare Pvt Ltd,False,H
+PR01057,Ilofast 10mg Tablet,Iloperidone (10mg),tablet,Zydus Cadila,False,H
+PR01058,Orpril 2.5mg Tablet,Ramipril (2.5mg),tablet,Nexkem Pharmaceuticals Pvt Ltd,False,H
+PR01059,Broxim L Syrup,Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml),syrup,Mediday Healthcare Pvt Ltd,False,H
+PR01060,R Mox CV 500 mg/125 mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Reliance Formulation Pvt Ltd,False,H
+PR01061,Offlong 50mg Oral Suspension,Ofloxacin (50mg),syrup,Meddox Formulations,False,H
+PR01062,Lezosole D 30mg/20mg Capsule SR,Domperidone (30mg) + Rabeprazole (20mg),capsule,Superlative Healthcare,False,H
+PR01063,Bremdyl AM Neo Syrup,Ambroxol (15mg) + Guaifenesin (50mg),syrup,BRD MediLabs,False,H
+PR01064,Flogel Eye Drop,Carboxymethylcellulose (1% w/v),drops,Cipla Ltd,False,H
+PR01065,Hmet-G Forte 1mg Tablet,Glimepiride (1mg) + Metformin (1000mg),tablet,Jarun Pharmaceuticals,False,H
+PR01066,Methylcure Forte Injection,Methylcobalamin (1500mcg) + Niacinamide (100mg),injection,Zenicure Labs,False,H
+PR01067,Mecever-Forte Injection,Methylcobalamin (2500mcg),injection,Everwell Pharma Pvt Ltd,False,H
+PR01068,Tufcid ON Tablet,Pantoprazole  (40mg) + Ondansetron (4mg),tablet,Medishri Healthcare,False,H
+PR01069,Ximafen 600mg Capsule,Ibuprofen (600mg),capsule,Maxzimaa Pharmaceuticals Pvt. Ltd.,False,H
+PR01070,Levocred 250mg Tablet,Levofloxacin (250mg),tablet,Lifecred Healthcare Pvt. Ltd.,False,H1
+PR01071,Albuvit-Fe Tablet,Ferrous Bisglycinate (60mg) + Zinc bisglycinate (15mg),tablet,Cellic Healthcare Pvt Ltd,False,OTC
+PR01072,Olumpil-OZ Tablet,Ofloxacin (200mg) + Ornidazole (500mg),tablet,Misha Biotech Pvt Ltd,False,H
+PR01073,Cefxent 500 Injection,Ceftriaxone (500mg),injection,Hamswell Lifecare,False,H
+PR01074,Folmine 5mg Tablet,Folic Acid (5mg),tablet,Illumin Pharma,False,OTC
+PR01075,Amoly Tablet,Caffeine (30mg) + Chlorpheniramine Maleate (4mg),tablet,Ambit Bio Medix,False,H
+PR01076,Neoglim M 1mg/500mg Tablet,Glimepiride (1mg) + Metformin (500mg),tablet,Aster Medipharm Pvt Ltd,False,H
+PR01077,Glimybite Trio 2mg/500mg/0.2mg Tablet SR,Glimepiride (2mg) + Metformin (500mg),tablet,Redosine Pharmaceutical Pvt Ltd,False,H
+PR01078,Esmomed 40mg Tablet,Esomeprazole (40mg),tablet,Medgen Drugs And Laboratories Private Limited,False,H
+PR01079,Simcard 5mg Tablet,Simvastatin (5mg),tablet,Cipla Ltd,False,H
+PR01080,Axocef Injection,Ceftriaxone (1000mg),injection,Axodin Pharmaceuticals Pvt. Ltd.,False,H
+PR01081,Belon Depot 25mg Injection,Nandrolone Decanoate (25mg),injection,Bayberry Pharmaceuticals Pvt Ltd,False,H
+PR01082,Nervit Syrup,Methylcobalamin (1500mcg),syrup,Unix Biotech,False,H
+PR01083,Gastrogyl M 100 mg/100 mg Suspension,Metronidazole (100mg) + Norfloxacin (100mg),syrup,Biological E Ltd,False,H
+PR01084,CTD-M 6.25/25 Tablet ER,Metoprolol Succinate (25mg) + Chlorthalidone (6.25mg),tablet,Ipca Laboratories Ltd,False,H
+PR01085,Cim O Forte Dry Syrup,Cefixime (100mg/5ml),syrup,Clyde Pharmaceuticals Pvt Ltd,False,H1
+PR01086,Losadoc 50mg Tablet,Losartan (50mg),tablet,Galpha Laboratories Ltd,False,H
+PR01087,Ventto 4mg Tablet MD,Ondansetron (4mg),tablet,Coxswain Healthcare,False,H
+PR01088,Telpride 40mg Tablet,Telmisartan (40mg),tablet,UVA Pharmaceuticals,False,H
+PR01089,Heclav 625mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Mascot Health Series Pvt Ltd,False,H
+PR01090,Izra-D 20 Capsule SR,Domperidone (30mg) + Esomeprazole (20mg),capsule,Torrent Pharmaceuticals Ltd,False,H
+PR01091,Alser N 100mg/10mg Tablet,Nimesulide (100mg) + Serratiopeptidase (10mg),tablet,Alpic Biotech Ltd,False,H
+PR01092,Cartel-H Tablet,Telmisartan (40mg) + Hydrochlorothiazide (12.5mg),tablet,Gms Biomax Medicare Pvt Ltd,False,H
+PR01093,Oflo M Suspension,Ofloxacin (100mg/5ml) + Metronidazole (200mg/5ml),syrup,Leo Pharmaceuticals,False,H
+PR01094,Cefxent-S 1500 Injection,Ceftriaxone (1000mg) + Sulbactam (500mg),injection,Hamswell Lifecare,False,H
+PR01095,Ofer A Syrup,Ferrous Ascorbate (30mg) + Folic Acid (500mcg),syrup,Ambic Ayurchem Ltd,False,OTC
+PR01096,Rabisure 40mg Tablet,Rabeprazole (40mg),tablet,Sure Healthcare Pvt Ltd,False,H
+PR01097,Histolin DX Syrup,Chlorpheniramine Maleate (4mg/5ml) + Dextromethorphan Hydrobromide (10mg/5ml),syrup,Lincoln Pharmaceuticals Ltd,False,OTC
+PR01098,Telvoiz 40mg Tablet,Telmisartan (40mg),tablet,Voizmed Pharma Pvt Ltd,False,H
+PR01099,Olron 4mg Injection,Ondansetron (4mg),injection,Unikind Pharma,False,H
+PR01100,Flexpod 200mg Tablet,Cefpodoxime Proxetil (200mg),tablet,Medflex Healthcare Pvt Ltd,False,H1
+PR01101,Azigood 250mg Tablet,Azithromycin (250mg),tablet,Metamorf Lifesciences,False,H
+PR01102,Orlit 120 Capsule,Orlistat (120mg),capsule,Nitro Organics,False,H
+PR01103,Relfol 100mg/1.5mg Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.5mg),tablet,Relief Formulations Pvt Ltd,False,OTC
+PR01104,Azigron 250mg Tablet,Azithromycin (250mg),tablet,Agron Remedies Pvt Ltd,False,H
+PR01105,Vaxodic-P Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Vaxova Drugs Pvt Ltd,False,H
+PR01106,Rabnol 20mg Tablet,Rabeprazole (20mg),tablet,Noel Pharma India Pvt Ltd,False,H
+PR01107,Vortica 20mg Tablet,Vortioxetine (20mg),tablet,Linux Laboratories,False,H
+PR01108,Zymmune 25mg Capsule,Ciclosporin (25mg),capsule,Zydus Cadila,False,H
+PR01109,Gith 500mg Tablet,Azithromycin (500mg),tablet,GR Healthcare Laboratories,False,H
+PR01110,Methypep 1500mcg Injection,Methylcobalamin (1500mcg),injection,GNF Ethicals,False,H
+PR01111,Predvia 4 Tablet,Methylprednisolone (4mg),tablet,Ankaa Pharmaceutical,False,H
+PR01112,Aziwan 250mg Tablet,Azithromycin (250mg),tablet,Wannock Pharmaceuticals,False,H
+PR01113,Novodase 100mg/325mg/15mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Novogen Captab,False,H
+PR01114,Ilacare D 30mg/10mg Capsule SR,Domperidone (30mg) + Ilaprazole (10mg),capsule,Carezone Healthcare,False,H
+PR01115,Siclo MR 100mg/325mg/250mg Tablet,Aceclofenac (100mg) + Paracetamol (325mg),tablet,Helplab Healthcare Pvt Ltd,False,H
+PR01116,Cefura Dry Syrup,Cefuroxime (125mg),syrup,Hamax Pharmaceuticals,False,H
+PR01117,Nexpred 40mg Injection,Methylprednisolone (40mg),injection,Nexkem Pharmaceuticals Pvt Ltd,False,H
+PR01118,Vomoff 2mg Injection,Ondansetron (2mg),injection,Quantum Formulations,False,H
+PR01119,Thaangio 50mg Capsule,Thalidomide (50mg),capsule,Dr Reddy's Laboratories Ltd,False,H
+PR01120,Kidoxim 100mg Tablet,Cefpodoxime Proxetil (100mg),tablet,Kindcare Pharmaceutical,False,H1
+PR01121,Mikatin 250mg Injection,Amikacin (250mg),injection,Avni Healthcare,False,H
+PR01122,Difzol 75mg Injection 1ml,Diclofenac (75mg),injection,Lezaa Biotech,False,H
+PR01123,Volibonic-P Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Bionexa Organic,False,H
+PR01124,Alciclav Kid Dry Syrup,Amoxycillin  (200mg) + Clavulanic Acid (28.5mg),syrup,Alicia Healthcare,False,H
+PR01125,Cloxinova 250mg/250mg Capsule,Amoxycillin (250mg) + Dicloxacillin (250mg),capsule,Novagen Pharmaceuticals,False,H
+PR01126,Fila-Cet 150mg/5mg Tablet,Diethylcarbamazine (150mg) + Cetirizine (5mg),tablet,Jeen Healthcare,False,H
+PR01127,Apepod 100 Tablet,Cefpodoxime Proxetil (100mg),tablet,Mandevis Pharma,False,H1
+PR01128,R Plus Tablet,Domperidone (10mg) + Ranitidine (150mg),tablet,RKG Pharma,False,H
+PR01129,Amikasarb 100mg Injection,Amikacin (100mg),injection,Sarb Pharmaceuticals,False,H
+PR01130,Lodic-MR Tablet,Chlorzoxazone (250mg) + Diclofenac (50mg),tablet,Accilex Nutricorp,False,H
+PR01131,Moxrif CV Syrup,Amoxycillin  (200mg) + Clavulanic Acid (28.5mg),syrup,Cubiwell Lifesciences Pvt Ltd,False,H
+PR01132,Antiflam 400 mg/650 mg Tablet,Ibuprofen (400mg) + Paracetamol (650mg),tablet,Klar Sehen Pvt Ltd,False,H
+PR01133,Syntocinon Injection,Oxytocin (5IU),injection,Mylan Pharmaceuticals Pvt Ltd,False,H
+PR01134,Etorico 90 Tablet,Etoricoxib (90mg),tablet,Medfence Labs,False,H
+PR01135,Morpred 8 Tablet,Methylprednisolone (8mg),tablet,Morecare Pharmatec Pvt Ltd,False,H
+PR01136,Moxrun-LP Eye Drop,Loteprednol etabonate (0.5% w/v) + Moxifloxacin (0.5% w/v),drops,Runyon Healthcare India Pvt Ltd,False,H1
+PR01137,Joecof D Syrup,Phenylephrine (2mg) + Chlorpheniramine Maleate (5mg),syrup,Indo-Asia Pharma Care,False,H
+PR01138,Allercalcin L 2.5mg/5ml Syrup,Levocetirizine (2.5mg/5ml),syrup,Retort  Pharma Pvt Ltd,False,H
+PR01139,Cucid DM 10mg/20mg Capsule,Domperidone (10mg) + Omeprazole (20mg),capsule,Cubit Healthcare,False,H
+PR01140,Sukan 1gm Syrup,Sucralfate (1gm),syrup,Kansas Labs,False,H
+PR01141,Iverkem A 6mg/400mg Tablet,Ivermectin  (6mg) + Albendazole (400mg),tablet,Anikem Laboratories,False,H
+PR01142,Losar-H Tablet,Losartan (50mg) + Hydrochlorothiazide (12.5mg),tablet,Torrent Pharmaceuticals Ltd,False,H
+PR01143,Symclav 250mg/125mg Tablet,Amoxycillin  (250mg) + Clavulanic Acid (125mg),tablet,Symbiosis Pharmaceuticals Pvt Ltd,False,H
+PR01144,Fortiva XT Tablet,Ferrous Ascorbate (100mg) + Folic Acid (1.5mg),tablet,Zenitiva Pharmaceuticals India Pvt Ltd,False,OTC
+PR01145,Dcoxy P Oral Suspension,Aceclofenac (50mg) + Paracetamol (125mg),syrup,Kestrel Lifesciences,False,H
+PR01146,Lepime TZ 1000mg/125mg Injection,Cefepime (1000mg) + Tazobactum (125mg),injection,Impileo Lifescience,False,H
+PR01147,Baxmol M Oral Suspension,Mefenamic Acid (50mg) + Paracetamol (125mg),syrup,Biosys Medisciences,False,H
+PR01148,Indx Tablet,Chlorpheniramine Maleate (NA) + Paracetamol (NA),tablet,Embiotic Laboratories Pvt Ltd,False,OTC
+PR01149,Prime 1000 Tablet SR,Metformin (1000mg),tablet,Hetero Drugs Ltd,False,H
+PR01150,Miccet P Oral Suspension,Mefenamic Acid (50mg) + Paracetamol (125mg),syrup,Drug For Life India Pvt Ltd,False,H
+PR01151,Mandox 50mg Dry Syrup,Cefpodoxime Proxetil (50mg),syrup,Aman Healthcare,False,H1
+PR01152,Ozirax Tablet,Ofloxacin (200mg) + Ornidazole (500mg),tablet,Rax Health Care Pvt Ltd,False,H
+PR01153,Depnoc 25mg Tablet,Dosulepin (25mg),tablet,Mova Pharmaceutical Pvt Ltd,False,H
+PR01154,Anacof Syrup,Ambroxol (15mg) + Menthol (1mg),syrup,Anabiosis Medisciences Ltd,False,H
+PR01155,Magcaine Injection,Lidocaine (21.3mg) + Adrenaline (0.005mg),injection,Magnus Biotech Pvt Ltd,False,H
+PR01156,Eldospas Forte 500 mg/450 mg Tablet,Mefenamic Acid (500mg) + Paracetamol (450mg),tablet,Elder Pharmaceuticals Ltd,False,H
+PR01157,Eylac Eye Drop,Ketorolac (0.5% w/v),drops,Vee Remedies,False,H
+PR01158,Omefit-D Capsule,Domperidone (10mg) + Omeprazole (20mg),capsule,Suncare Formulations Pvt Ltd,False,H
+PR01159,Capanta-DSR Capsule,Domperidone (30mg) + Pantoprazole (40mg),capsule,Capella Pharmaceutical Private Limited,False,H
+PR01160,Cefilab T 1000mg/125mg Injection,Ceftriaxone (1000mg) + Tazobactum (125mg),injection,Medsyn Lab Biotech,False,H
+PR01161,Alfa HA 300mg/500mcg Capsule,Gabapentin (300mg) + Methylcobalamin (500mcg),capsule,Sangrose Laboratories Pvt Ltd,False,H
+PR01162,Gliford-MP 3 Tablet,Glibenclamide (5mg) + Metformin (500mg),tablet,Johnlee Pharmaceuticals Pvt Ltd,False,H
+PR01163,Ozomet V 500mg/0.2mg Tablet,Metformin (500mg) + Voglibose (0.2mg),tablet,Ozone Pharmaceuticals Ltd,False,H
+PR01164,Exyt 200mg Oral Drops,Albendazole (200mg),drops,Scott Edil Pharmacia Ltd,False,H
+PR01165,Jornox P 8mg/325mg Tablet,Lornoxicam (8mg) + Paracetamol (325mg),tablet,Morecare Pharmatec Pvt Ltd,False,H
+PR01166,Rabiprez 20mg Tablet,Rabeprazole (20mg),tablet,Astronia Life Sciences,False,H
+PR01167,Sterio 8 Tablet,Methylprednisolone (8mg),tablet,Lupin Ltd,False,H
+PR01168,Sodium Chloride Infusion,Dextrose (5% w/v) + Sodium Chloride (0.9% w/v),injection,Albert David Ltd,False,H
+PR01169,Ocris 200mg Tablet,Ofloxacin (200mg),tablet,Kris Pharma,False,H
+PR01170,Cefihexa OZ 200mg/500mg Tablet,Cefixime (200mg) + Ornidazole (500mg),tablet,Skywell Healthcare Pvt Ltd,False,H1
+PR01171,Xenowin OZ 250mg/500mg Tablet,Levofloxacin (250mg) + Ornidazole (500mg),tablet,10 Drug Mart,False,H1
+PR01172,Azoclave Duo Dry Syrup,Amoxycillin  (400mg/5ml) + Clavulanic Acid (57mg/5ml),syrup,Plenteous Pharmaceuticals Ltd,False,H
+PR01173,Hyplo-H 50mg/12.5mg Tablet,Losartan (50mg) + Hydrochlorothiazide (12.5mg),tablet,Bonsai Pharma,False,H
+PR01174,Rader 10mg Tablet,Rabeprazole (10mg),tablet,Sresan Pharmaceuticals,False,H
+PR01175,Dobewin D 500mg Capsule,Calcium Dobesilate (500mg),capsule,BestoChem Formulations  India  Ltd,False,H
+PR01176,Indox 5IU Injection,Oxytocin (5IU),injection,Ind Swift Laboratories Ltd,False,H
+PR01177,Met-Pco Care Tablet,Myo-Inositol (550mg) + D-Chiro Inositol (13.8mg),tablet,Akumentis Healthcare Ltd,False,H
+PR01178,Volrix 250mg Tablet,Cefuroxime (250mg),tablet,Volus Pharma Pvt Ltd,False,H
+PR01179,Adrelin Injection,Adrenaline (NA),injection,Klar Sehen Pvt Ltd,False,H
+PR01180,Wavegra 100mg Tablet,Sildenafil (100mg),tablet,Shreya Life Sciences Pvt Ltd,False,H
+PR01181,Amlode 10 Tablet,Amlodipine (10mg),tablet,Johnlee Pharmaceuticals Pvt Ltd,False,H
+PR01182,Euglucon Tablet,Glibenclamide (5mg),tablet,Abbott,False,H
+PR01183,Emline 500mg Tablet,Metformin (500mg),tablet,Shrinivas Gujarat Laboratories Pvt Ltd,False,H
+PR01184,Thioultra 8mg Tablet,Thiocolchicoside (8mg),tablet,Symbiotic Drugs,False,H
+PR01185,Zublicomb-Forte Tablet,Calcium Carbonate (1250mg) + Vitamin D3 (2000IU),tablet,Alluvium Health Care Pvt Ltd,False,OTC
+PR01186,Calcilac Tablet,Calcium (250mg) + Vitamin D3 (125IU),tablet,Vostok & Wilcure Remedies,False,OTC
+PR01187,Zit MP 8mg Tablet,Methylprednisolone (8mg),tablet,Zither Pharmaceutical Pvt Ltd,False,H
+PR01188,Doxtil 100mg Tablet,Cefpodoxime Proxetil (100mg),tablet,Zodak Healthcare,False,H1
+PR01189,Edslone 4 Tablet,Methylprednisolone (4mg),tablet,Edrant Pharmaceuticals,False,H
+PR01190,Zenipant 40mg Injection,Pantoprazole (40mg),injection,Zenicure Labs,False,H
+PR01191,Phexin  Suspension,Cefalexin (250mg/5ml),syrup,Glaxo SmithKline Pharmaceuticals Ltd,False,H
+PR01192,Brakke Tablet,Ofloxacin (200mg) + Ornidazole (500mg),tablet,Franco-Indian Pharmaceuticals Pvt Ltd,False,H
+PR01193,Cefivin-LB Tablet,Cefixime (200mg) + Lactobacillus (60Million spores),tablet,Avin Pharma,False,H1
+PR01194,Naxim LB 50mg Dry Syrup,Cefixime (50mg) + Lactobacillus (60Million spores),syrup,Nemi Pharmaceuticles,False,H1
+PR01195,Linosept 600mg Tablet,Linezolid (600mg),tablet,Micro Labs Ltd,False,H1
+PR01196,Alernem A 5mg/60mg Tablet,Levocetirizine (5mg) + Ambroxol (60mg),tablet,Aeryn Lifesciences Pvt Ltd,False,H
+PR01197,Allord AX 5mg/75mg Tablet,Levocetirizine (5mg) + Ambroxol (75mg),tablet,Allen Dale Biosciences,False,H
+PR01198,Cefdix 50mg Dry Syrup,Cefixime (50mg),syrup,Caddix Healthcare,False,H1
+PR01199,Amivis 250mg Injection,Amikacin (250mg),injection,Santiago Lifesciences Pvt Ltd,False,H
+PR01200,Rabip 20mg Injection,Rabeprazole (20mg),injection,Nova Indus Pharmaceuticals,False,H
+PR01201,Dexafer 4 Tablet,Dexamethasone (4mg),tablet,Trumac Healthcare,False,H
+PR01202,Vasteze 10 mg/10 mg Tablet,Atorvastatin (10mg) + Ezetimibe (10mg),tablet,Khandelwal Laboratories Pvt Ltd,False,H
+PR01203,Hifen-AZ 200mg/250mg Tablet,Cefixime (200mg) + Azithromycin (250mg),tablet,Hetero Drugs Ltd,False,H1
+PR01204,Eliset-Cold Oral Suspension,Chlorpheniramine Maleate (2mg/5ml) + Paracetamol (125mg/5ml),syrup,Healthserch Pharma LLP,False,OTC
+PR01205,NS 0.9% Infusion,Sodium Chloride (0.9% w/v),injection,Amanta Healthcare Ltd,False,H
+PR01206,Szetalo 10 Tablet,Escitalopram Oxalate (10mg),tablet,Abbott,False,H
+PR01207,Kofzed DX Syrup,Ammonium Chloride (60mg/5ml) + Chlorpheniramine Maleate (2.5mg/5ml),syrup,Zedlon Pharmaceuticals,False,H
+PR01208,Segicold-CP Plus Oral Suspension,Chlorpheniramine Maleate (2mg/5ml) + Paracetamol (250mg/5ml),syrup,Selaginella Life Sciences,False,OTC
+PR01209,Epixone-TZ 500mg/62.5mg Injection,Ceftriaxone (500mg) + Tazobactum (62.5mg),injection,Epitome Life Sciences,False,H
+PR01210,Atherochek 10 Tablet,Atorvastatin (10mg) + Methylcobalamin (500mcg),tablet,Indoco Remedies Ltd,False,H
+PR01211,Enoxatil 60mg Injection,Enoxaparin (60mg),injection,Biological E Ltd,False,H
+PR01212,Doxonimar Tablet,Doxofylline (NA),tablet,Emcee Pharmaceuticals Pvt Ltd,False,H
+PR01213,Triptylin Forte Tablet,Amitriptyline (25mg) + Chlordiazepoxide (10mg),tablet,Quintus Lifesciences Pvt Ltd,False,H
+PR01214,Czine A 5mg/60mg Tablet,Levocetirizine (5mg) + Ambroxol (60mg),tablet,Vatican Life Sciences Pvt Ltd,False,H
+PR01215,Seracos-DP Tablet,Diclofenac (50mg) + Paracetamol (325mg),tablet,Shakam Lifesciences,False,H
+PR01216,Brilldex LS Syrup,Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml),syrup,Bill Cure Pharma Pvt Ltd,False,H
+PR01217,Vogmeri Pio 2mg/500mg/15mg Tablet,Glimepiride (2mg) + Metformin (500mg),tablet,Merlyn Biotech,False,H
+PR01218,Ransar 75mg Syrup,Ranitidine (75mg),syrup,Sarthi Life Sciences,False,H
+PR01219,Vazit 500mg Tablet,Azithromycin (500mg),tablet,Vaishali Pharmaceuticals,False,H
+PR01220,Glimidac 3mg Tablet,Glimepiride (3mg),tablet,Daksh Pharma Pvt Ltd,False,H
+PR01221,Monocortil M 4mg Tablet,Methylprednisolone (4mg),tablet,Marc Laboratories Pvt Ltd,False,H
+PR01222,Mucovisc 600mg Effervescent Tablet,Acetylcysteine (600mg),tablet,Torrent Pharmaceuticals Ltd,False,H
+PR01223,Biotocin Injection,Oxytocin (NA),injection,Biochem Pharmaceutical Industries,False,H
+PR01224,Potentox 125 mg/500 mg Injection,Amikacin (125mg) + Cefepime (500mg),injection,Venus Remedies Ltd,False,H
+PR01225,Qucef LB 200mg Tablet,Cefixime (200mg) + Lactobacillus (60Million spores),tablet,Dr Cure Pharmaceuticals India Pvt Ltd,False,H1
+PR01226,Montymo 5mg Tablet,Montelukast (5mg),tablet,Morepen Laboratories Ltd,False,H
+PR01227,Viqugim 1mg Tablet,Glimepiride (1mg),tablet,Sanify Healthcare Pvt  Ltd,False,H
+PR01228,Celparin 25000IU Injection,Heparin (25000IU),injection,Celon Laboratories Ltd,False,H
+PR01229,Antof 100mg Tablet DT,Ofloxacin (100mg),tablet,Progressive Life Care,False,H
+PR01230,Glycinorm-M 40 Tablet,Gliclazide (40mg) + Metformin (500mg),tablet,Ipca Laboratories Ltd,False,H
+PR01231,Ulexetin 20mg Tablet,Paroxetine (20mg),tablet,Ultratech Pharmaceuticals,False,H
+PR01232,Anthocyn-TX Tablet,Tranexamic Acid (250mg) + Glutathione (50mg),tablet,Alniche Life Sciences Pvt Ltd,False,H
+PR01233,Lofh 25000IU Injection,Heparin (25000IU),injection,Abbott,False,H
+PR01234,Bylenta MLN 10mg/25mg/40mg Tablet,Cilnidipine (10mg) + Metoprolol Succinate (25mg),tablet,Lloyd Healthcare Pvt Ltd,False,H
+PR01235,Carwin Plus Tablet,Levo-carnitine (500mg) + Coenzyme Q10 (50mg),tablet,Gonan Pharma,False,H
+PR01236,Owin O 50mg/5ml/125mg/5ml Suspension,Ofloxacin (50mg/5ml) + Ornidazole (125mg/5ml),syrup,Alembic Pharmaceuticals Ltd,False,H
+PR01237,Ancid 150mg Tablet,Ranitidine (150mg),tablet,Pifer Pharmaceuticals Pvt Ltd,False,H
+PR01238,Olotine Ear Drop,Lidocaine (2% w/v) + Beclometasone (0.025% w/v),drops,IGP Medventures Pvt Ltd,False,H
+PR01239,Alvitel AM 40mg/5mg Tablet,Telmisartan (40mg) + Amlodipine (5mg),tablet,Granmed Pharma,False,H
+PR01240,A2F 5 mg/10 mg Tablet,Amlodipine (5mg) + Atorvastatin (10mg),tablet,Zydus Cadila,False,H
+PR01241,Rinlox 250mg Tablet,Levofloxacin (250mg),tablet,Zeeford Life Sciences,False,H1
+PR01242,Weltam Syrup,Piracetam (500mg/5ml),syrup,Welgenic Pharma,False,H
+PR01243,Glimee MV 1mg/500mg/0.3mg Tablet,Glimepiride (1mg) + Metformin (500mg),tablet,Kiama Lifesciences,False,H
+PR01244,Zatin H 50 mg/12.5 mg Tablet,Losartan (50mg) + Hydrochlorothiazide (12.5mg),tablet,Thrift Pharmaceuticals,False,H
+PR01245,Telmican 40mg Tablet,Telmisartan (40mg),tablet,Candela Healthcare,False,H
+PR01246,Myalside 4mg Capsule,Thiocolchicoside (4mg),capsule,East West Pharma,False,H
+PR01247,Aldomox 500mg/125mg Tablet,Amoxycillin  (500mg) + Clavulanic Acid (125mg),tablet,Trireme Life Sciences Pvt Ltd,False,H
+PR01248,Kobavin Tablet,Ginkgo Biloba (60mg) + Piracetam (800mg),tablet,Retro Life Sciences,False,H
+PR01249,Lzitop M Syrup,Levocetirizine (2.5mg) + Montelukast (4mg),syrup,Orange Biotech Pvt Ltd,False,H
+PR01250,Sarvoxy 5IU Injection,Oxytocin (5IU),injection,Systacare Remedies,False,H
+PR01251,KOFVON LS,"Ambroxol Hydrochloride, Levosalbutamol Sulphate and Guaiphenesin Syrup (KOFVON LS Syrup)",syrup,"Sickcure Pharmaceuticals, Plot No. 52A, Industiral Area, Gondpur, Tehsil-Paonta Sahib, Distt. Sirmour (H.P.) 173025",True,H
+PR01252,RINGER-LACTATE SOLUTION FOR,Compound Sodium Lactate Injection IP (RINGER-LACTATE SOLUTION FOR INJECTION ) (RL),injection,"M/s. Aculife Healthcare Pvt. Ltd., Sachana, Gujarat-382150, India",True,H
+PR01253,Ondansetron Injection IP 2 mg/ml,Ondansetron Injection IP 2 mg/ml,injection,"M/s. Nandani Medical Laboratories Pvt. Ltd., 221/5, Bicholi Hapsi, Kanadia Road, Indore.",True,H
+PR01254,Rabeprazole and Domperidone,Rantac RD (Rabeprazole and Domperidone Capsule),capsule,"M/s. Innova Captab Ltd., 1281/1, Hilltop Industrial Estate, Near EPIP, Phase-I, Jharmajri, Baddi, Solan, H.P.",True,H
+PR01255,Sodium Chloride Injection I.P (NS),Sodium Chloride Injection I.P (NS),injection,"M/s. Pentagon Labs Ltd., 16C/16D, Industrial Area No.1, A.B. Road, Dewas-455001 (M.P)",True,H
+PR01256,"Emiral OD Tablets, Ondansetron orally disintegrating Tablets IP","Emiral OD Tablets, Ondansetron orally disintegrating Tablets IP",tablet,"M/s Habitare Pharma Pvt Ltd Plot no. 43-44, Industrial Estate, HSIIDC, Alipur, Barwala, Distt-Panchakula (HR) - 134118 HARYANA",True,H
+PR01257,SUCRALFATE USP,SUCRALFATE USP,tablet,"M/s. Legend Industries, (Unit-II) C1/200, 201/4, Phase-II, GIDC, Opp. Encore Ltd., Naroda, Ahmedabad-382330, Gujarat",True,H
+PR01258,S-tron Tablets SS,Co-trimoxazole Tablets IP (S-tron Tablets SS),tablet,"High Tech Pharma, 49, Khandelwal compound, Palda, Indore (MP)",True,H
+PR01259,Hyprovan 500,Propofol Injection IP 500 mg/50 ml (Hyprovan 500 Injection),injection,"Protech Telelinks, Mauza Ogli, Suketi Road, Kala Amb. Dist. Sirmour - 173030 (H.P.)",True,H
+PR01260,Ambroxol Hydrochloride Syrup,Ambroxol Hydrochloride Syrup,syrup,"M/s By: Syndicate Pharma 185/B, 185/B-1, 187/A & 188, Sector-F, Sanwer Road, Indore - 452015 MADHYA PRADESH",True,H
+PR01261,DICLOZEG-P,Diclo fenac Sodium and Paracetamol Tablets…. (DICLOZEG-P),tablet,"M/s. Spen Formulations Pvt. Ltd., Plot No-123, Industrial Area, Mehatpur, Distt. UNA-174315 (H.P.)",True,H
+PR01262,Amoxycillin Oral Suspension IP,Amoxycillin Oral Suspension IP,syrup,"M/s. Ridley Life Science Pvt. Ltd., D-1651, DSIDC, Indl. Complex, Narela, Delhi- 110040",True,H
+PR01263,Calcium and Vitamin D3 Tablets IP,Calcium and Vitamin D3 Tablets IP,tablet,Affy Parenterals Vill Gullenwala P.Obaddi Distt. Solan (HP-173205,True,OTC
+PR01264,Chlorhexidine Gluconate Solution 4% w/v Surgical Scrubbing,Chlorhexidine Gluconate Solution 4% w/v Surgical Scrubbing,tablet,"Jpee Drugs, Plot No. - 53, Sector 6-A, SIDCUL, Haridwar (Uttarakhand).",True,H
+PR01265,THYROX-25,Thyroxine Sodium tablets IP (THYROX-25),tablet,"M/s. Macleods Pharmaceuticals Ltd., Plot No-2209, GIDC, Sarigam, Dist-Valsad-396155, Gujarat",True,H
+PR01266,Heparin Sodium Injection IP 25000 IU / 5 ml,Heparin Sodium Injection IP 25000 IU / 5 ml,injection,"M/s. Scott-Edil Pharmacia Ltd., 56, EPIP, Phase-I, Jharmajri, Baddi, Distt. Solan 173205 H.P. (India)",True,H
+PR01267,Aspirin Gastro-resistant Tablets IP 75 mg,Aspirin Gastro-resistant Tablets IP 75 mg,tablet,"M/s. Unicure India Ltd., C-21, 22 & 23 Sector-3, Noida-201301, Distt. GautamBudh Nagar (U.P.)",True,H
+PR01268,Pantoryl-DSR,Pantoprazole Gastro-Resistant and Domperidone Prolonged-release Capsules IP (Pantoryl-DSR ),capsule,"M/s. Matins Healthcare Pvt. Ltd., Plot No.-10, Sector-5, I.I.E., SIDCUL, HARIDWAR-249403 (U.K.)",True,H
+PR01269,Surgi Spirit,Surgi Spirit,tablet,"Transflex, Hawahar Nagar, Ranipur (C.G),492001.",True,H
+PR01270,Colestyramine BP,Colestyramine BP,tablet,"M/s. Phaex Polymers Private Limited Plot No. : F-10, MIDC, Murbad, Dist- Thane-421401, Maharastra.",True,H
+PR01271,Bacillus clausii Spores Suspension (Bactogermina Oral Suspension 2 Billion/ 5 ml),Bacillus clausii Spores Suspension (Bactogermina Oral Suspension 2 Billion/ 5 ml),syrup,"AARMED FORMULATIONS PVT. LTD., Survey No.431/2, Plot No.1, Steel Town, Moraiya, Tal. Sanand, Dist. Ahmedabad, (Gujarat)",True,H
+PR01272,Bisacodyl Tablets IP 5mg,Bisacodyl Tablets IP 5mg,tablet,"M/s.Saintlife Pharmaceuticals Ltd, 323, Central Hope Town, Industrial Area, Selaqui, Dehradun-248011, Uttarakhand.",True,H
+PR01273,Paracetamol Paediatric Oral Suspension IP,Paracetamol Paediatric Oral Suspension IP,syrup,"M/s.Vivimed Labs Limited., Plot No. 25, Kundeshwari Village, Kashipur 244713, Uttarakhand.",True,OTC
+PR01274,For IV Injection / Infusion,Ferric Carboxymaltose Injection 500 mg/ 10 ml (For IV Injection / Infusion),injection,"Sunvet Healthcare, Village Shambhuwala, Paonta Road, Distt. Sirmour (H.P.) 173001,",True,H
+PR01275,Sodium Chloride Injection IP 0.9 %w/v,Sodium Chloride Injection IP 0.9 %w/v,injection,"M/s.Captab Biotec, Unit-II, Plot No.125, E.P.I.P. Road, Mauja, Jharmajri, Baddi, Distt. Solan (H.P.)-173205",True,H
+PR01276,Paziva -40,Paziva -40,tablet,"M/s.Gnosis Pharmaceuticals Pvt.Ltd, Nahan Road , Village Moginand , Kala-Amb Dist. Sirmour, HP-173 030",True,H
+PR01277,Osco rcip-D Eye/Ear Drops,Osco rcip-D Eye/Ear Drops,drops,"M/s. Oscar Remedies Pvt Ltd., Oscar House, Badi Majra Yamuna Nagar Haryaana 135001",True,H
+PR01278,Monit-30-SR,IsosorbideMono nitrate Sustained Release Tablets 30 mg (Monit-30-SR),tablet,"M/s. INTAS PHARMACEUTICAL S LTD., Bagheykhola, Majhitar, Sikkim-737136, INDIA",True,H
+PR01279,Snikuf 4,Snikuf 4,tablet,"Akums Drugs & Pharmaceuticals Ltd, 22, Sector-6A, I.I.E, Sidcul. Ranipur, Haridwar-249403, Uttrakhand.",True,H
+PR01280,Ringer Lactate Solution for injection I.P,Compound Sodium Lactate Injection I.P (Ringer Lactate Solution for injection I.P) (RL),injection,"M/s. IHL Lifesciences Pvt. Ltd., At village: Panwa, Tehsil: Kasrawad, Dist: Khargone 451228 (M.P) India",True,H
+PR01281,Ceftriaxone Injection IP,Ceftriaxone Injection IP,injection,"Integrated Laboratories Pvt. Ltd., Nahan Road. Vill. Moginand, Kala Amb, Distt. Sirmour (H.P.)- 173030",True,H
+PR01282,AUGMONT CV 625 DUP Co-amoxiclav,Amoxycillin and potassium clavulanate tablets IP (AUGMONT CV 625 DUP Co-amoxiclav),tablet,"M/s.Nikvin Healthcare (I) Pvt Ltd, Baddi-Barotiwala Road, Behind Govt, Toimber Depot Vill, Katha. Baddi(HP)-173 205",True,H
+PR01283,Combact-O +,Racecadotril & Oflozacin Suspension (Combact-O + Suspension),syrup,"Bajaj Formulations, Khasra No. 161, Village-Lakeshwary, Bhagwanpur, Roorkee, Distt. Haridwar- 247661 (U.K.)",True,H
+PR01284,Sterile Noradrenaline Concentrate I.P.,Sterile Noradrenaline Concentrate I.P.,tablet,"M/s. NEON LABORATORIES LTD., At: Shatisthal, Plot No. 1-5, At & Post: Shirgaon, Tal. Palghar, Dist. Thane - 401 407, M.S.",True,H
+PR01285,Calcm-D3,Calcium with VItamin D3 Tablets I.P. (Calcm-D3),tablet,"Vee Laboratories, Village-Kalier, Subathu, Road-Saproon (Post Office) Solan-173211, Himachal Pradesh",True,OTC
+PR01286,Cadlon(Chlorhexidine Gluconate Solution & Cetrimide Antiseptic Liquid),Cadlon(Chlorhexidine Gluconate Solution & Cetrimide Antiseptic Liquid),tablet,"Microwin Labs Pvt Ltd. Plot No. 363, Industrial Area, Phase-9, Mohali 160062 Punjab",True,H
+PR01287,PICOZONE,CEFOPERAZONE INJECTION IP (PICOZONE INJECTION),injection,"Health Biotech Ltd., Village Sandoli, Nalagarh Road, Baddi, Distt. Solan (H.P.)- 173205.",True,H
+PR01288,Safiser Hand Rub,Chlorhexidine Gluconate & Ethyle Alcohol Baed Hand and Skin Disinfectant (Safiser Hand Rub),tablet,"M/s. SS Enterprises F-76,, Sector-8, Noida, G.B. Nagar (U.P.), India 201301",True,H
+PR01289,Hostranil,Heparin Sodium Injection 5000 Units (Hostranil Injection),injection,"M/s. Health Biotech Ltd., Village: Sandoli, Nalagarh Road, Baddi, Distt. Solan (H.P.), India-173205",True,H
+PR01290,Moxi-KT EYE DROPS (Moxifloxacin 0.5 % + Ketorolac 0.4% + H.P.M.C. 0.025 % Opthalmic solution),Moxi-KT EYE DROPS (Moxifloxacin 0.5 % + Ketorolac 0.4% + H.P.M.C. 0.025 % Opthalmic solution),drops,"M/s.Eden Drugs Pvt. Ltd. S.G.R.D.J. Airport Road Meerankot Distt. Amritsar,Punjab",True,H1
+PR01291,Levocetrizine Dihydrochloride & Montelukast Sodium Tablets I.P. Zeemont,Levocetrizine Dihydrochloride & Montelukast Sodium Tablets I.P. Zeemont,tablet,Bajaj Formulations,True,H
+PR01292,Oxytocin Injection I.P. 1 ml,Oxytocin Injection I.P. 1 ml,injection,"M/s. Radiant Parenterals Ltd., 242/4, 5 & 6, G.I.D.C. Estate at & Post Waghodia, Dist. Vadodara, Gujarat 391 760.",True,H
+PR01293,Metoclopramide HCL Injection IP-2ml,Metoclopramide HCL Injection IP-2ml,injection,"TammanTitoePhar ma Pvt Ltd, 56-57, SIDCO Pharmaceutical Complex, Alathur-603110, Tamil Nadu.",True,H
+PR01294,"Ambroxol HCl, Levosalbutamoland Guaiphenesin Syrup","Ambroxol HCl, Levosalbutamoland Guaiphenesin Syrup",syrup,"VVPB Pharmaceuticals Pvt. Ltd.,Kh. No. 114, Vill. Damowala, P.O. Barotiwala, Baddi, Distt. Solan (H.P.)",True,H
+PR01295,Himulti Multi Vitamin Tablets,Himulti Multi Vitamin Tablets,tablet,"High Tech Pharma, 49, Khandelwal Compound, Nemawar Road, Palda, Indore-452001",True,H
+PR01296,Ciprofloxacin Injection IP,Ciprofloxacin Injection IP,injection,"Captab Biotec, Unit-II, Plot No. 125, E.P.I.P.Road, Mauja, Jharmajri, Baddi, Distt. Solan (H.P.)- 1732025",True,H
+PR01297,Albendazole tablets IP 400mg,Albendazole tablets IP 400mg,tablet,"M/s. Samkem, 15-B & 10-B, A.K.V.N. Industrial Area, Rangwasa, Rao, Indore - 453331(M.P). Madhya Pradesh.",True,H
+PR01298,CALXIA 500,Calcium Carbonate 500 mg + VIT. D3 250 IU TABLETS IP (CALXIA 500 ),tablet,"M/s. Gidsha Pharmaceuticals, Plot No.-611 612, Mega GIDC, Kharedi, Dahod-389151, Gujarat.",True,OTC
+PR01299,Dexamethasone Tablets IP 0.5mg,Dexamethasone Tablets IP 0.5mg,tablet,"Saintlife Pharmaceuticals Ltd, 323, Central Hope Town, Industrial Area, Selaqui, Dehradun - 248 011, Uttarakhand, India",True,H
+PR01300,Mobicool TM-S Suspenion,Mobicool TM-S Suspenion,tablet,"Rednex pharmaceuticals,LS No-142, NR, HBS, Chancharvadi Vasna, Ta: sanand Di: Ahmedabad",True,H
+PR01301,Clarithromycin Tablets IP 500 mg,Clarithromycin Tablets IP 500 mg,tablet,"M/s. Medipol Pharmaceutical India Pvt. Ltd., 1199/3, Bhud, BaddiDistt. Solan, H.P., India.",True,H
+PR01302,Calc ium and Vitamin D3 Tablets IP,Calc ium and Vitamin D3 Tablets IP,tablet,"M/s.Martin & Brown Bio-Sciences Pvt. Ltd., K.NO.918/419, Malkumajra, Nalagarh Road, Baddi, Distt. Solan (H.P.)-173205",True,H
+PR01303,Flagorin,Heparin Injection IP 1000 IU/ml (Flagorin),injection,"Divine Laboratories Pvt. Ltd. Block No. 471 Dabhasa, Tal. Padra, Dist. Vadodara-391440, India.",True,H
+PR01304,Bupivacaine HCl in Dextrose Injection USP (5 mg+80 mg/ml),Bupivacaine HCl in Dextrose Injection USP (5 mg+80 mg/ml),injection,"Vital Healthcare Pvt. Ltd., Plot No. H10 and H10/1, MIDC Satpur, Nashik.",True,H
+PR01305,Albendazole Tablets IP 400 mg,Albendazole Tablets IP 400 mg,tablet,"M/s. Samkem15-B & 10-B, A.K.V.N. INDUSTRIAL AREA, RANGWASA RAO, INDORE – 453 331 (M.P.) MADHYA PRADESH",True,H
+PR01306,Calcium and Vitamin D3 Tablets I.P.,Calcium and Vitamin D3 Tablets I.P.,tablet,"M/s. Unicure India Ltd,, C-21, 22 & 23, Sector-3, Noida-201 301, Distt. Gautam Budh Nagar (U.P.).",True,OTC
+PR01307,Carboplatin USP,Carboplatin USP,tablet,"M/s Hetero Labs Limited (Unit-I), Survey No.10, I.D.A., Gaddalotharam, Village: Jinnaram Mandal, Sangareddy Distt. Telangana, India",True,H
+PR01308,PHENERGAN,Promethazine Hydrochloride Injection I.P. (PHENERGAN) 2ml,injection,"M/s. NitinLifesciences Ltd, Rampur Ghat Road, Paonta Sahib, Dist. Sirmour173 025 (H.P.)",True,H
+PR01309,Calcium 500 mg withVitaminD3250 IU Tablets IP,Calcium 500 mg withVitaminD3250 IU Tablets IP,tablet,"Life Max Cancer Laboratories , Plot No. 106 & 106 A, Sector-6A, IIE, SIDCUL, Haridwar- 249403 (U.K)",True,OTC
+PR01310,Calcium And Vitamin D3 Tablets IP,Calcium And Vitamin D3 Tablets IP,tablet,"M/s. Healthy Life Pharma Pvt. Ltd., Factory: N-31/1, M.I.D.C., Tarapur, Boisar - 401 506, Dist. Palghar. Maharashtra",True,OTC
+PR01311,Martigyl-400,METRONIDAZOLE TABLETS IP (Martigyl-400),tablet,"M/s.Martin & Brown Bio-sciences, K. No. 918/419, Malkumajra, Nalagarh Road, Baddi, Distt. Solan (H.P.)- 173205",True,H
+PR01312,Hi-Ring-RL,Compound Sodium Lactate Injection I.P. (Ringer Lactate Solution for Injection ) (Hi-Ring-RL ),injection,"M/s. HIGGS HEALTHCARE , Khasra No-480/1, Bhatolikalan Baddi, H.P.",True,H
+PR01313,AMOXYCILLIN ORAL SUSPENSION I.P. 250 mg/5ml,AMOXYCILLIN ORAL SUSPENSION I.P. 250 mg/5ml,syrup,"RIDLEY LIFE SCIENCE PVT. LTD., D-1651, DSIDC, Indl. Complex, Narela, Delhi- 110040",True,H
+PR01314,BREPOD-200,Cefpodoxime Proxetil Tablets I.P. 200 mg (BREPOD-200),tablet,"M/s. Sunvij Drugs Private Limited, 511, GIDC, Waghodia, Baroda-391760, Gujarat",True,H1
+PR01315,Sitagliptin Phoshpate Tablets I.P. (50 mg),Sitagliptin Phoshpate Tablets I.P. (50 mg),tablet,"M/s. Mascot Health Series Pvt. Ltd., Plot No. 79,80, Sec-6A, IIE, Sidcul, Haridwar 249403",True,H
+PR01316,Gentamicin Injection IP-2ml,Gentamicin Injection IP-2ml,injection,"Himalaya Meditek Private Ltd, Plot.No 35&36 Pharmacity, Selaquri Industrial Ara, Dehradun - 248 197",True,H
+PR01317,P-Genta,Gentamicin Sulphate Injection IP (P-Genta Injection),injection,"M/s.Primus Pharmaceuticals, Sadhoura Road, Mouza ogli Khari Vill Asgarpur Majra, Kala Amb. Distt. Sirmour-(H. P.) 173030",True,H
+PR01318,Rednil,"Trypsin, Bromelain & Rutoside Trihydrate Tablets (Rednil)",tablet,"DM Pharma Private Limited (WHO GMP & ISO APPROVED), NH-21A, Vill. Bhud, Baddi, District Solan, H.P. 173205.",True,H
+PR01319,Compound Sodium Lactate Injection I.P. (RL FFS 500 ML),Compound Sodium Lactate Injection I.P. (RL FFS 500 ML),injection,"M/s. Paschim Banga Pharmaceuticals (A Unit of Farista Vanijya Pvt. Ltd), NH-31, Tin Mile Hat, Sonapur Hat, P.S. Chopra, Dist. Uttar Dinajpur-733214 (W.B.).",True,H
+PR01320,Rabcprazole Tablets I.P. 20mg.,Rabcprazole Tablets I.P. 20mg.,tablet,"M/s. Aurio Pharma Laboratories Pvt. Ltd., 26/1/1, S.H.K.B. Sarani (Jawpur Road), Kolkata-700074.",True,H
+PR01321,Calcium and Vitamin D3 Tablets IP,Calcium and Vitamin D3 Tablets IP,tablet,"M/s.Martin & brown bio-sciences pvt. Ltd, K.No.918/419, Malkumajra, Nalagarh Road, Baddi, Distt. Solan (H.P.)-173205",True,OTC
+PR01322,Bot,Albendazole and Ivermectin Oral Suspension (Bot Suspension),syrup,"M/s.H.L.HealthcarePv t.Ltd., Plot No.25, Ind.Area, Phase-II, Gagret-177201 (H.P.)",True,H
+PR01323,Metoclopramide Injection IP 10mg / 2ml,Metoclopramide Injection IP 10mg / 2ml,injection,"M/s. SVP Life Sciences, C/10/1, Sara Industrial Estate, Selaqui, Dehradun, Uttarakhand",True,H
+PR01324,STREPTOMYCIN (STREPTOMYCIN INJECTION I.P. (0.75g.) ),STREPTOMYCIN (STREPTOMYCIN INJECTION I.P. (0.75g.) ),injection,"PAR Pharmaceuticals Pvt. Ltd., 5th KM Roorkee Road, Muzaffarnagar (U.P.) - 251001.",True,H
+PR01325,Norfloxacin 400,Norf loxacin Tablets I.P. 400mg (Norfloxacin 400),tablet,"M/s. Remax Pharmaceuticals, Street No. 2, Paras Ramnagar, Bathinda",True,H
+PR01326,Sodium Chloride Injection I.P (0.9%w/v)NS,Sodium Chloride Injection I.P (0.9%w/v)NS,injection,"M/s. Paschim Banga Pharmaceuticals, (A Unit of Farista Vanijya Pvt. Ltd), NH-31, TIN MILE HAT, Sonapur HAT, PS. Chopra Dist. Uttar Dinajpur-733214 (W.B)",True,H
+PR01327,Calcium and Vitamin D3 Tablets IP,Calcium and Vitamin D3 Tablets IP,tablet,"M/s.Martin & brown bio-sciences pvt. Ltd, K.No.918/419, Malkumajra, Nalagarh Road, Baddi, Distt. Solan (H.P.)-173205",True,OTC
+PR01328,ZIK 500,Azithromycin Tablets IP 500 mg (ZIK 500 Tablets),tablet,"M/s. M Sea Pharmaceuticals (P) Ltd., Surajpur, Paonta Sahib, Sirmour, Himachal Pradesh - 173025.",True,H
+PR01329,Megmazole-150,Fluconazole Tablets I.P. 150 mg (Megmazole-150 Tablets),tablet,"M/s.Spen Formulations Pvt. Ltd., Plot No-123, Industrial Area, Mehatpur, Distt. UNA174315 (H.P.)",True,H
+PR01330,Telmisartan Tablets IP 40 mg,Telmisartan Tablets IP 40 mg,tablet,"M/s. Swiss Garnier Life Science, 21-23, Industrial Area, Mehatpur, Dist. Una, , Himachal Pradesh-174315. Iindia",True,H
+PR01331,Medmoxil 125,Amoxycillin Oral Suspension I.P. (Medmoxil 125),syrup,"Laborate Pharmaceuticals India Ltd., 51, Indl, Area, Paonta Sahib (H.P.)",True,H
+PR01332,Atorvastatin Tablets IP 10mg,Atorvastatin Tablets IP 10mg,tablet,"M/s.Rikenbik Pharma, 113, SIDCO Industrial Estate, Ambattur, Chennai, 600098",True,H
+PR01333,DV-BEND 400,Albendazole Tablets I.P. (DV-BEND 400),tablet,"M/s Digital Vision, 176, Mauza Ogli, Nahan Road, Kala-Amb, Dist. Sirmour (H.P.)- 173 030.",True,H
+PR01334,Hi-Ring-RL,Compound Sodium Lactate Injection I.P. (Ringer Lactate Solution for Injection) (Hi-Ring-RL),injection,"M/s. Higgs Healthcare, Khasra No. 480/1, Bhatolikalan, Baddi, H.P.",True,H
+PR01335,Vitamin D3,Cholecalciferol (Vitamin D3) 60000 IU/gm Granule Sachet,tablet,"M/s. Affy Parenterals, Vill. Gullarwala, P.O. Baddi, Distt. Solan -173205 (HP)",True,H
+PR01336,Calcium 500 mg with Vitamin D3 250 IU Tablets IP,Calcium 500 mg with Vitamin D3 250 IU Tablets IP,tablet,"M/s. Life Max Cancer Laboratories, Plot No. 106 & 106 A, Sector6A, IIE, SIDCUL, Haridwar249403 (U.K)",True,OTC
+PR01337,"Aceclofenac, Paracetamol & Chlorzoxazone","Lilion-MR Tablets (Aceclofenac, Paracetamol & Chlorzoxazone Tablets)",tablet,"M/s. Cent Cure Pvt. Ltd., (A WHO-GMP Certifid Company), Plot No.71, DIC, Industrial Area, Vill. Ladhimajra, Tehsil Baddi, Distt. Solan (H.P)-173205",True,H
+PR01338,Prox tl 100 DT,Prox tl 100 DT,tablet,"M/s. INDU Drugs Pvt Ltd.5-5-35/278,279 & 281/1 (Part) Prasanthi Nagar ida, Kutkapally, Hyderabad-500072",True,H
+PR01339,ROYCOF-DX,"Dextromethorphan Hyhdrobromide, Phenylephrine Hydrochloride and Chlorpheniramine Maleate Syrup (ROYCOF-DX SYRUP)",syrup,"Roseate Medicare, Village Anji, PO Barog, Distt. Solan, 173211 (H.P.) INDIA",True,H
+PR01340,Montelukast Sodium and Levocetirizine Hydrochloride Tablets IP 10 mg/5 mg,Montelukast Sodium and Levocetirizine Hydrochloride Tablets IP 10 mg/5 mg,tablet,"Wings Biotech LLP, 43&44, HPSIDC, Ind.Area, Baddi-173205 HP",True,H
+PR01341,Oxytocin Injection I.P. 5 IU/1 ml,Oxytocin Injection I.P. 5 IU/1 ml,injection,"M/s. Pushkar Pharma, Kheri, Kala Amb - 173030 (H.P.).",True,H
+PR01342,Vet.,Albe ndazole Oral Suspension IP (Vet.),syrup,"M/s Safecon Lifesciences Pvt. Ltd., B 36,E.P.I.P.Shastri Puram,UPSIDC,Sikandra-282007.",True,H
+PR01343,Telmisartan Tablets IP 40mg,Telmisartan Tablets IP 40mg,tablet,"M/s. Eurokem Laboratories Pvt ltd, C-25, SIDCO Pharmaceutical Complex, Alathur, Thiruporur, 603110",True,H
+PR01344,Vitamin B Complex Tablets N.F.I,Vitamin B Complex Tablets N.F.I,tablet,"Modern Laboratories 45-47, Sector D- 2, Industrial area, Sanwer Road, Indore (MP) 452 015",True,OTC
+PR01345,Calcium and Vitamin D3 Tablets IP,Calcium and Vitamin D3 Tablets IP,tablet,"M/s.Martin & brown bio-sciences pvt. Ltd, K.No.918/419, Malkumajra, Nalagarh Road, Baddi, Distt. Solan (H.P.)-173205",True,OTC
+PR01346,Kefpod 100 Orange Suspension,Kefpod 100 Orange Suspension,syrup,"InnovaCaptab Ltd, 1281/1, Hilltop Industrial Estate, Near epip, Phase-I, Baddi, Distt. Solan, Himachal Pradesh.",True,H
+PR01347,Gabacure Gel,Gabacure Gel,tablet,"Akums Druges & Pharmaceuticals Ltd. 47,48,Sector-6A, I.I.E., SIDCUL,, Haridwar-249 403, Uttarakhand.",True,H
+PR01348,Paracetamol Intravenous Infusion (1.0% w/v ),Paracetamol Intravenous Infusion (1.0% w/v ),injection,"M/s. D.J. Laboratories Pvt. Ltd., 255, Sector-1, Industrial Area, Pithampur-454775",True,H
+PR01349,CefuroximeAxetil Tablets IP,CefuroximeAxetil Tablets IP,tablet,"Daxin Pharmaceuticals Pvt.Ltd.,PlotNo 121-122 EPIP, Jharmajri Phase 1, Teh. Baddi, Distt. Solan (H.P.) - 174103",True,H
+PR01350,Atropine Sulphate,Atropine Sulphate Injection I.P. (Atropine Sulphate),injection,"M/s. Priya Pharmaceuticals 109/397, Nehru Nagar, Kanpur-208012, Uttar Pradesh",True,H
+PR01351,Cefotaxime InjectionIP500mg,Cefotaxime InjectionIP500mg,injection,"M/s. Vivek Pharmachem (India) Ltd., NH-8, Chimanpura, Amer, Jaipur-303 102 INDIA",True,H
+PR01352,Losa rtan Potassium 50mg & Hydrochlorthiazide 12.5mg Tablets,Losa rtan Potassium 50mg & Hydrochlorthiazide 12.5mg Tablets,tablet,"M/s. Life Max Cancer Laboratories, Plot No: 106 & 106 A, Sector- 6A, IIE, SIDCUL, Haridwar-249403 (U.K)",True,H
+PR01353,Vitamin D3,Cholecalciferol (Vitamin D3 ) 60000 IU/gm Granule Sachet,tablet,"M/s. Affy Parenterals, (WHO-CGMP/ISO 9001:2015 Certified Co.) Vill-Gullerwala, PO-Baddi, Dist-Solan-173205 (H.P.)",True,H
+PR01354,Ferrous Ascorbate& Folic acid,Fercobate-XT Suspension (Ferrous Ascorbate& Folic acid Suspension),syrup,"M/s. ShinestarPharma, Begapali Road, SIPOCT-1, Hosur-635126 (T.N)",True,H
+PR01355,Montor - LC,Montelukast Sodium & Levocetirizine Dihydrochloride Tables I.P. (Montor - LC Tablets),tablet,"Torque Pharmaceuticals Pvt. Ltd., 13B-14, EPIP-1, Jharmajri, H.P. 173205",True,H
+PR01356,Fexofenadine Hydrochloride Tablets I.P. 120 mg.,Fexofenadine Hydrochloride Tablets I.P. 120 mg.,tablet,"Unimarck Healthcare Ltd., Plot No.: 24, 25 & 37 Sector 6A, SIDCUL, Haridwar - 249403 (Uttarakhand)",True,H
+PR01357,Calcium Gluconate Injection I.P. 10 ml.,Calcium Gluconate Injection I.P. 10 ml.,injection,"M/s. Martin & Brown Bio-Sciences Pvt.Ltd., K.No-918/419, Malkumajra, Nalagarh Road, Baddi, Dist-Solan, HP-173205",True,H
+PR01358,Ambroxol Salbutamol Guaiphenesin,Pulmonex-AS (Ambroxol Salbutamol Guaiphenesin Syrup),syrup,N/A,True,H
+PR01359,Bortezomib Injection IP (BORTEWIN 2 mg Injection),Bortezomib Injection IP (BORTEWIN 2 mg Injection),injection,"M/s. MEDION BIOTECH PVT.LTD., Village-Kaundi, Baddi, Solan, Himachal Pradesh, 173205",True,H
+PR01360,Ocif-500,Ciprofloxacin Tablets I.P. 500 mg (Ocif-500 Tablets),tablet,"M/s. Ornate Labs Pvt. Ltd., Bela Industrial Estate, Muzaffarpur - 842 005.",True,H
+PR01361,Iron Sucrose Injection USP 100 mg/ 5 ml,Iron Sucrose Injection USP 100 mg/ 5 ml,injection,"Sai Parenterals Limited, D1 & D4, Survey No. 280, Phase-V, Ida, Jeedimetla, Hyderabad-500055, Telangana, India.",True,H
+PR01362,ZABIL-DSR,Rabeprazole Sodium (Enteric Coated) And Domperidone (Sustained Release) Capsules (ZABIL-DSR),capsule,"M/s. Ultra Drugs Pvt. Ltd., (Unit-II), HS No. 211, K. No. 77/1, 78/1, Vill. Katha, Baddi, Distt. Solan (H.P.) - 173 205.",True,H
+PR01363,Flutol,Flupentixol Dihydrochloride and Melitracen Tablets (Flutol Tablets),tablet,"Foregen Healthcare Ltd., Unit : Plot No. 104-105, DIC Industrial Area, Baddi, Distt. Solan (HP)- 173205",True,H
+PR01364,Vet.,Oxfendazole & Ivermectin Bolus (Vet.) WELLMOX-1,tablet,"M/s.Argon Remedies Pvt. Ltd., Sarverkhera. Moradabad Road, Kashipur, U S Nagar, Uttarakhand-244713",True,H
+PR01365,Amikacin Injection IP 500 mg (Amikatas 500 mg),Amikacin Injection IP 500 mg (Amikatas 500 mg),injection,"Ronam Healthcare Pvt. Ltd. Village-Kalujhanda, Tehsil-Baddi, Distt. Slolan (H.P.) 174103",True,H
+PR01366,Ceftriaxone and Tazobactam for Injection 1.125 gm,Shercef-TZ (Ceftriaxone and Tazobactam for Injection 1.125 gm),injection,"Yeluri Formulations Pvt Ltd., Sy. No. 296/7/6, I.D.A. Bollaram, Sangareddy District- 502325, Telangana, India.",True,H
+PR01367,Carbimazole Tablets IP 10 mg,Carbimazole Tablets IP 10 mg,tablet,"M/s. Centurion Remedies Pvt. Ltd., G/5, 6 B.I.D.C, Gorwa, Vadoddara-390016",True,H
+PR01368,Raremont-LC,Levocetirizine Hydrochloride & Montelukast Sodium IP Tablets (Raremont-LC),tablet,"Spen Formulations Pvt. Ltd., Plot No-123, Industrial Area, Mehatpur, Distt. UNA- 174315 (H.P.)",True,H
+PR01369,Sucnol-O Suspension,Sucnol-O Suspension,syrup,"Apple Formulations Pvt Ltd, Plot No.208, Kidhsnpur, Roorkee-247667(U.K)",True,H
+PR01370,Betamethasone Sodium Phosphate Injection IP 4mg/ml,Betamethasone Sodium Phosphate Injection IP 4mg/ml,injection,Konis Pharmaceuticals Krishna Nagar-522502 (A.P.),True,H
+PR01371,Cofcil-A,"Terbutaline Sulphate, Ambroxol Hydrochloride, Guaiphenesin & Menthol Syrup (Cofcil-A)",syrup,"Bethel Medipharma Private Limited, 73A, James Long Sarani, Kolkata 700104",True,H
+PR01372,Tranexacure,Tranexamic Acid Injection I.P. (Tranexacure Injection ),injection,"M/s. Pharma Cure Laboratories, Garha Jalandhar 144022 Punjab",True,H
+PR01373,Klozaps-ES,Escitalopram and Clonazepam Tablets IP (Klozaps-ES Tablets),tablet,"M/.s Digital Vision, 176, Mauza Ogli, Nahan Road, Kala-Amb, Distt. Sirmour (H.P.)-173030",True,H
+PR01374,Nutrisacc Bolus,Nutrisacc Bolus,tablet,"M/s. Maven iLab Pvt.Ltd., No.19 Byraveshwara Industrial Area, Andrahalli Main Road Hegganahalli, Bangalore-560091",True,H
+PR01375,INFA-HEP,"Heparin Sodium Injection IP 5000 IU/5ml ,(INFA-HEP)",injection,"Infallible Pharma Pvt. Ltd., HO: 202, Matru Smruti Bldg, Lokmanya Tilak Road-2, Behind Swami Narayan Mandir, Dadar (East), Mumbai-400014.",True,H
+PR01376,Cefixime Oral Suspension IP 50mg/5ml,Cefixime Oral Suspension IP 50mg/5ml,syrup,"Ridley Life Science Pvt. Ltd.,, D-1651, DSIDC, Indl. Complex, Narela, Delhi- 110040",True,H1
+PR01377,Luzicough-T,"Ambroxol Hydrochloride, Terbutaline Sulphate, Guaiphenesin Menthol Syrup (Luzicough-T)",syrup,"M/s. Jineka Healthcare Private Limited, Khasra No. 507-525, Bedpur Crossing Bhagwanpur Bypass, Roorkee, Distt. Haridwar (U.K.) 247 667",True,H
+PR01378,Ondansetron Injection IP-2ml,Ondansetron Injection IP-2ml,injection,"Skymap Pharamceuticals Pvt. Ltd, B-2 Dev Bhoomi Industrial Estate, Puhana Iqbalpur Road, Roorkee - 247 667",True,H
+PR01379,Clotrimazole Ear Drops,Clotrimazole Ear Drops,drops,"M/s. Pushkar Pharma, Kheri, Kala-Amb-173030 (H.P.)",True,H
+PR01380,Compound Sodium Lactate Injection I.P. (RL),Compound Sodium Lactate Injection I.P. (RL),injection,"M/s.Paschim Banga Pharmaceutical,, NH-31,TIN Mile Hat, Sonapur Hat, PSChopra, Dist. Uttar Dinajpur, PIN- 733214 (WB)",True,H
+PR01381,Carboxymethyl Cellulose Sodium Eye Drops IP,Carboxymethyl Cellulose Sodium Eye Drops IP,drops,"M/s. Martin & Brown Bio-sciences Pvt. Ltd. K.no. 918/419 Malkumajra Nalagarh Road Baddi, Dist. Solan (H.P.)-173205",True,H
+PR01382,Dexatore-4,Dexamethasone Tablets IP 4mg (Dexatore-4),tablet,"United Bioceuticals Pvt. Ltd. Plot No. 33 C, Industrial Park-IV, Begumpur, Haridwar-249402, Uttarakhand",True,H
+PR01383,I-PIC,Iron Sucrose Injection USP 20 mg/ml (I-PIC),injection,"M/s. Pace Biotech Village Surajpur, Paonta Sahib, Dist. Sirmour (H.P.)-173001",True,H
+PR01384,Megapure-TZ IU suspension,Megapure-TZ IU suspension,syrup,"Prispag Pharma, Roomi, Jagraon - 142030.",True,H
+PR01385,Piracid-O,Sulcralfate& Oxetacaine Suspension( Piracid-O Suspension),syrup,"M/s. Rednex Pharmaceuticals Pvt. Ltd.,Survey No.586 & 231, Nr.SKF Bearing, Bavla Bagodara, N.H.8A, Kerala Ta. .Bavla Ahmedabad.382220",True,H
+PR01386,Glimepiride Tablets I.P. 1 mg,Glimepiride Tablets I.P. 1 mg,tablet,"M/s.Karnataka Antibiotics & Pharmaceuticals Limited (A Govt of India Enterprise), Plot No.14, II Phase, Peenya, Bengaluru - 560 058.",True,H
+PR01387,Meropenem Injection IP 250 mg,Meropenem Injection IP 250 mg,injection,"Agron Remedies Pvt. Ltd.,Agron Remedies Pvt. Ltd. Sarverkhera, Moradabad Road, Kashipur-244713 (Uttarakhand)",True,H
+PR01388,Aminophylline Injection I.P. 10 ml,Aminophylline Injection I.P. 10 ml,injection,"MARTIN & BROWN BIO-SCIENCES PVT. LTD.,K.No. 918/419, Malkumajra, Nalagarh Road, Baddi, Dist.Solan (H.P.)-173205",True,H
+PR01389,Itraconazole Capsules IP 100 mg,Itraconazole Capsules IP 100 mg,capsule,"Agron Remedies Pvt. Ltd., Sarverkhera, Moradabad Road, Kashipur-244713 (Uttarakhand)",True,H
+PR01390,VIP Hair Colour Shampoo,VIP Hair Colour Shampoo,tablet,"VIMAC, #18/C. Noombal Village, SF.No.125/1A, 1B, Ambattur, Taluk, Tiruvallur District, Chennai-600077.",True,H
+PR01391,B-Complex,"Vitamin B1, Vitamin B2, Nicotinamide, Vitamin B6, Vitamin B12 & Calcium D-Pantothenate Syrup (B-Complex Syrup)",syrup,"M/s. Apple Formulations Pvt. Ltd., Plot no. 208, Kishanpur, Roorkee-247667 (U.K.)",True,OTC
+PR01392,ALINO-600,Linezolid Tablets I.P. 600 mg. (ALINO-600 Tablets),tablet,"Vee Laboratories,, Village Kalier, Subathu, RoadSaproon (Post Office) Solan173211, Himachal Pradesh",True,H1
+PR01393,Paracetamol 500 mg. Tablets,Paracetamol 500 mg. Tablets,tablet,"ASKON HEALTH CARE,11-B, INDUSTRIAL AREA, MAXI ROAD,UJJAIN-456010(M.P.)",True,OTC
+PR01394,"Clotrimazole and Selenium Sulfide Suspension, candid tv","Clotrimazole and Selenium Sulfide Suspension, candid tv",syrup,"M/s.Glenmark Pharmaceuticals Ltd, At, Plot No. 38939 Sector-II, I.I.E, Sidcul, Haridwar, Uttarakhand-249 403.",True,H
+PR01395,Pentowok,PANTOPRAZO LE GASTRO-RESISTANT TABLETS IP 40mg (Pentowok),tablet,"M/s Admed Pharma Pvt Ltd., Plot No 87, HPSIDC, Industrial Area, Badddi, DisttSolan HP- 173 205",True,H
+PR01396,Exo Cheri (Dextromethorp han Hydrobromide Chlorpheniramin e Maleate Pheylephrine Hydrochloride Cough Syrup),Exo Cheri (Dextromethorp han Hydrobromide Chlorpheniramin e Maleate Pheylephrine Hydrochloride Cough Syrup),syrup,"Exotic Pharma, 91/1, G.I.D.C., GODHRA Dist.- Panchmahal, Gujarat- 389001",True,H
+PR01397,Phenytoin Sodium Injection USP,Phenytoin Sodium Injection USP,injection,"M/s. Pushkar Pharma, Kheri, Kala-Amb-173030 (H.P.)",True,H
+PR01398,Himulti Multi Vitamin Tablets,Himulti Multi Vitamin Tablets,tablet,"High Tech Pharma, 49, Khandelwal Compound, Nemawar Road, Palda, Indore-452001",True,H
+PR01399,Breath-LS Drops,"Ambroxol HCL, Levosalbutamol sulphate and Guaiphenesin Drops (Breath-LS Drops )",drops,"M/s. HIPPO LABS PVT. LTD, Plot No-17, R. G. Nagar, IDA, Prashanthi Nagar, Kukatpally, Hyderabad-72",True,H
+PR01400,COUGH-DM Cough,"Dextromethorph an Hydrobromide, Chlorpheniramin e Maleate and Phenylephrine Hydrochloride Syrup (COUGH-DM Cough Syrup)",syrup,"M/s.Sunfine Healthcare,Plot No. 63, Ind. Area Lodhimajra, Tehsil Baddi, Distt. Solan (H.P.) 173205",True,H
+PR01401,"Thricof Cough Syrup. Chlorpheniramine Maleate, Dextromethorpha n HBR & Phenylephrine Hydrochloride Syrup","Thricof Cough Syrup. Chlorpheniramine Maleate, Dextromethorpha n HBR & Phenylephrine Hydrochloride Syrup",syrup,"M/s. Health Biotech Ltd, Village , Sandoli, Nalagarh Road, BaddiDist, Solan (H.P) India - 173205.",True,H
+PR01402,Trypsin & let Chymotryp,Trypsin & let Chymotryp,tablet,"M/s Vee Excel Drugs & Pharmaceuticals (P) Ltd, B-1/A, Industrial Area, GNEPIP, Kasna, Greater Noida, Gautam Budh Nagar-201308 UP",True,H
+PR01403,Clobazam Tablets IP 5 mg,Clobazam Tablets IP 5 mg,tablet,"M/s. Tanpal Pharmaceuticals, D-12-13, Focal Point, Nabha-147 201",True,H
+PR01404,AMLODOSE – 2.5,Amlodipine Besylate Tablets I.P. 2.5 mg (AMLODOSE – 2.5 ),tablet,"M/s.Salus Pharmaceuticals, 480/211, Harraipur, P.O. – Gurumajra, Teh. Baddi, Dist. Solan, Himachal Pradesh – 173205",True,H
+PR01405,Telmisartan Tablets IP 40mg,Telmisartan Tablets IP 40mg,tablet,"M/s. Eurokem Laboratories Pvt ltd, C-25, SIDCO Pharmaceutical Complex, Alathur, Thiruporur, 603110",True,H
+PR01406,Tramacop,Tramadol Hydrochloride Injection 50 mg/ml (Tramacop ),injection,"M/s. Bio Medica Laboratories Pvt. Ltd., 254, Sector-F, Sanwer Road, Industrial Area, Indore-452015",True,H
+PR01407,Dextrose Injection I.P 5% w/v (D5),Dextrose Injection I.P 5% w/v (D5),injection,"M/s. Paschim Banga Pharmaceuticals, (A Unit of Farista Vanijya Pvt. Ltd), NH-31, TIN MILE HAT, Sonapur HAT, PS. Chopra Dist. Uttar Dinajpur-733214 (W.B)",True,H
+PR01408,Sodium Chloride Injection IP 0.9 %w/v,Sodium Chloride Injection IP 0.9 %w/v,injection,"M/s.Captab Biotec, Unit-II, Plot No.125, E.P.I.P. Road, Mauja, Jharmajri, Baddi, Distt. Solan (H.P.)-173205",True,H
+PR01409,Vet.,Oxfendazole & Ivermectin Bolus (Vet.) WELLMOX-1,tablet,"M/s.Argon Remedies Pvt. Ltd., Sarverkhera. Moradabad Road, Kashipur, U S Nagar, Uttarakhand-244713",True,H
+PR01410,Aceclofenac & Paracetamol Tablets IP,Aceclofenac & Paracetamol Tablets IP,tablet,"M/s.Innova Captab Limited, 1281/1, Hilltop Industrial Estate, Near EPIP, Phase-1, Jharmajri, Baddi, Distt. Solan (H.P.)-173205",True,H
+PR01411,Sucralfate and Oxetacain Suspension,Sucralfate and Oxetacain Suspension,syrup,"CU-V-Kar Genetic Medicines Pvt Ltd, 14, Pharmacity, Selaqui, Distt. Dehradun, Uttarakhand-248011.",True,H
+PR01412,T-KUF Expectorant COUGH,"Bromhexine Hydrochloride, Terbutaline Sulphate and Guaiphenesin Syrup (T-KUF Expectorant COUGH SYRUP)",syrup,"Ultra Drugs Formulations Pvt. Ltd., Plot No. 338/278, Vill. Manakpur, Lodhimajra, Tehsil-Baddi, Distt. Solan, (H.P.) 173205",True,H
+PR01413,Vitamin A Oral Solution 100 ml,Vitamin A Oral Solution 100 ml,syrup,"Jpee Drugs, Plot No. - 53, Sector 6-A, SIDCUL, Haridwar (Uttarakhand).",True,OTC
+PR01414,CALXIA-500,Calcium Carbonate 500 mg + VIT. D3 250 IU TABLETS IP (CALXIA-500 ),tablet,"M/s. Gidsha Pharmaceuticals, Plot No.-611 612, Mega GIDC, Kharedi, Dahod-389151, Gujarat",True,OTC
+PR01415,R LONG-D,Enteric Coated Rabeprazole Sodium &Domperidone Sustained Release Capsules (R LONG-D),capsule,"M/s. Resonant Pharmaceuticals Pvt. Ltd., Survey No. 430-1-A, Nr. Saffro Mellow Color Factory, Village: Navagam 387540, Dist-Kheda, Gujarat, India.",True,H
+PR01416,Montelukast Sodium & Levocetirizine Hydrochloride Tablets,Montelukast Sodium & Levocetirizine Hydrochloride Tablets,tablet,"Alliaance Biotech,,440/3, Village Katha, Baddi, Distt.Solan (HP) - 173205",True,H
+PR01417,Sustained Release,Glimepiride 1 mg & Metformin HCl 500mg (Sustained Release) Tablets IP,tablet,"M/s. Surge Pharmaceuticals Pvt. Ltd., Plot No. C-78 & 79, Additional M.I.D.C., Jejuri-412303, Taluka Purandhar District, Pune, Maharashtra, India",True,H
+PR01418,A-Sid,Aceclofenac & Paracetamol Tablets (A-Sid Tablets),tablet,"M/s.Helax Healthcare Private Limited., Khasra No. 410,Vill-Karondi Roorkee - 247667,Distt- Haridwar (UK)",True,H
+PR01419,N-MINE,Neostigmine Mehtysulphate Injection IP (N-MINE Injection),injection,"M/s. Health Biotech Ltd., Village Sandoli, Nalagarh Road, Baddi, Distt.Solan (H.P.) India-173205",True,H
+PR01420,Atorvastatin Calcium Tablets IP 10mg,Atorvastatin Calcium Tablets IP 10mg,tablet,"Himalaya Meditek Pvt. Ltd, Plot No. 35 & 36, Pharmacity, Selaqui, Industrial Area, Dehradun - 248 197",True,H
+PR01421,CALCI-D,Calcium & Vitamin D3 Tablets IP (CALCI-D),tablet,"M/s. Danish Healthcare (P) Ltd, 76/27-28, Industrial Estate, Maxi Road, Ujjain-456 010 INDIA",True,OTC
+PR01422,Ron nin 500mg Tablets (Azithromycin Tablets IP 500mg),Ron nin 500mg Tablets (Azithromycin Tablets IP 500mg),tablet,"M/s. Pratima Pharmaceuticals G.No. 56/3, Pratima Nagar, Pune-Nagar Road, Shikrapur, Pune-412208",True,H
+PR01423,Moxileb-CV 625,Amoxycillin and Potassium Clavulanate Tablets IP (Moxileb-CV 625 Tablets),tablet,"Mediwell Biotech, Plot No. 21-22, Phase-IV, Himuda Industrial Township, Bhatoli Kalan, Baddi, Distt. Solan, (HP) 173205",True,H
+PR01424,Albendazole Chewable Tablets IP (Alsia-400 Tab,Albendazole Chewable Tablets IP (Alsia-400 Tab,tablet,"M/s. Sia Pharma Pvt Ltd. (Who-Gmp Certified Company) Plot no. 170, HSIIDC Barhi Indl Area, Phase-I, Sonipat Haryana-131101",True,H
+PR01425,Noophin,Buprenorphin Injection I.P. (Noophin Injection ),injection,"M/s. Cooper Pharma Limited, C-3, Industrial Area, Selaqui, Dehradun-248197 (U.K.).",True,H
+PR01426,"CLOPIRAS 75 Tablets, Clopidogrel Bisulphate Tablets I.P.","CLOPIRAS 75 Tablets, Clopidogrel Bisulphate Tablets I.P.",tablet,"M/s. Cent Cure private Limited, Plot No. 71, DIC, Industrial Area, Vill. Lodhimajra, Tehsil Baddi Distt. Solan (H.P). - 173 205, Himachal Pradesh. Mrkt: Airas healthcare Private Limited, D.No. 4-4-85/3/A/1, Sri Sai Enclave, Verrareddy Nagar, nacharam, Hyderabad.",True,H
+PR01427,COMPOUND SODIUM LACTATE INJECTION I.P. (RL),COMPOUND SODIUM LACTATE INJECTION I.P. (RL),injection,"M/s.Paschim Banga Pharmaceuticals, NH-31, TIN MILE HAT, SONAPUR HAT, P. S. CHOPRA, DISTRICT-UTTAR DINAJPORE, PIN-733214 (W.B.)",True,H
+PR01428,Pantoprazole Gastro-Resistant Tablets IP 40 mg.,Pantoprazole Gastro-Resistant Tablets IP 40 mg.,tablet,"M/s. Mancare Laboratories Pvt. Ltd., Plot No-11, Pharmacity, Selaqui, Dehradun, Uttarkhand-248011",True,H
+PR01429,Olmesartan Medoxomil Tablets IP 40 mg,Olmesartan Medoxomil Tablets IP 40 mg,tablet,"M/s. Life Max Cancer Laboratories, Plot No. 106 & 106 A, Sector 6A, IIE, SIDCUL, Haridwar249403 (U.K)",True,H
+PR01430,Enalapril Maelate Tablets IP 5 mg,Enalapril Maelate Tablets IP 5 mg,tablet,"ANG Lifesciences India Ltd., Village Malkumajra, Nalagarh Road, Baddi, Distt. Solan-173205 (H.P.)",True,H
+PR01431,NEFDYL-X,"TERBUTALINE SULPHATE, BROMHEXINE HCl & GUAIPHENESIN SYRUP (NEFDYL-X)",syrup,"Warner Hindusthan Pvt. Ltd.,. 24-85/7, Sy.No.548 & 551, Laxmi Narayana Nagar Colony, New IDA, Uppal, Hyderabad-39 (TS)",True,H
+PR01432,ROMILAST® L 4,Montelukast Sodium and Levocetirizine Hydrochloride Dispersible Tablets (ROMILAST® L 4),tablet,"Adnova Healthcare Pvt. Ltd. 156, 157 A, Siddhi Industrial Infrastructure Park, Waghodia, Vadodara - 391760, Gujarat",True,H
+PR01433,"Manoril-BR Syrup (Terbutaline Sulphate, Bromhexine HCL, Guaiphenesin and Menthol Syrup)","Manoril-BR Syrup (Terbutaline Sulphate, Bromhexine HCL, Guaiphenesin and Menthol Syrup)",syrup,"M/s.AASSK Pharmaceuticals Pvt. Ltd, S.No.243/2, Plot No.9, Dr.Ambedkar Street, Kozhumanivakkam Village, Mangadu, Chennai-600122",True,H
+PR01434,HEPARIN SODIUM INJECTION IP 5000 IU/5ML,HEPARIN SODIUM INJECTION IP 5000 IU/5ML,injection,"Alliance Biotech, 440/3, Vill-Katha, Baddi, Solan (H.P.)-173205",True,H
+PR01435,Calcium & Vitamin D3 Tablets IP,Calcium & Vitamin D3 Tablets IP,tablet,Affy Parenterals Vill. Gullawala P.O Baddi Distt. Solan 173205 (HP),True,OTC
+PR01436,Clobium Suspension. Clobazam Oral Suspension BP 5mg,Clobium Suspension. Clobazam Oral Suspension BP 5mg,syrup,"Tanmed Pharma (I) Pvt Ltd, No.1/429, Multi Industrial Nagar, Gerugambakkam, Chennai-600128",True,H
+PR01437,Non-Sterile Not for Intravenous Administration Concentrated Acidic Solution,Non-Sterile Not for Intravenous Administration Concentrated Acidic Solution,tablet,"M/s. Bio Tech Formulation, Block A-10, Plot No-136, D.No. 17-65, Penamaluru Mandal, New Autonagar, Kanuru, Vijayawada-520007",True,H
+PR01438,Glycimet-SR-500,Metformin Hydrochloride Sustained-release Tablets IP (Glycimet-SR-500),tablet,"M/s. Scott-Edil Pharmacia Ltd., 56, EPIP, Phase-1, Jharmajri, Baddi, Distt. Solan -173205 (HP), India",True,H
+PR01439,GMBRON,"Terbutaline Sulphate, Ambroxol Hydrochloride, Guaiphenesin & Menthol Syrup (GMBRON)",syrup,"G.M. Pharmaceuticals, A-67(204), Satindra Pally, Garia, Kolkata -700 084",True,H
+PR01440,MOD,Omeprazole Magnesium & Domperidone Tables (MOD Tablets),tablet,"Cavendish Bio Pharma Pvt. Ltd. At Kh. No. 136, Raipur - 247 661 (Utarakhand)",True,H
+PR01441,Vet.,Oxfendazole & Ivermectin Bolus (Vet.) WELLMOX-1,tablet,"M/s.Argon Remedies Pvt. Ltd., Sarverkhera. Moradabad Road, Kashipur, U S Nagar, Uttarakhand-244713",True,H
+PR01442,Carboxymethyl Cellulose Sodium Eye Drops IP,Carboxymethyl Cellulose Sodium Eye Drops IP,drops,"M/s. Martin & Brown Bio-sciences Pvt. Ltd. K.no. 918/419 Malkumajra Nalagarh Road Baddi, Dist. Solan (H.P.)-173205",True,H
+PR01443,Rabeflux,Sucralfate & Oxetacaine Suspension (Rabeflux Suspension),syrup,"M/s. Tidal Laboratories Pvt. Ltd., Patch-5, Phase-II, Gowalthai, Distt. Bilaspur-174201 (H.P.), INDIA",True,H
+PR01444,Telmamet AM,Telmisartan & Amlodipine Tablets I.P. (Telmamet AM),tablet,"M/s. Kantil Pharmaceuticals Pvt. Ltd., Vill, Sainimajra, tehsil Nalagarh, Distt Solan Himachal Pradesh-174101",True,H
+PR01445,Tonz ee-20 (Zinc Sulphate Tablets IP 20mg),Tonz ee-20 (Zinc Sulphate Tablets IP 20mg),tablet,"M/s.Torino Laboratories Pvt. Ltd., Fact: Plot No. 65/1, Sector 1, Pithampur – 454775, Dist. Dhar (INDIA).",True,H
+PR01446,Pole rgy (Levocetizine Tablets IP 5mg),Pole rgy (Levocetizine Tablets IP 5mg),tablet,"M/.s Ronak Life care Pvt Ltd., R.S. No. 41, At and Post Rajpur, Dist. Patan 384265",True,H
+PR01447,Pantoprazole Tablets IP,Pantoprazole Tablets IP,tablet,"MARTIN & BROWN BIO-SCIENCES PVT. LTD., K.NO. 918/419, MALKUMAJRA, NALAGARH ROAD, BADDI, DIST.SOLAN (H.P.)-173205",True,H
+PR01448,Calcium 500 mg with Vitamin D3 250 IU Tablets IP,Calcium 500 mg with Vitamin D3 250 IU Tablets IP,tablet,"Life Max Cancer Laboratories, Plot No. 106 & 106 A, Sector6A, IIE, SIDCUL, Haridwar-249403 (U.K)",True,OTC
+PR01449,Viriz - AT,"Ambroxol Hydrochloride Guaiphenesin, Terbutaline Sulphate & Menthol (Viriz - AT)",tablet,"Bidhan Pharmaceuticals, Vill. Khalore, P.O. Bagnan, Dist. Howrah 711303",True,H
+PR01450,Montelukast Sodium and levocetirizine hydrochloride,Lelet-M Syrup (Montelukast Sodium and levocetirizine hydrochloride syrup),syrup,"M/s.IOSIS Remedies pvt ltd, Rajpura road, village-khera nihla, Tehsil-Nalagarh, District-solan. Himachal Pradesh - 174 101 India",True,H
+PR01451,Presef-200 LB,★Cefixime Trihydrate with Lactic Acid Bacillus Tablets I.P. (Presef-200 LB Tablets),tablet,"M/s. Pragti Remedies, Plot No. 143, G. S. Road Link, Ulubari Guwahati, Assam-781008",True,H1
+PR01452,Nunim-Cold,"Nimesulide, Phenylephrine Hydrochloride & Levocetirizine Dihydrochloride Tablets (Nunim-Cold)",tablet,"M/s. Unispeed Pharmaceuticals Pvt. Ltd., 445/2, Behimd Wrigleys Vill. Katha, Baddi, Distt. Solan (H.P.) 173205",True,H
+PR01453,"Norfloxacin Tablets I.P.400mg,","Norfloxacin Tablets I.P.400mg,",tablet,"M/s.Stride Organics Private Limited, Sy. No. 265/P, Kondapur (Vill.) Ghatkesar, Medchal District. (T.G), Telangana.",True,H
+PR01454,Atropine Sulphate Injection IP,Atropine Sulphate Injection IP,injection,"M/s. SVP Life Sciences, C/10/1, Sara Industrial Estate, Selaqui, Dehradun, Uttarakhand",True,H
+PR01455,ENROXACIN VET,Enrofloxacin Injection I.P. (Vet.) (ENROXACIN VET Injection),injection,"M/s. Lavista Ideal Pharmacy Pvt. Ltd., Lavista Ideal Pharmacy Pvt. Ltd., Back side of Tata Motor Vill-Nalka, PO - Manpura, Tehsil Baddi, Dist. Solan (HP) - 173205",True,H
+PR01456,Xputum-LS Syrup,Xputum-LS Syrup,syrup,"Stedman Pharmaceuticals Pvt Ltd, C-4, SIDCO Pharmaceuticals Complex, Alathur, Thiruporur-603 110, Tamilnadu.",True,H
+PR01457,WYKAREX-CD Cough Linctus,"Codeine Phosphate, Chlorpheniramine Maleate and Sodium Citrate Cough Linctus (WYKAREX-CD Cough Linctus)",syrup,"M/s. Acron Pharmaceuticals, 38/2, Main Road, G.I.D.C, Estate, Naroda, Ahmedabad-382330",True,H
+PR01458,Ibup rofen Tablets IP 400mg,Ibup rofen Tablets IP 400mg,tablet,"M/s. Orchid Medlife Pvt. Ltd., K.H-646/513, Vill. Kaumdi, Thana, Baddi, distt. Solan HP",True,H
+PR01459,D.S.=Double Strength,Co- trimoxazole Tablets I.P. (D.S.=Double Strength),tablet,"M/s.Omega Pharma., Khasra No. 482, Village - Saliyar, Roorkee - 247667. Distt-Haridwar (Uttarakhand)",True,H
+PR01460,Kylid-RD,Rab eprazole Sodium Enteric Coated & Domperidone Sustained Release Capsules (Kylid-RD),capsule,"M/s. Nest Healthcare Pvt Ltd., Plot No. 300, G.I.D.C Odhav, Ahmedabad-382415(Gujarat)",True,H
+PR01461,Ofloxacin and Ornidazole Tablets IP,OFLOVEE OZ (Ofloxacin and Ornidazole Tablets IP),tablet,"M/s. Century Nova Drugs Pvt. Ltd., 85-86, Phase-II, A.K.V.N Industrial Area, Umaria-Dungaria-482003",True,H
+PR01462,Moncube LC,Mon telukast Sodium & Levocetirizine Hydrochloride Tablets IP(Moncube LC),tablet,"M/s. Firstmed Therapeutics Pvt Ltd., R.S. No.31/1,Pondy-Tindivanam Main Road,Auroville (PO),Thiruchitrambalam,Tamilnad u-605 101",True,H
+PR01463,Scoril,"Terbutaline Sulphate, Ambroxol Hydrochloride, Guaiphenesin & Menthol Syrup (Scoril)",syrup,"Global Formulations, Plot No.7, P & T Colony, Medipally, Medchal-Malkajgiri Dist., Hyderabad-500098,",True,H
+PR01464,Amoxycillin and Potassium Clavulanate Oral Suspension RIGHTCLAV 228.5 Dry Syrup,Amoxycillin and Potassium Clavulanate Oral Suspension RIGHTCLAV 228.5 Dry Syrup,syrup,"M/s.J.M.Laboratories, Village Bhanat, PO-Ghatti, Subathu Road, Solan (H.P)-173211",True,H
+PR01465,"METHYLCOBALA MIN, FOLIC ACID, ALPHA LIPOIC ACID, VITAMIN B6, CHROMIUM PICOLINATE, SODIUM SELENITE & ZINC SOFT GELATIN CAPSULES (Mi- 6)","METHYLCOBALA MIN, FOLIC ACID, ALPHA LIPOIC ACID, VITAMIN B6, CHROMIUM PICOLINATE, SODIUM SELENITE & ZINC SOFT GELATIN CAPSULES (Mi- 6)",capsule,"M/s. Symbiosis Pharmaceuticals Pvt. Ltd., At C/o Ovation Remedies Behind IITT Engg. College, Trilokpur Road, Kala Amb. Distt. Sirmour, HP - 173030",True,H
+PR01466,Rifmin 550 (Rifaximin Tablets 550 mg),Rifmin 550 (Rifaximin Tablets 550 mg),tablet,"M/s. Legen Healthcare, Plot No. 20, Sector-5, Parwanoo, Distt. Solan (H.P.) 173220",True,H
+PR01467,Radipace,Haloperidol Injection IP (Radipace),injection,"M/s. SBS Biotech, Mouza Rampur Jattan, Nahan Road, Kala Amb, District Sirmour (H.P.)",True,H
+PR01468,Sodium Chloride and Glycerine Sterile Diluent for fowl pox vaccine and its combinations for wing web application,Sodium Chloride and Glycerine Sterile Diluent for fowl pox vaccine and its combinations for wing web application,tablet,"M/s. Safe Parenterals Pvt. Ltd. Gollapadu 522408, Palnadu Dist, Andhra Pradesh, India",True,H
+PR01469,Pebammyl-3G,Gabapentin Capsules IP 300mg. (Pebammyl-3G),capsule,"ALIFECARE FORMULATION, Plot No-147, DIC Ind. Area, Baddi, Distt. Solan (HP) 173205",True,H
+PR01470,Ofloxacin and Ornidazole Tablets IP 200 mg+500mg,Ofloxacin and Ornidazole Tablets IP 200 mg+500mg,tablet,"M/s. DUTCH Formulations, 32, Industrial Area, Village Johron, Kala-Amb, Tehsil Nahan, District Sirmour, H.P.-17030",True,H
+PR01471,APVIL,Pheniramine Maleate Tablet IP (APVIL),tablet,"RIDLEY LIFE SCIENCE PVT. LTD., D-1651, DSIDC Indl. Complex, Narela, Delhi-110040",True,H
+PR01472,Vet.,Oxfendazole & Ivermectin Bolus (Vet.) WELLMOX-1,tablet,"M/s.Argon Remedies Pvt. Ltd., Sarverkhera. Moradabad Road, Kashipur, U S Nagar, Uttarakhand-244713",True,H
+PR01473,DOXTIL-200,Cefpodoxime Proxetil Tablets IP (DOXTIL-200 TABLETS),tablet,"Morisus Healthcare, Ind. Area, Bhagwanpur, Roorkee-247661",True,H1
+PR01474,"Albendazole Tablets IP 400 mg,","Albendazole Tablets IP 400 mg,",tablet,"Mfg By: M/s. Samkem 15-B & 10-B, A.K.V.N. Industrial Area, Rangwasa, Rao, Indore - 453331. (M.P). Madhya Pradesh.",True,H
+PR01475,Dexamethasone Tablets IP 0.5mg,Dexamethasone Tablets IP 0.5mg,tablet,"Saintlife Pharmaceuticals Ltd, 323, Central Hope Town, Industrial Area, Selaqui, Dehradun - 248 011, Uttarakhand, India",True,H
+PR01476,Pantojack-40,Pantoprazole Gastro-Resistant Tablets IP 40 mg (Pantojack-40),tablet,"M/s.Jackson Laboratories Pvt.Ltd, 22-24, Majitha Road, Bye Pass, Amritsar-143 001(India)",True,H
+PR01477,Paracetamol Tablets I.P 500 mg,Paracetamol Tablets I.P 500 mg,tablet,"M/s. Karnataka Antibiotics & Pharmaceuticals Ltd., Plot No.14, II Phase, Peenya Industrial Area, Bengaluru-560058",True,OTC
+PR01478,Polywin,Polywin Vitamin B Complex Injection (Polywin),injection,"M/s. MARTIN & BROWN BIO-SCIENCES PVT. LTD., K.No-918/419, Malkumajra, Nalagarh Road, Baddi, Dist-Solan (H.P.)-173205",True,H
+PR01479,Cuftin COUGH LINCTUS,Cuftin COUGH LINCTUS,syrup,"ELFOS LABORATORIES,at :F-54,M.I.Area, JAIPUR-17",True,H
+PR01480,Para sev 500 Tablets(Paracetamol Tablets IP 500mg),Para sev 500 Tablets(Paracetamol Tablets IP 500mg),tablet,"M/s. Cureza Healthcare Pvt Ltd. A.B Road, Girwal , Gwalior-474001",True,H
+PR01481,Ampicillin 1G Powder for Injection 1000 mg,Ampicillin 1G Powder for Injection 1000 mg,injection,"Unital Formulations, 114-B, EPIP, Phase-1, Jharmajri, Baddi, Solan,H.P.-1732025, under neutral code no. HP/DRUGS/MB/08/712",True,H
+PR01482,Savtel 40,Telmisartan Tablets IP 40mg (Savtel 40 Tablets),tablet,"Pharmaroots Healthcare, Khasra No. 411, Village Tipra, P.O. Barotiwala, Tehsil Baddi, Distt. Solan, H.P.",True,H
+PR01483,Fluoxetine Tablets IP 20mg,Fluoxetine Tablets IP 20mg,tablet,"DD Pharmaceuticals Pvt Ltd. G-1/583, RIICO Indl Area Sitapur Lonk Road, Jaipur-302022",True,H
+PR01484,Telverge H,Telmisartan and Hydrochlorothiazide Tablets IP (Telverge H),tablet,"BIOALTUS PHARMACEUTICALS PVT. LTD., At: 19-20, DIC, Ind. Area, Baddi, Distt. Solan (H.P.) 173205",True,H
+PR01485,Sodium Chloride Injection IP 0.9 %w/v,Sodium Chloride Injection IP 0.9 %w/v,injection,"M/s.Captab Biotec, Unit-II, Plot No.125, E.P.I.P. Road, Mauja, Jharmajri, Baddi, Distt. Solan (H.P.)-173205",True,H
+PR01486,Cufrish EXPECTORANT,"Terbutaline Sulphate, Ambroxol, Guaiphenesin and Menthol Syrup (Cufrish EXPECTORANT)",syrup,"M/s. Northern India Chemical Works Pvt.Ltd., V.Dantal, MRT-250001",True,H
+PR01487,TROYPOD 200,Cefpodoxime Proxetil Dispersible Tablets (TROYPOD 200 TABLETS),tablet,"Saitech Medicare Pvt. Ltd., Village-Kheri, Trilokpur Road, Kala-Amb, Dist. Simour, (H.P.) 173030",True,H1
+PR01488,Telmisartan Tablets IP 40 mg,Telmisartan Tablets IP 40 mg,tablet,"M/s.Healers Lab Unit II, Plot No. 33, H.P.S.I.D.C., Extn.,Baddi, Distt-Solan (H.P)",True,H
+PR01489,AMLOPEN 2.5 (Amlodipine Besylate Tablets I.P. 2.5 mg),AMLOPEN 2.5 (Amlodipine Besylate Tablets I.P. 2.5 mg),tablet,"Morepen Laboratories Ltd., Plot No. 12-B, Sector -2, Parwanoo, Dist. Solan (H.P) ? 173220.",True,H
+PR01490,Ursodeoxycholic Acid Tablets IP,Ursodeoxycholic Acid Tablets IP,tablet,"Mayasha Lifesciences H.B. 86, Village-Bhatian Nalagarh, Distt.-Solan (H.P.) 174101",True,H
+PR01491,Levocetirizine Tablets IP,Levocetirizine Tablets IP,tablet,"Healers Lab, Unit II, Plot No.33, H.P.S.I.D.C., Extn., Baddi, Distt. Solan (HP)",True,H
+PR01492,NOZIM-0.5,Clonazepam Tablets IP 0.5 mg (NOZIM-0.5),tablet,"M/s. Elikem Healthcare Private Limited, Plot/Survey No. 146, Near Sarbhara Beverages, Village - Borisana, Tal. - Kadi, Dist. - Mehsana - 382 715, Gujarat, India",True,H
+PR01493,Dorsai,Rabeprazole Sodium (EC) & Domperidone (SR) Capsules (Dorsai),capsule,"M/s. DYCOTT Healthcare, Kh. No-341/1, Vill Dasomajra, P.O. Bhud, Baddi, Distt.-Solan (HP)-173205",True,H
+PR01494,Metronidazole Tablets IP 400 mg,Metronidazole Tablets IP 400 mg,tablet,"Vivek Pharmachem (India) Ltd., EPIP, Bari Brahmana, Jammu- 181 133",True,H
+PR01495,Calcium Gluconate Injection I.P. 10 ml,Calcium Gluconate Injection I.P. 10 ml,injection,"M/s. Martin and Brown Bio-sciences Pvt. Ltd., K.No.- 918/419, Malkumajra, Nalagarh Road, Baddi, Distt.- Solan (H.P.) -173205",True,H
+PR01496,Brudel SR-150,Bupropion Hydrochloride Extended Release Tablets U.S.P. 150 mg (Brudel SR-150),tablet,"Rebase Lifescience Pvt. Ltd., Block No.6, Plot No. 11 & 12, Nr. Amrut Dairy, Lalpur, Daskroi, Ahmedabad, Gujarat - 382 430",True,H
+PR01497,Xorcid-O Suspension,Xorcid-O Suspension,syrup,"Spen Formulations Pvt Ltd Plot No. 123, Industrial Area , Mehatpur, Distt. Una-174315 (H.P)",True,H
+PR01498,"Arthopan EC - 500 Tablets, Naproxen Tablets IP,","Arthopan EC - 500 Tablets, Naproxen Tablets IP,",tablet,"M/s. Quasar Labs Pvt.Ltd., Plot No. 235j, Kuanwala IDA, Dehradun - 248 001 U.K. Uttarakhand. Mrkt: Crescent Formulations Pvt.Ltd, 4-7-11/4/c, Raghavnendra Nagar, Nacharam, Hyderabad - Telangana.",True,H
+PR01499,Ringer-Lactate Solution for,Compound Sodium Lactate Injection IP (Ringer-Lactate Solution for Injection),injection,"M/s.Ultra Laboratories Pvt. Ltd.,Plot NO.102-B &102-B (P-1), Pharmaceuticals SEZ, KIADB Industrial Estate, Hassan, Karnataka-573201",True,H
+PR01500,"Norfloxacin Tablets IP 400 mg,","Norfloxacin Tablets IP 400 mg,",tablet,"Mfg By: Revat Laboratories Pvt.Ltd, 1 2 - 3 2 1 , O p p I D A K u r n o o l r o a d , Pernamitta, Ongole - 523002 Andhra Pradesh.",True,H
+PR01501,Lactulose Solution USP,Laxnorm Solution (Lactulose Solution USP),tablet,"M/s. Athens Life Sciences, Mauza Rampur Jattan, Nahan Road, Kala Amb, Dist-Sirmour, HP-173030",True,H
+PR01502,"Softuss-D (Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride & Chlorpheniramine Maleate Syrup)","Softuss-D (Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride & Chlorpheniramine Maleate Syrup)",syrup,"M/s.Indorama Health Care Pvt Ltd, 204-205, HSIIDC, Manakpur, Industrial Area, Jagadhri, Distt, Yamuna Nagar (Haryana), 135003",True,H
+PR01503,MEFEN-SPAS,"Dicyclomine HCl, Mefenamic Acid and Paracetamol Tablets (MEFEN-SPAS TABLETS)",tablet,"Oyster Labs Limited 81-82, Industrial Estate, Ambala Cantt-133006",True,H
+PR01504,Spisam Gel,"Aluminum Hydroxide, Simethicone & Magnesium Hydroxide Suspension (Spisam Gel)",syrup,"M/s.Aan Pharma Pvt. Ltd., 816/1, Rakanpur, Tal. Kalol, Dist. Gandhinagar, 380060, Gujarat, (India)",True,H
+PR01505,Amitriptyline Tablets IP 25mg,Amitriptyline Tablets IP 25mg,tablet,"Saintlife Pharmaceuticals Ltd, 323, Central Hope Town, Industrial Area, Selaqui, Dehradun - 248 011, Uttarakhand, India",True,H
+PR01506,GENIBONE-500,Calcium and Vitamin D3 Tablets IP (GENIBONE-500),tablet,"M/s. Hanuchem Laboratories, Plot No.15-16-17, Sector-5, Indl. Area, Parwanoo, Dist. Solan (H.P)- 173220",True,OTC
+PR01507,Ringer's Lactate Solution Injection I.P,Compound Sodium Lactate Injection I.P (Ringer's Lactate Solution Injection I.P)RL,injection,"M/s.Tam Bran Pharmaceuticals Pvt. Ltd.,PlotNo.212-216, Sector-1, Pithampue (Distt.Dhar) M.P",True,H
+PR01508,"Om Shanthi Gold Class KUMKUM,","Om Shanthi Gold Class KUMKUM,",tablet,"M/s.N. Rangarao & Sons Pvt.Ltd.,C9 & C10,Yadavagiri Industrial Area,Mysusru-570020",True,H
+PR01509,Sulbactam Sodium Sterile I.P./USP.,Sulbactam Sodium Sterile I.P./USP.,tablet,"M/s.Reyoung Pharmaceutical Co. Ltd., No.1,Ruiyang Road, Yiyuan Country,Shandong Province,P.R.China,Post Code:256100.Imported By: Shah TC Distribution LLP,Gala No.2 & 3, 1st Floor, BLD No. B1.H.No.709/2&709/3,Radha Krushna Compound,T.M. Industrial Park, Pimplas Bhiwandi,MH-421302, India.",True,H
+PR01510,Alercet-5,Levocetirizine Dihydrochloride Tablets IP 5 mg (Alercet-5),tablet,"M/s. Brij Healthcare Pvt. Ltd, 51/10, G.I.D.C Esatae, Motipura, Himatnagar - 383001, Gujarat",True,H
+PR01511,A-CAINE,LIGNOCAINE HYDROCHLORIDE INJECTION I.P. (A-CAINE),injection,"Health Biotech Ltd., Village Sandoli, Nalagarh Road, Baddi, Distt. Solan (H.P.)- 173205.",True,H
+PR01512,Calcium Carbonate with Vitamin D3 Tablets IP,Calcium Carbonate with Vitamin D3 Tablets IP,tablet,"Kanha Biogenetic, Plot No. 1C, E.P.I.P, Phase 1, Jharmajri, Baddi, Dist. Solan, (H.P.)",True,OTC
+PR01513,Heparin Sodium Injection IP 25000 IU/5ml,Heparin Sodium Injection IP 25000 IU/5ml,injection,"SAI Parenterals Limited, D1 & D4, Survey No. 280, Phase-V, IDA, Jeedimetla, Hyderabad 500 055, Telangana, India",True,H
+PR01514,Esytus plus,"Terbutaline Sulphate, Bromhexine Hydrochloride, Guaiphenesin & Menthol Syrup (Esytus plus)",syrup,"Empree medicaments India Private Limited, 99 C and D KIADB Industrial Estate, Honaga, Belgavi 591156, Karnataka",True,H
+PR01515,Cipladine Multipurpose Antiseptic Skin Ointment,Cipladine Multipurpose Antiseptic Skin Ointment,tablet,"HSN International, At Plot No.54-55, Sector 6A, I.I.E, Sidcul, Haridwar, Uttarakhand,249403.",True,H
+PR01516,Expal,DEXTROMETH ORPHAN HYDROBROMI DE PHENYLEPHRI NE HYDROCHLOR IDE & CHLORPHENIR AMINE MALEATE TABLETS (Expal),tablet,"M/s.AASSK Pharmaceuticals Pvt. Ltd. Plot No.9, S.no 243/2, Dr.AmbedhkarStreet, Kozhumanivakkam, Mangadu, Chennai-600 122",True,H
+PR01517,MAX-CEE,Ascorbic Acid 500 mg Capsules (MAX-CEE CAPSULES),capsule,"Mason Pharma, P1, 125 EPIP, Jharmajri, Dist. Solan (HP), India",True,H
+PR01518,Glimilive – 4,Glim epiride Tablets (Glimilive – 4),tablet,"M/s. Medinok healthcare Pvt. Ltd., R.S.No. 2/1, Plot No. 87, 88, 89, Vazhudhavur Main Road, Kurumbapet, Puducherry – 605 009.",True,H
+PR01519,"Alpha Lipoic Acid, Folic Acid, Methylcobalamin, Vitamin B6 &Vitamin D3 Tablets)","Alpha Lipoic Acid, Folic Acid, Methylcobalamin, Vitamin B6 &Vitamin D3 Tablets)",tablet,"M/s.East African (India) Overseas,1, Pharmacity,Selaqui, Dehradun- 24801l (U.k)",True,H
+PR01520,Amoxus -500,Amoxycillin Trihydrate Capsules IP (Amoxus -500 Capsules),capsule,"Morisus Healthcare, Ind. Area, Bhagwanpur, Roorkee-247661",True,H
+PR01521,DICLOFENAC SODIUM INJECTION I.P. 75mg/3ml,DICLOFENAC SODIUM INJECTION I.P. 75mg/3ml,injection,"ANG Lifesciences India Ltd., Village Malkumajra, Nalagarh Road, Baddi, Distt. Solan-173205 (H.P.)",True,H
+PR01522,Carboxymethyl Cellulose Sodium Eye Drops IP,Carboxymethyl Cellulose Sodium Eye Drops IP,drops,"M/s. Martin & Brown Bio-sciences Pvt. Ltd. K.no. 918/419 Malkumajra Nalagarh Road Baddi, Dist. Solan (H.P.)-173205",True,H
+PR01523,Ciprox,Ciprofloxacin Injection IP (0.2%w/v) (Ciprox),injection,"M/s. Otsuka Pharmaceutical India Private Limited, Village-Vasana-Chacharwadi, Tal-Sanand, Dist.-Ahmedabad-382213, India",True,H
+PR01524,Paracetamol IP Paediatric syrup 125mg/5ml,Paracetamol IP Paediatric syrup 125mg/5ml,syrup,"Mfg By: Karuppharma Pvt.Ltd., D. NO. 2-67, Sy.No.68, Kachivani Singaram, Ghatkesar mandal, Medchal - Malkajgiri Dist. Telangana.",True,OTC
+PR01525,Dexamethasone Sodium Phosphate Injection I.P. (8mg/2ml),Dexamethasone Sodium Phosphate Injection I.P. (8mg/2ml),injection,"ZEE LABORATORIES LTD.,Behind47, Industrial Area, Paonta Sahib-173025",True,H
+PR01526,"Cefem -200 Tablets, Cefixime with Lactic Acid Bacillus tablets","Cefem -200 Tablets, Cefixime with Lactic Acid Bacillus tablets",tablet,"Daxin Pharmaceuticals Pvt Ltd.,. Plot No. 121-1 2 2 E P I P , J h a r m ajri Phase 1, The. Baddi, Distt. Solan (H.P.) - 174 103 HIMACHAL PRADESH",True,H1
+PR01527,Amoxycillin & Clavulanate Potassium for Oral Suspension I.P. 3.6gm/30ml,Amoxycillin & Clavulanate Potassium for Oral Suspension I.P. 3.6gm/30ml,syrup,"M/s. ZEE LABORATORIES LTD, Behind 47, Industrial Area, Paonta Sahib-173025",True,H
+PR01528,Cefoperazone& Sulbactam for Injection,Cefoperazone& Sulbactam for Injection,injection,"Pace Biotech, Surajpur, Paonta Sahib, Dist-Sirmour (H.P)- 173001",True,H
+PR01529,Ofloxacin Ornidazole Tablets IP,Ofloxacin Ornidazole Tablets IP,tablet,"Skymap Pharmaceuticals Pvt. Ltd.,(A WHO-GMP Certified Company)B-3,Dev Bhoomi Industrial Estate, PuhanaIqbalpur Road, Roorkee-247667",True,H
+PR01530,ITRAKAM 100,Itraconazole Capsules 100mg (ITRAKAM 100),capsule,"Impulse Pharma Pvt. Ltd., J-201, J. 202/1, MIDC Tarapur, Boisar, Dist-PaLGHAR-401506, Maharashtra Sate_ india",True,H
+PR01531,Sulbactam Sodium Sterile I.P./USP.,Sulbactam Sodium Sterile I.P./USP.,tablet,"M/s.Reyoung Pharmaceutical Co. Ltd., No.1,Ruiyang Road, Yiyuan Country,Shandong Province,P.R.China,Post Code:256100.Imported By: Shah TC Distribution LLP,Gala No.2 & 3, 1st Floor, BLD No. B1.H.No.709/2&709/3,Radha Krushna Compound,T.M. Industrial Park, Pimplas Bhiwandi,MH-421302, India.",True,H
+PR01532,Gentagain,Gentamicin Injection I.P. (Gentagain ),injection,"M/s. Regain Laboratories 134/5, HTM Road, Raipur Lane, Hisar-125001",True,H
+PR01533,Iron Sucrose Injection USP-5ML,Iron Sucrose Injection USP-5ML,injection,"Affy Parenterals, Vill. Gullerwala, P.O. Baddi, Distt. Solan - 173 205 (H.P)",True,H
+PR01534,Calcium and Vitamin D3 Tablets IP,Calcium and Vitamin D3 Tablets IP,tablet,"M/s.Martin & brown bio-sciences pvt. Ltd, K.No.918/419, Malkumajra, Nalagarh Road, Baddi, Distt. Solan (H.P.)-173205",True,OTC
+PR01535,Beedryl Plus,"Diphenhydramine Hydrochloride, Ammonium Chloride, Sodium Citrate & Menthol Syrup (Beedryl Plus)",syrup,"M/s. Zenith Drugs Limited 72/5 & 72/3, 72/4, 74/1/1, 75/1/1, Muradpura (Orangpura) Dhar Road, Near Kalaria Indore 453001 (MP), India",True,H
+PR01536,Cetirizine Hydrochloride,Merocet (Cetirizine Hydrochloride Syrup),syrup,"M/s.Kite Formulation, No.67/1, 1st & 2st floor, 4th street, Thirunagar, Karumandapam, Trichy-620001",True,H
+PR01537,Calcium 500 mg and Vitamin D3 250 IU Tablets IP,Calcium 500 mg and Vitamin D3 250 IU Tablets IP,tablet,"Life Max Cancer Laboratories, Plot No. 106 & 106 A, Sector-6A, IIE, SIDCUL, Haridwar-249403 (U.K)",True,OTC
+PR01538,Etamsylat Tablets 500 mg,Etamsylat Tablets 500 mg,tablet,"Unicure India Ltd., C-21, 22 & 23, Sector-3, Noida-201 301, Distt. Gautam Budh Nagar (U.P)",True,H
+PR01539,Chro-B Gold,Chro-B Gold,tablet,"Kniss Laboratories (P) Ltd, Plot No. 9, Multe Industrial Estate, Gerugambakkam, Chennai - 600 128",True,H
+PR01540,Gentamicin Injection IP-2ml,Gentamicin Injection IP-2ml,injection,"SVP Life science, C/10-1, Sara industrial Estate, Selequri, Dehradun",True,H
+PR01541,NEUROSIA,NEUROSIA,tablet,"AMBROSIA PHARMA 91 Indl. Estate, Zainakot Srinagar.",True,H
+PR01542,Metoclopramide HCL Injection I.P-2ml,Metoclopramide HCL Injection I.P-2ml,injection,"SVP Life Sciences, C/10-1, Sara Industrial Estate, Selaqui, Dehradun",True,H
+PR01543,Ampicillin-500,Ampicillin Capsules IP 500 mg (Ampicillin-500 Capsules),capsule,"Ross Robinz Biotech, (Manufactured under technical guidance of ) ASHICON REMEDIES V.P.O-Barog, Solan - 173212 (H.P.)",True,H
+PR01544,MONTOR -LC TABLET (MONTELUKAST SODIUM & LEVOCETRIZINE DIHYDROCHLORI DE TABLET I.P.),MONTOR -LC TABLET (MONTELUKAST SODIUM & LEVOCETRIZINE DIHYDROCHLORI DE TABLET I.P.),tablet,TORQUE PHARMACEUTICALS PVT. LTD.,True,H
+PR01545,Levodil-500,Levetiracetam Tablets IP (Levodil-500),tablet,"Agron Remedies Pvt. Ltd., Sarverkhera, Moradabad Road, Kashipur-244713, Uttarakhand",True,H
+PR01546,Bromex - LS Expectorant,"Levosalbutamol, Ambroxol & Guaiphenesin Syrup (Bromex - LS Expectorant)",syrup,"Hygeia Pharmaceuticals MFG. (P) Ltd. 608, Dwarir Road Dhamaitala Dakshin Jagaddal, Pin-700151",True,H
+PR01547,Sodium Valporate IP Powder,Sodium Valporate IP Powder,tablet,"M/s.Mirambika Pigment, Plot No. 155/1, Dhanot, Chhatra-Kadi road, Distt. Gandhinagar-382729 Gujrat",True,H
+PR01548,Adrenaline Injection IP (Aline Injection 1 ml.),Adrenaline Injection IP (Aline Injection 1 ml.),injection,"M/s. Aster Medicines Pvt. Ltd., Plot No. E4(Part), Industrial Area Phase II, Hazipur-844101",True,H
+PR01549,EDGEX,Single use Syringe (EDGEX),tablet,"NOBLE PHARMACARE LTD., A/24, C.I.N. Complex, Patia, Bhubaneswar, Odhisa-751024",True,H
+PR01550,Betalone,Betamethasone Sodium Phosphate Injection I.P. (Betalone ),injection,"M/s. E.G. Pharmaceuticals, Vill. Mandhala, Teh. Baddi, Dist. Solan, H.P.",True,H
+PR01551,Rabito-DSR,Rabeprazole Sodium (as enteric coated) & Domperidone (As Sustained Release) Capsules (Rabito-DSR),capsule,"M/s Cartel Laboratories, 10/A, 11/A, Chengicherla, Medchal-Malkajgiri (Dist.), Hyderabad-92",True,H
+PR01552,AclizacAS 75,Clop idogrel and Aspirin Tablets IP (AclizacAS 75),tablet,"M/s Sanctus Global Formulations Limited, Khasra No. 587/588,Village: Kunjhal, Backside Jharmajri Tehsil",True,H
+PR01553,Rabeprazole Sodium Injection IP,Rabeprazole Sodium Injection IP,injection,"M/s. MARTIN & BROWN BIO-SCIENCES PVT. LTD., K.No-918/419, Malkumajra, Nalagarh Road, Baddi, Dist-Solan (H.P.)-173205",True,H
+PR01554,Aceclofenac & Paracetamol,Aciammar-P Tablets (Aceclofenac & Paracetamol Tablets),tablet,"Incredible Medicare, Mauza Ogli, Suketi Road, Kala Amb Sirmaur, Himachal Pradesh",True,H
+PR01555,Povidone Iodine Solution IP,ByGo Solution (Povidone Iodine Solution IP),tablet,"M/s. Neptune Life Science Pvt Ltd., 100-B, EPIP, Phase-II, Thana, Baddi-173205 (H.P) India",True,H
+PR01556,Cetirizine Syrup IP,Cetirizine Syrup IP,syrup,"Kerala State Drugs and Pharmaceuticals Limited, Kalavoor .P.O, Alappuzha -688 522",True,OTC
+PR01557,3% Sodium Chloride Injection USP,3% Sodium Chloride Injection USP,injection,"M/s. Inven Pharmaceuticals Pvt. Ltd., Village Kalsada Khurd, District-Dhar (M.P.)- 454001",True,H
+PR01558,Rebast-ARD,"Rabeprazole Sodium 20mg (EC) & Domperidone 10mg (IR), Domperidone 20mg (SR) Capsules (Rebast-ARD)",capsule,"Lifevision Healthcare, Plot No. 140-141, E.P.I.P., Phase-1, Jharmajri, Baddi, Distt. Solan (H.P.) 174 103",True,H
+PR01559,Teglisure-M 500,Teneligliptin & Metformin Hydrochloride (Sustained Release) Tablets IP (Teglisure-M 500),tablet,"M/s. Astonea Labs Pvt. Ltd., Vill- Haripur, Teh. Raipur Rani, Dist. Panchkula, Haryana, INDIA-134204",True,H
+PR01560,Levocetirizine Hydrochloride,Lecetwin (Levocetirizine Hydrochloride Syrup),syrup,"M/s.Wings Novitas Healthcare LLP, 43 & 44, HPSIDC, Industrial Area, Baddi-173205 (H.P)",True,H
+PR01561,GYNAEPIL,Tranexamic Acid Injection IP (GYNAEPIL Injection),injection,"M/s. Psychotropics India Ltd., Plot No. 12, 12A, Industrial Park-2, Phase-1, Salempur, Mehdood-2, Haridwar-249403 (Uttarakhand)",True,H
+PR01562,Panzon-DSR,Pantoprazole Sodium (EC) & Domperidone (SR) Capsules IP (Panzon-DSR),capsule,"Biomax Biotechnics (P) Ltd., 261, HSIIDC, Industrial Estate, Alipur, Barwala134118 (Haryana)",True,H
+PR01563,Glimiz-2,"GlimepirideTablets IP 2mg (Glimiz-2),",tablet,"M/s.Knm Pharma Pvt. Ltd.13,Mahagujrat Ind. Estate, Opp. Nova Petrochemicals Ltd, Moraiya,Ta.Sanand, Dist .Ahmedabad f3ujarat (India)",True,H
+PR01564,EMITIL [Prochlorperazine Mesylate Injection IP],EMITIL [Prochlorperazine Mesylate Injection IP],injection,"Martin & Brown Bio Science Pvt Ltd, K No. 918/419, Malkumajra, Nalgrath Road, Baddi, Dist Solan HP 173 205",True,H
+PR01565,Ringer Lactate Solution for,Compound Sodium Lactate Injection I.P. (Ringer Lactate Solution for Injection) RL 500ml,injection,"M/s. Vision Parentral Pvt. Ltd., A-2-44-45, Sector 15, GIDA Industrial Area, Gorakhpur 273209 (U.P.), India.",True,H
+PR01566,Meloxicam Injection IP-100ml- 'Melox-5'- Veterinary,Meloxicam Injection IP-100ml- 'Melox-5'- Veterinary,injection,"Redinex Life Sciences Pvt Ltd, F-132, IGC Mansa Road, Bathinda (PB)-151005.",True,H
+PR01567,Montelukast Tablets IP 10 mg,Montelukast Tablets IP 10 mg,tablet,"Morepan Laboratories Ltd, Unit-V, Plot No. 12C, sector-2, Parwanoo, Dist.Solan (HP)- 173 220",True,H
+PR01568,OZOMET-PG 2,"Glimepride, Pioglitazone Hydrochloride & Metformin Hydrochloride (Extended Release) Tablets (OZOMET-PG 2 )",tablet,"M/s. Ozone Pharmaceuticals, Village: Katha, Baddi, Distt. Solan (H.P.) 173 205",True,H
+PR01569,CANDITRAL 100 (ITRACONAZOLE CAPSULE B.P. 100 MG),CANDITRAL 100 (ITRACONAZOLE CAPSULE B.P. 100 MG),capsule,GLENMARK PHARMACEUTICALS LTD.,True,H
+PR01570,Dexacos,Dexamethasone Sodium Phosphate Injection I.P. (Dexacos),injection,"M/s. Paksons pharmaceuticals Private Limited, 36, Milestone, Delhi Rohtak Road, Sankhol, Bahadurgarh-124507, Haryana",True,H
+PR01571,Amoxycillin & Potassium Clavulanate Tablets IP,Synclov-625 Tablets (Amoxycillin & Potassium Clavulanate Tablets IP),tablet,"M/s.Micro Formulations, Chambaghat, New Railway Crossing, Distt, solan (HP),173211",True,H
+PR01572,Vet.,Oxfe ndazole & Ivermectin Bolus (Vet.) WELLMOX-1,tablet,"M/s.Argon Remedies Pvt. Ltd., Sarverkhera. Moradabad Road, Kashipur, U S Nagar, Uttarakhand-244713",True,H
+PR01573,Tranexamic Acid Tablets I.P. 500 mg,Tranexamic Acid Tablets I.P. 500 mg,tablet,"OMEGA PHARMA KhasraNo.-482, Village-Saliyar, Roorkee-247667, Distt.-Haridwar (Uttarakhand)",True,H
+PR01574,Dexona,Dexamethasone Sodium Phosphate Injection IP (Dexona),injection,"M/s. Zydus Healthcare Limited, At: PF 61 & 62, Sanand GIDC-II Industrial Estate, Tal: Sanand, Dist.: Ahmedabad-382110, Gujarat, India",True,H
+PR01575,Ondansetron Tablets IP 4 mg,Ondansetron Tablets IP 4 mg,tablet,"M/s.Nestor Pharmaceuticals Limited, 11, Western Extension Area, Faridabad -121 001",True,H
+PR01576,Levatio Syrup,Levatio Syrup,syrup,"Onex Life Science Pvt Ltd, Flot No.5, Ground, First Floor & Second Floor, EkambararNaicker Industrial Estate, Alapakkam, Chennai-600116.",True,H
+PR01577,Pevicet M,Montelukast Sodium & Levocetirizine Dihydrochloride Tablets IP..(Pevicet M TABLETS),tablet,"ASPO PHARMACEUTICALS LLP., Plot No. 10, HIMUDA Industrial Area, Phase-IV, Bhatoli Kalan, Baddi Distt. Solan (H.P.) 173205",True,H
+PR01578,Phenytoin Sodium Injection USP-2ml,Phenytoin Sodium Injection USP-2ml,injection,"M/s.SPM Drugs (P) Ltd, Bhavani-638301",True,H
+PR01579,Ciprofloxacin Tablets U.S.P. 500 mg,Ciprofloxacin Tablets U.S.P. 500 mg,tablet,"M/s. Rivpra Formulation Pvt. Ltd. ., Plot No.8, Sector-6A, IIE SIDCUL, Haridwar-249 403 (U.K.)..",True,H
+PR01580,Calcium Gluconate Injection I.P. 10 ml,Calcium Gluconate Injection I.P. 10 ml,injection,"M/s. Priya Pharmaceuticals, 109/397, Nehru Nagar, Kanpur-12",True,H
+PR01581,"Glyc ical-B12 Calcium Phosphate, Vitamin D3 and Vitamin B12 Suspension","Glyc ical-B12 Calcium Phosphate, Vitamin D3 and Vitamin B12 Suspension",syrup,"M/s. Quest laboratories Pvt Ltd. Plot Nol 45, Sector III, Dist. Dhar (MP) Pitampur-454775",True,H
+PR01582,TELMISARTAN ANDAMLODIPINE TABLETS IP,TELMISARTAN ANDAMLODIPINE TABLETS IP,tablet,"M/s. NavkarLifesciences,Plot No. 76, LodhiMajra, Industrial Area, Baddi, Distt. Solan (H.P.)",True,H
+PR01583,Telvas 40 (Telmisartan Tablets I.P. 40mg.),Telvas 40 (Telmisartan Tablets I.P. 40mg.),tablet,"M/s. Aristo Pharmaceutical Pvt. Ltd., Plot No. 2040-46, N.H.-10, Baghey Khola, P.O. Majhitar, East Sikkim-737 136.",True,H
+PR01584,Cefuroxime Axetil Tablets IP 500mg,Cefuroxime Axetil Tablets IP 500mg,tablet,"Jackson Laboratories Pvt. Ltd., Plot No. 56 & 61, Industrial Area, Phase III, Sansarpur Terrace, Distt Kangra (H.P.)-176501.",True,H
+PR01585,"Albendazole Tablets IP 400 mg,","Albendazole Tablets IP 400 mg,",tablet,"Mfg By: M/s. Samkem 15-B & 10-B, A.K.V.N. Industrial Area, Rangwasa, Rao, Indore - 453331. (M.P). Madhya Pradesh. (WHO-GMP & GLP Certified Company)(An ISO 9001: 2015 Certified Company) Madhya Pradesh.",True,H
+PR01586,Pantoprazole Gastro resistant &Domperidone prolonged release Capsules IP,Pantoprazole Gastro resistant &Domperidone prolonged release Capsules IP,capsule,"M/s. Paradox Pharmaceuticals, Kachpura, Baddi, Nalagarh Road Tehsil Nalagarh Dist. Solan (HP)- 174103",True,H
+PR01587,"Glyc ical-B12 Calcium Phosphate, Vitamin D3 and Vitamin B12 Suspension","Glyc ical-B12 Calcium Phosphate, Vitamin D3 and Vitamin B12 Suspension",syrup,"M/s. Quest laboratories Pvt Ltd. Plot Nol 45, Sector III, Dist. Dhar (MP) Pitampur-454775",True,H
+PR01588,Tab Nodosis,Tab Nodosis,tablet,"Steadfast Medishield pvt.Ltd, At khasra,No.322, Nanhera , Anantpur, Bhgwanpur, Roorkee, Dist. Haridwar",True,H
+PR01589,Coscopin Cold Plus,Coscopin Cold Plus,tablet,"Windlas Biotech Limited (Plant-2) Khasra No.141 to 143 & 145, Mohabewala, Indl. Area, Dehradun-248110. Uttarakhand.",True,H
+PR01590,"Ibuprofen and Paracetamol Tablets IP (400mg/325mg),","Ibuprofen and Paracetamol Tablets IP (400mg/325mg),",tablet,"WINGS BIOTECH LLP 43 & 44, HPSIDC, Ind. Area, Baddi - 173 205 (H.P.)",True,H
