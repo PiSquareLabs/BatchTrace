@@ -1,0 +1,212 @@
+{
+ "repo": "PiSquareLabs/BatchTrace",
+ "people": {
+  "A": "xreedev",
+  "B": "safar-byte",
+  "C": "Fahad-Sajeem"
+ },
+ "note": "Created via GitHub MCP issue_write (no gh CLI). Real numbers equal plan ids. Milestones not created (user chose none); board and pin not available.",
+ "issues": {
+  "1": {
+   "number": 1,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/1",
+   "closed": true
+  },
+  "2": {
+   "number": 2,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/2",
+   "closed": false
+  },
+  "3": {
+   "number": 3,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/3",
+   "closed": true
+  },
+  "4": {
+   "number": 4,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/4",
+   "closed": false
+  },
+  "5": {
+   "number": 5,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/5",
+   "closed": false
+  },
+  "6": {
+   "number": 6,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/6",
+   "closed": false
+  },
+  "7": {
+   "number": 7,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/7",
+   "closed": false
+  },
+  "8": {
+   "number": 8,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/8",
+   "closed": false
+  },
+  "9": {
+   "number": 9,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/9",
+   "closed": false
+  },
+  "10": {
+   "number": 10,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/10",
+   "closed": false
+  },
+  "11": {
+   "number": 11,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/11",
+   "closed": false
+  },
+  "12": {
+   "number": 12,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/12",
+   "closed": false
+  },
+  "13": {
+   "number": 13,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/13",
+   "closed": false
+  },
+  "14": {
+   "number": 14,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/14",
+   "closed": false
+  },
+  "15": {
+   "number": 15,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/15",
+   "closed": false
+  },
+  "16": {
+   "number": 16,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/16",
+   "closed": false
+  },
+  "17": {
+   "number": 17,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/17",
+   "closed": false
+  },
+  "18": {
+   "number": 18,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/18",
+   "closed": false
+  },
+  "19": {
+   "number": 19,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/19",
+   "closed": false
+  },
+  "20": {
+   "number": 20,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/20",
+   "closed": false
+  },
+  "21": {
+   "number": 21,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/21",
+   "closed": false
+  },
+  "22": {
+   "number": 22,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/22",
+   "closed": false
+  },
+  "23": {
+   "number": 23,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/23",
+   "closed": false
+  },
+  "24": {
+   "number": 24,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/24",
+   "closed": false
+  },
+  "25": {
+   "number": 25,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/25",
+   "closed": false
+  },
+  "26": {
+   "number": 26,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/26",
+   "closed": false
+  },
+  "27": {
+   "number": 27,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/27",
+   "closed": false
+  },
+  "28": {
+   "number": 28,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/28",
+   "closed": false
+  },
+  "29": {
+   "number": 29,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/29",
+   "closed": false
+  },
+  "30": {
+   "number": 30,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/30",
+   "closed": false
+  },
+  "31": {
+   "number": 31,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/31",
+   "closed": false
+  },
+  "32": {
+   "number": 32,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/32",
+   "closed": false
+  },
+  "33": {
+   "number": 33,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/33",
+   "closed": false
+  },
+  "34": {
+   "number": 34,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/34",
+   "closed": false
+  },
+  "35": {
+   "number": 35,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/35",
+   "closed": false
+  },
+  "36": {
+   "number": 36,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/36",
+   "closed": false
+  },
+  "37": {
+   "number": 37,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/37",
+   "closed": false
+  },
+  "38": {
+   "number": 38,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/38",
+   "closed": false
+  },
+  "39": {
+   "number": 39,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/39",
+   "closed": false
+  },
+  "40": {
+   "number": 40,
+   "url": "https://github.com/PiSquareLabs/BatchTrace/issues/40",
+   "closed": false,
+   "note": "epic; pin manually"
+  }
+ }
+}

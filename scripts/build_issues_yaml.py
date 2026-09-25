@@ -26,42 +26,64 @@ MILESTONES = {  # title -> due (IST date); due_on is 23:59 IST = 18:29:59Z
 ROLES = {"A": "A: Data & Pipeline", "B": "B: Intelligence", "C": "C: Platform & Product"}
 FIELD_KEYS = {"Tasks": "tasks", "CoCo CLI": "coco", "Acceptance": "acceptance", "Depends on": "depends",
               "Assignees": "assignees", "Body": "body"}
-# keyword (regex) -> Snowflake feature, used to fill "## Snowflake features"
-FEATURES = [
-    (r"stage|PUT\b|snow stage", "Internal stages (SSE) + directory tables"),
-    (r"AI_PARSE_DOCUMENT", "AI_PARSE_DOCUMENT (LAYOUT, page_split)"),
-    (r"AI_COMPLETE", "AI_COMPLETE (structured JSON output)"),
-    (r"AI_EXTRACT", "AI_EXTRACT"),
-    (r"AI_CLASSIFY", "AI_CLASSIFY"),
-    (r"AI_AGG|AI_SUMMARIZE_AGG", "AI_AGG / AI_SUMMARIZE_AGG"),
-    (r"AI_TRANSLATE", "AI_TRANSLATE"),
-    (r"Snowpark|UDF", "Snowpark Python UDFs"),
-    (r"Dynamic Table", "Dynamic Tables"),
-    (r"\bstream\b", "Streams"),
-    (r"\btask\b", "Tasks / task graphs"),
-    (r"JAROWINKLER|EDITDISTANCE", "JAROWINKLER_SIMILARITY / EDITDISTANCE"),
-    (r"Cortex Search", "Cortex Search"),
-    (r"[Ss]emantic view|KAVACH_SV", "Semantic Views + Cortex Analyst"),
-    (r"Cortex Agent|agent", "Cortex Agents"),
-    (r"Streamlit|SiS\b", "Streamlit in Snowflake"),
-    (r"GET_PRESIGNED_URL", "GET_PRESIGNED_URL"),
-    (r"ALERT` object|SYSTEM\$SEND_EMAIL|email", "Snowflake Alerts + SYSTEM$SEND_EMAIL"),
-    (r"masking|row access|tag", "Object tagging, masking & row access policies"),
-    (r"RBAC|roles? `|KAVACH_ADMIN", "RBAC"),
-    (r"resource monitor|warehouse", "Warehouses + resource monitors"),
-    (r"zero-copy clone|clone", "Zero-copy clone"),
-    (r"COPY INTO|INFER_SCHEMA", "COPY INTO + INFER_SCHEMA"),
-    (r"stored procedure", "Stored procedures"),
-    (r"CoCo", "CoCo CLI"),
-]
+# Snowflake features per plan item (hand-mapped from §5 so every issue names what it shows)
+FEATURES = {
+    1: [], 2: [], 3: [],
+    4: ["CoCo CLI setup", "snow CLI connections (key-pair)"],
+    5: ["Streamlit in Snowflake (screen design)", "Cortex Agents (chat screen)"],
+    6: ["Warehouses (X-Small, 60 s auto-suspend)", "Resource monitors", "RBAC (roles, users, grants)",
+        "SNOWFLAKE.CORTEX_USER / COPILOT_USER database roles", "Cross-region Cortex inference", "CoCo CLI"],
+    7: ["Databases & schemas", "Internal stages with SNOWFLAKE_SSE encryption", "Directory tables"],
+    8: ["snow CLI stage copy / PUT", "Directory tables", "COPY INTO (CSV file formats)"],
+    9: ["PUT + COPY INTO with INFER_SCHEMA (Parquet)", "Informational PK/FK constraints + comments", "CoCo CLI"],
+    10: ["AI_PARSE_DOCUMENT (LAYOUT, page_split)", "TO_FILE over directory tables", "MERGE (idempotent loads)"],
+    11: ["AI_COMPLETE with JSON-schema structured output", "AI_EXTRACT (comparison)"],
+    12: ["Snowpark Python UDFs", "LATERAL FLATTEN over arrays"],
+    13: ["EVAL schema tables/views", "SQL set comparison (precision / recall)"],
+    14: ["AI_CLASSIFY", "SQL rules (CASE) over classified output"],
+    15: ["Streams on directory tables", "Tasks / task graphs", "Dynamic Tables (downstream refresh)", "Custom CoCo skill"],
+    16: ["COPY INTO from stage", "Snowpark UDF reuse for normalisation"],
+    17: ["Dynamic Tables", "JAROWINKLER_SIMILARITY", "EDITDISTANCE"],
+    18: ["EVAL schema views", "SQL confusion matrix"],
+    19: ["Dynamic Tables / views", "Window functions (baseline vs post-dose labs)", "AI_COMPLETE (templated flag_reason)"],
+    20: ["AI_COMPLETE", "AI_TRANSLATE", "App write-back table with audit columns"],
+    21: ["Object tagging", "Masking policies", "Row access policies", "RBAC (read-only judge role)"],
+    22: ["Cortex Search service (attributes for filtering)", "Chunking in SQL"],
+    23: ["Semantic Views", "Cortex Analyst (verified queries)", "CoCo semantic-view skill"],
+    24: ["Cortex Agents", "Cortex Analyst + Cortex Search tools", "Stored procedure as custom tool", "CoCo agent skill"],
+    25: ["AI_AGG / AI_SUMMARIZE_AGG", "Snowflake ALERT objects", "Notification integration + SYSTEM$SEND_EMAIL"],
+    26: ["Views / aggregations over CORE.NSQ_ALERT", "Time-series SQL"],
+    27: ["Streamlit in Snowflake (multi-page)", "Snowpark session (get_active_session)"],
+    28: ["Streamlit in Snowflake", "GET_PRESIGNED_URL on stage files"],
+    29: ["Streamlit in Snowflake", "Write-back to APP tables", "Masking policies (role-aware view)"],
+    30: ["Cortex Agents REST API", "Streamlit in Snowflake"],
+    31: ["Streamlit in Snowflake charts", "EVAL metrics views"],
+    32: ["Key-pair authentication service user", "Read-only role + masking for judges", "Streamlit Community Cloud mirror"],
+    33: ["Zero-copy clone", "Idempotent SQL deploy (CREATE OR REPLACE / IF NOT EXISTS)", "Time Travel for safe resets"],
+    34: ["Streams + Tasks (live upload)", "Snowflake Alerts + email", "Streamlit in Snowflake", "Cortex Agents"],
+    35: [],
+    36: [],
+    37: ["CoCo CLI", "Custom CoCo skill (.cortex/skills)"],
+    38: ["Resource monitors", "Warehouse suspend", "COPY INTO @stage (unload backup)"],
+    39: [],
+}
+# CoCo guidance for `coco`-labelled items whose plan text has no separate "CoCo CLI:" line
+COCO_DEFAULT = {
+    22: "Use CoCo CLI to draft the chunking SQL and the `CREATE CORTEX SEARCH SERVICE` statement; log the session in `docs/coco_log.md`.",
+    23: "Build it with CoCo's semantic-view skill; log the session (prompt → generated → edited) in `docs/coco_log.md`.",
+    24: "Build it with CoCo's agent-studio skill; log the session in `docs/coco_log.md`.",
+    27: "Scaffold the multi-page app and the SiS/Community-Cloud session helper with CoCo CLI; log the session in `docs/coco_log.md`.",
+    37: "This item *is* the CoCo evidence: every member logs sessions; the custom skill lives in `.cortex/skills/kavach-monthly-run/`.",
+}
+CLOSED_AT_CREATION = {1, 3}  # already delivered -> created, then closed as completed
 # Work already delivered by the data-acquisition run (branch claude/affectionate-dirac-rq2bxf)
 STATUS_NOTES = {
-    1: "Delivered on branch `claude/affectionate-dirac-rq2bxf`: 52 alert PDFs + portal JSON (2024-01..2026-08) + "
-       "drug master subset + reference docs, manifest, coverage table in docs/DATA_SOURCES.md; "
-       "`make validate` passes. Close once that branch is merged to `main`.",
+    1: "**Done.** Delivered on branch `claude/affectionate-dirac-rq2bxf`: 52 alert PDFs + portal JSON "
+       "(2024-01..2026-08) + drug master subset + reference docs, manifest, coverage table in "
+       "`docs/DATA_SOURCES.md`; `make validate` passes. Closed as completed at creation; merge that branch to `main`.",
     2: "Gold template is ready (57 rows / 55 records, `verified` blank). Needs a human.",
-    3: "Delivered on branch `claude/affectionate-dirac-rq2bxf` (seed 42, scenarios A/B, decoys, answer key); "
-       "validate_data.py synthetic checks pass. Close once merged to `main`.",
+    3: "**Done.** Delivered on branch `claude/affectionate-dirac-rq2bxf` (seed 42, scenarios A/B, decoys, "
+       "answer key); `validate_data.py` synthetic checks pass. Closed as completed at creation; merge that branch to `main`.",
     4: "Partly done: README, .gitignore (.env, kaggle.json), .env.example exist. Templates, CoCo guide and "
        "snow config example still to do.",
 }
@@ -157,10 +179,8 @@ def build(issues: list[dict]) -> list[dict]:
         else:
             tasks_md = as_md(f.get("tasks", []), checkbox=True)
             acc_md = as_md(f.get("acceptance", []), checkbox=True)
-            coco_md = as_md(f.get("coco", [""]), checkbox=False) or "_Optional — log any notable CoCo session in `docs/coco_log.md`._"
-            blob = " ".join(sum(f.values(), [])) + " " + i["title"]
-            feats = [name for pat, name in FEATURES if re.search(pat, blob)]
-            feats = list(dict.fromkeys(feats))
+            coco_md = as_md(f.get("coco", [""]), checkbox=False) or COCO_DEFAULT.get(i["id"], "") or "_Optional — log any notable CoCo session in `docs/coco_log.md`._"
+            feats = FEATURES[i["id"]]
             ctx = (f"**Owner:** Person {' + '.join(owners)} ({', '.join(ROLES[o] for o in owners)}) · "
                    f"**Milestone:** {i['milestone']} · **Priority:** {prio}\n\n"
                    f"Part of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #{i['id']}). "
@@ -168,19 +188,24 @@ def build(issues: list[dict]) -> list[dict]:
                    "\"needs clinician review\" wording, protect the credits.")
             if i["id"] in STATUS_NOTES:
                 ctx += f"\n\n> **Status:** {STATUS_NOTES[i['id']]}"
-            dep_md = ("\n".join(f"- #{d}" for d in deps) if deps else "_None_")
+            if len(deps) > 6:
+                dep_md = "- " + ", ".join(f"#{d}" for d in deps)
+            else:
+                dep_md = "\n".join(f"- #{d}" for d in deps) if deps else "_None_"
             extra = re.sub(r"#\d+(?:\s*[–-]\s*#?\d+)?,?", "", dep_text).strip(" ,")
             if extra:
                 dep_md += f"\n\n_Note: {extra}_"
             body = "\n\n".join([
                 "## Context\n" + ctx,
                 "## Tasks\n" + tasks_md,
-                "## Snowflake features\n" + ("\n".join(f"- {x}" for x in feats) if feats else "_None (outside Snowflake)_"),
+                "## Snowflake features\n" + ("\n".join(f"- {x}" for x in feats) if feats else "_None: this item is outside Snowflake._"),
                 "## CoCo CLI\n" + coco_md,
                 "## Acceptance criteria\n" + acc_md,
                 "## Depends on\n" + dep_md,
             ])
-        out.append({"id": i["id"], "title": f"[{i['owner_raw']}] {i['title']}", "owner": owner,
+        if i["id"] in CLOSED_AT_CREATION:
+            body = body.replace("- [ ] ", "- [x] ")
+        out.append({"id": i["id"], "close_at_creation": i["id"] in CLOSED_AT_CREATION, "title": f"[{i['owner_raw']}] {i['title']}", "owner": owner,
                     "assignees": assignees, "labels": labels, "priority": prio,
                     "milestone": i["milestone"], "milestone_due": MILESTONES[i["milestone"]],
                     "depends_on": deps, "status_note": STATUS_NOTES.get(i["id"], ""), "body": body})
@@ -200,7 +225,7 @@ def to_yaml(items: list[dict]) -> str:
     lines.append("issues:")
     for it in items:
         lines.append(f"  - id: {it['id']}")
-        for k in ("title", "owner", "assignees", "labels", "priority", "milestone", "milestone_due",
+        for k in ("title", "close_at_creation", "owner", "assignees", "labels", "priority", "milestone", "milestone_due",
                   "depends_on", "status_note"):
             lines.append(f"    {k}: {q(it[k])}")
         lines.append("    body: |-")
