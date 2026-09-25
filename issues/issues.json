@@ -1,0 +1,889 @@
+[
+ {
+  "id": 1,
+  "title": "[A] Execute data acquisition plan (CDSCO PDFs, portal, drug master, reference docs)",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:data",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M0 · Pre-activation",
+  "milestone_due": "2026-09-26",
+  "depends_on": [],
+  "status_note": "Delivered on branch `claude/affectionate-dirac-rq2bxf`: 52 alert PDFs + portal JSON (2024-01..2026-08) + drug master subset + reference docs, manifest, coverage table in docs/DATA_SOURCES.md; `make validate` passes. Close once that branch is merged to `main`.",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M0 · Pre-activation · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #1). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n> **Status:** Delivered on branch `claude/affectionate-dirac-rq2bxf`: 52 alert PDFs + portal JSON (2024-01..2026-08) + drug master subset + reference docs, manifest, coverage table in docs/DATA_SOURCES.md; `make validate` passes. Close once that branch is merged to `main`.\n\n## Tasks\n- [ ] Run phases A–F of `CLAUDE_CODE_DATA_PLAN.md`. Produce the coverage table (months × central/state/spurious).\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] `data/manifest.csv` is complete\n- [ ] `validate_data.py` passes for the alert files\n- [ ] the coverage table is in `docs/DATA_SOURCES.md`.\n\n## Depends on\n_None_"
+ },
+ {
+  "id": 2,
+  "title": "[A] Hand-verify gold set: June 2025 central NSQ list (~55 rows)",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:eval",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M0 · Pre-activation",
+  "milestone_due": "2026-09-26",
+  "depends_on": [
+   1
+  ],
+  "status_note": "Gold template is ready (57 rows / 55 records, `verified` blank). Needs a human.",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M0 · Pre-activation · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #2). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n> **Status:** Gold template is ready (57 rows / 55 records, `verified` blank). Needs a human.\n\n## Tasks\n- [ ] Check every row of `data/gold/nsq_2025-06_central_gold.csv` against the PDF; fill `verified` and `notes`.\n\n## Snowflake features\n- CoCo CLI\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] 100% of rows verified by a human. Claude/CoCo must not mark rows verified.\n\n## Depends on\n- #1"
+ },
+ {
+  "id": 3,
+  "title": "[B] Synthetic hospital generator (seed 42) + ground-truth exposures",
+  "owner": "B",
+  "assignees": [
+   "@PERSON_B"
+  ],
+  "labels": [
+   "owner:B",
+   "area:data",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M0 · Pre-activation",
+  "milestone_due": "2026-09-26",
+  "depends_on": [
+   1
+  ],
+  "status_note": "Delivered on branch `claude/affectionate-dirac-rq2bxf` (seed 42, scenarios A/B, decoys, answer key); validate_data.py synthetic checks pass. Close once merged to `main`.",
+  "body": "## Context\n**Owner:** Person B (B: Intelligence) · **Milestone:** M0 · Pre-activation · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #3). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n> **Status:** Delivered on branch `claude/affectionate-dirac-rq2bxf` (seed 42, scenarios A/B, decoys, answer key); validate_data.py synthetic checks pass. Close once merged to `main`.\n\n## Tasks\nPhase G of `CLAUDE_CODE_DATA_PLAN.md`, including:\n- [ ] seeded real NSQ batches\n- [ ] batch-string noise\n- [ ] ~15% blank batches\n- [ ] decoys\n- [ ] scenario A (DEG-like) and scenario B (sterility).\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] `validate_data.py` synthetic checks pass; `data/synthetic/README.md` is written.\n\n## Depends on\n- #1\n\n_Note: (needs parsed NSQ rows to seed)_"
+ },
+ {
+  "id": 4,
+  "title": "[C] Repo conventions & CoCo setup guide",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:platform",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M0 · Pre-activation",
+  "milestone_due": "2026-09-26",
+  "depends_on": [],
+  "status_note": "Partly done: README, .gitignore (.env, kaggle.json), .env.example exist. Templates, CoCo guide and snow config example still to do.",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M0 · Pre-activation · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #4). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n> **Status:** Partly done: README, .gitignore (.env, kaggle.json), .env.example exist. Templates, CoCo guide and snow config example still to do.\n\n## Tasks\n- [ ] README skeleton, PR template and issue template\n- [ ] `docs/coco_log.md` template\n- [ ] `docs/setup_coco_cli.md` (install, connection config, role)\n- [ ] `.gitignore` for creds\n- [ ] snow CLI `config.toml.example`.\n\n## Snowflake features\n- CoCo CLI\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] A new teammate can set up in 15 minutes by following the docs.\n\n## Depends on\n_None_"
+ },
+ {
+  "id": 5,
+  "title": "[C] Wireframes for 5 screens + demo storyline",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:app",
+   "P1"
+  ],
+  "priority": "P1",
+  "milestone": "M0 · Pre-activation",
+  "milestone_due": "2026-09-26",
+  "depends_on": [],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M0 · Pre-activation · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #5). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\nLow-fi wireframes (markdown or Excalidraw PNG) in `docs/wireframes.md` for:\n- [ ] (1) Alert Inbox\n- [ ] (2) Batch Detail\n- [ ] (3) Patient Card + Action List\n- [ ] (4) Ask Kavach (agent chat)\n- [ ] (5) Regulator & Accuracy view.\n\nPlus a first draft of `docs/demo_script.md` (Coldrif-style story, 4 minutes).\n\n## Snowflake features\n- Cortex Agents\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Team agrees on the screens before M3.\n\n## Depends on\n_None_"
+ },
+ {
+  "id": 6,
+  "title": "[C] Activate trial, account setup, RBAC, cost guardrails",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:platform",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M1 · Snowflake foundation",
+  "milestone_due": "2026-09-27",
+  "depends_on": [],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M1 · Snowflake foundation · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #6). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] activate the team trial (see Section 4) and add a payment method\n- [ ] `ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION='ANY_REGION'` if needed\n- [ ] warehouses `WH_BUILD` and `WH_APP` (X-Small, auto-suspend 60 s)\n- [ ] resource monitor (notify at 50/75/90%, suspend at 100% of a team-agreed quota)\n- [ ] users for A and B\n- [ ] roles `KAVACH_ADMIN`, `KAVACH_ENGINEER`, `KAVACH_APP`, `KAVACH_PHARMACIST`, `KAVACH_CLINICIAN`, `KAVACH_JUDGE_RO`\n- [ ] grant `SNOWFLAKE.CORTEX_USER` and CoCo access (`SNOWFLAKE.COPILOT_USER`) to the engineer roles.\n\n## Snowflake features\n- RBAC\n- Warehouses + resource monitors\n- CoCo CLI\n\n## CoCo CLI\nEvery member runs one trivial CoCo CLI session and logs it.\n\n## Acceptance criteria\n- [ ] `snowflake/00_account_setup.sql` and `01_rbac.sql` committed\n- [ ] all 3 can run CoCo CLI\n- [ ] the resource monitor is active.\n\n## Depends on\n_None_"
+ },
+ {
+  "id": 7,
+  "title": "[A] Database, schemas, stages (SSE + directory tables)",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:platform",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M1 · Snowflake foundation",
+  "milestone_due": "2026-09-27",
+  "depends_on": [
+   6
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M1 · Snowflake foundation · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #7). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] `KAVACH` database with schemas `RAW`, `CORE`, `APP`, `EVAL`, `GOV`, plus personal dev schemas `DEV_A`, `DEV_B`, `DEV_C`\n- [ ] stages `@RAW.CDSCO_PDFS`, `@RAW.REFERENCE_DOCS` and `@RAW.HOSPITAL`, using `ENCRYPTION=(TYPE='SNOWFLAKE_SSE')` and `DIRECTORY=(ENABLE=TRUE)`. Server-side encryption is required for Cortex document functions on internal stages.\n\n## Snowflake features\n- Internal stages (SSE) + directory tables\n- Object tagging, masking & row access policies\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] `02_*.sql` and `03_*.sql` run cleanly on a fresh account.\n\n## Depends on\n- #6"
+ },
+ {
+  "id": 8,
+  "title": "[A] Upload PDFs & reference docs; load baseline + gold tables",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:data",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M1 · Snowflake foundation",
+  "milestone_due": "2026-09-27",
+  "depends_on": [
+   1,
+   7
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M1 · Snowflake foundation · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #8). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] `snow stage copy` the PDFs, keeping the folder structure as a path prefix\n- [ ] refresh the directory tables\n- [ ] load `nsq_baseline_parsed.csv` into `EVAL.BASELINE_PARSE` and the gold CSV into `EVAL.GOLD_NSQ`\n- [ ] add a `scripts/upload_to_stage.sh` wrapper.\n\n## Snowflake features\n- Internal stages (SSE) + directory tables\n- Object tagging, masking & row access policies\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] `SELECT COUNT(*) FROM DIRECTORY(@RAW.CDSCO_PDFS)` equals the PDF count in the manifest.\n\n## Depends on\n- #1\n- #7"
+ },
+ {
+  "id": 9,
+  "title": "[B] Load synthetic hospital into RAW and model CORE hospital tables",
+  "owner": "B",
+  "assignees": [
+   "@PERSON_B"
+  ],
+  "labels": [
+   "owner:B",
+   "area:data",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M1 · Snowflake foundation",
+  "milestone_due": "2026-09-27",
+  "depends_on": [
+   3,
+   7
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person B (B: Intelligence) · **Milestone:** M1 · Snowflake foundation · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #9). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] PUT the Parquet files\n- [ ] `COPY INTO` with `INFER_SCHEMA`\n- [ ] build CORE tables with primary/foreign keys (informational) and comments\n- [ ] load `exposures_truth` into `EVAL` only, never into CORE or APP.\n\n## Snowflake features\n- Internal stages (SSE) + directory tables\n- Object tagging, masking & row access policies\n- COPY INTO + INFER_SCHEMA\n- CoCo CLI\n\n## CoCo CLI\nAsk CoCo to generate the DDL from the staged Parquet and to write column comments; review them.\n\n## Acceptance criteria\n- [ ] FK checks return 0 orphans; row counts match the generator output.\n\n## Depends on\n- #3\n- #7"
+ },
+ {
+  "id": 10,
+  "title": "[A] Parse alert PDFs with AI_PARSE_DOCUMENT → RAW.NSQ_PAGES",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ingest",
+   "P0",
+   "coco"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   8
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #10). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] run `AI_PARSE_DOCUMENT(TO_FILE(...), {'mode':'LAYOUT','page_split':true})` over the directory table\n- [ ] store `source_file, page_index, content_markdown, parsed_at`\n- [ ] parse each file exactly once (idempotent MERGE).\n\n## Snowflake features\n- AI_PARSE_DOCUMENT (LAYOUT, page_split)\n- CoCo CLI\n\n## CoCo CLI\nHave CoCo write and test the SQL against 2 PDFs first.\n\n## Acceptance criteria\n- [ ] Every page of every PDF is present; 3 sampled pages spot-checked and readable.\n\n## Depends on\n- #8"
+ },
+ {
+  "id": 11,
+  "title": "[A] Structured row extraction per page → RAW.NSQ_ROWS_EXTRACTED",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ingest",
+   "P0",
+   "coco"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   10
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #11). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] per-page `AI_COMPLETE` with a JSON-schema response format. Fields: `product_name, brand_name, batch_no_raw, mfg_date_raw, exp_date_raw, manufacturer_raw, nsq_result, reporting_lab, row_no`\n- [ ] also try `AI_EXTRACT` in table mode on one page for comparison, and document which is better and why\n- [ ] do NOT extract a whole document in one call, because table output is capped at about 4k tokens\n- [ ] skip non-table pages such as definitions and footers.\n\n## Snowflake features\n- AI_COMPLETE (structured JSON output)\n- AI_EXTRACT\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Row count per month is within ±5% of the baseline parse; the decision is noted in `docs/architecture.md`.\n\n## Depends on\n- #10"
+ },
+ {
+  "id": 12,
+  "title": "[A] Normalization UDFs + CORE.NSQ_ALERT (one row per batch)",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ingest",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   11
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #12). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\nSnowpark Python UDFs for:\n- [ ] `normalize_batch()`: uppercase, strip spaces, hyphens, slashes and dots, remove \"B.No:\"\n- [ ] `split_batches()`: turn a multi-batch cell into an array, then FLATTEN\n- [ ] `parse_alert_date()`: handle MM/YYYY, DD-MM-YYYY and broken lines\n- [ ] `normalize_manufacturer()`.\n\nThen build `CORE.NSQ_ALERT` with `alert_id, alert_month, category (central/state/spurious), source_file, page_index, …normalized fields…, raw fields`.\n\n## Snowflake features\n- Snowpark Python UDFs\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] unit tests in `tests/sql_checks/`\n- [ ] the known tricky rows (multi-batch cell, split batch, date broken across lines) are handled correctly.\n\n## Depends on\n- #11"
+ },
+ {
+  "id": 13,
+  "title": "[A] Extraction accuracy vs gold set → EVAL.EXTRACTION_METRICS",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:eval",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   2,
+   12
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #13). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] field-level exact-match accuracy plus row-level precision and recall for June 2025 central\n- [ ] compare the Cortex pipeline against the pdfplumber baseline\n- [ ] write `docs/eval_report.md`.\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] The headline number exists (e.g. \"batch number accuracy 97%\"). Report honestly, whatever it is.\n\n## Depends on\n- #2\n- #12"
+ },
+ {
+  "id": 14,
+  "title": "[A] Severity classification (AI_CLASSIFY + rules)",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ai",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   12
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #14). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n`AI_CLASSIFY` on `nsq_result` into categories:\n- [ ] sterility / endotoxin\n- [ ] particulate matter\n- [ ] toxic contaminant (DEG/EG)\n- [ ] assay (strength)\n- [ ] dissolution\n- [ ] description / labeling\n- [ ] spurious\n- [ ] other.\n\nThen rules combining the category with dosage form (injection, oral liquid, tablet…) give `severity` = critical / high / low, plus a one-line rationale. Examples: sterility or particulate in an injectable → critical; description only → low.\n\n## Snowflake features\n- AI_CLASSIFY\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] A 30-row manual spot check shows ≥90% agreement; the rules are documented.\n\n## Depends on\n- #12"
+ },
+ {
+  "id": 15,
+  "title": "[A] Automation: new PDF → processed end to end (stream + task)",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ingest",
+   "P1",
+   "coco"
+  ],
+  "priority": "P1",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   12,
+   14
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M2 · Core pipelines · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #15). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] stream on the `@RAW.CDSCO_PDFS` directory table\n- [ ] a task (or task graph) running parse → extract → normalize → severity for new files only\n- [ ] the Dynamic Tables downstream refresh automatically.\n\n## Snowflake features\n- Dynamic Tables\n- Streams\n- Tasks / task graphs\n\n## CoCo CLI\nTurn this into the custom skill `.cortex/skills/kavach-monthly-run/SKILL.md` (\"process a newly uploaded CDSCO month and report matches\").\n\n## Acceptance criteria\n- [ ] Uploading one held-back month (e.g. June 2025) triggers the full pipeline with no manual SQL. This is the demo moment.\n\n## Depends on\n- #12\n- #14"
+ },
+ {
+  "id": 16,
+  "title": "[A] Ingest portal extracts (Aug 2025 → latest) into CORE.NSQ_ALERT",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ingest",
+   "P1"
+  ],
+  "priority": "P1",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   1,
+   12
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M2 · Core pipelines · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #16). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] Load `portal_nsq.csv` (from `CLAUDE_CODE_DATA_PLAN.md` phase C) with `record_origin='portal'` into the same normalized table.\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Months from Aug 2025 onward appear in the app. If the portal fetch failed, close this as \"won't do\" with a note.\n\n## Depends on\n- #1\n- #12"
+ },
+ {
+  "id": 17,
+  "title": "[B] Matching engine: Dynamic Table CORE.BATCH_MATCHES",
+  "owner": "B",
+  "assignees": [
+   "@PERSON_B"
+  ],
+  "labels": [
+   "owner:B",
+   "area:matching",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   9,
+   12
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person B (B: Intelligence) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #17). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\nMatch `CORE.NSQ_ALERT` against `stock_batches` and `dispensing` in three tiers:\n- [ ] **exact:** normalized batch equal + `JAROWINKLER_SIMILARITY(manufacturer) ≥ 85` + expiry within ±1 month\n- [ ] **probable:** normalized batch equal but weak manufacturer match, OR `EDITDISTANCE(batch) = 1` with the same composition and maker\n- [ ] **watchlist:** same product and maker, different batch → no patient action\n- [ ] **blank batch:** a patient got the same product and maker during the alert batch's validity window, but no batch was recorded → \"possible exposure\".\n\nStore `match_tier, match_score, reasons (array)`.\n\n## Snowflake features\n- Dynamic Tables\n- JAROWINKLER_SIMILARITY / EDITDISTANCE\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] The Dynamic Table refreshes on new alerts; decoys never land in exact or probable.\n\n## Depends on\n- #9\n- #12"
+ },
+ {
+  "id": 18,
+  "title": "[B] Matching accuracy vs ground truth → EVAL.MATCH_METRICS",
+  "owner": "B",
+  "assignees": [
+   "@PERSON_B"
+  ],
+  "labels": [
+   "owner:B",
+   "area:eval",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   17
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person B (B: Intelligence) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #18). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] Precision and recall per tier against `EVAL.EXPOSURES_TRUTH`; a confusion table; add results to `docs/eval_report.md`.\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Exact-tier precision ≥ 0.98; decoy false-positive rate reported.\n\n## Depends on\n- #17"
+ },
+ {
+  "id": 19,
+  "title": "[B] Patient exposure + clinical watch → CORE.PATIENT_EXPOSURE, CORE.CLINICAL_FLAGS",
+  "owner": "B",
+  "assignees": [
+   "@PERSON_B"
+  ],
+  "labels": [
+   "owner:B",
+   "area:ai",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   17
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person B (B: Intelligence) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #19). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] build the exposure table: patient, dispense event, alert, tier, severity, days since dose\n- [ ] add signal rules by failure category:\n  - toxic contaminant in an oral liquid → creatinine >1.5× baseline within 3–10 days\n  - sterility or endotoxin in an injectable → temperature >38.5 °C or WBC rise within 48 h\n  - assay or dissolution failure in a chronic drug (e.g. telmisartan) → \"efficacy review\" flag\n- [ ] produce a `flag_reason` in plain English using `AI_COMPLETE` with a strict template. Wording must be \"needs clinician review\".\n\n## Snowflake features\n- AI_COMPLETE (structured JSON output)\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Scenario A and B patients are flagged; normal-lab patients are not.\n\n## Depends on\n- #17"
+ },
+ {
+  "id": 20,
+  "title": "[B] Action list + multilingual callback scripts → APP.ACTION_ITEMS",
+  "owner": "B",
+  "assignees": [
+   "@PERSON_B"
+  ],
+  "labels": [
+   "owner:B",
+   "area:ai",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   19
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person B (B: Intelligence) · **Milestone:** M2 · Core pipelines · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #20). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] generate actions: `QUARANTINE_STOCK` (store, batch, qty), `CALL_PATIENT`, `CLINICIAN_REVIEW`, `REPORT_TO_REGULATOR`\n- [ ] statuses: open / done / not reachable\n- [ ] write a callback script with `AI_COMPLETE` (short, calm, non-alarming) and translate it with `AI_TRANSLATE` into the patient's preferred language (ml / hi / ta)\n- [ ] write-back from the app updates the status with the user and timestamp (audit trail).\n\n## Snowflake features\n- AI_COMPLETE (structured JSON output)\n- AI_TRANSLATE\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Each exposed patient has exactly one callback action with a script in their language.\n\n## Depends on\n- #19"
+ },
+ {
+  "id": 21,
+  "title": "[C] Governance: tags, masking, row access, judge role",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:platform",
+   "P1"
+  ],
+  "priority": "P1",
+  "milestone": "M2 · Core pipelines",
+  "milestone_due": "2026-09-30",
+  "depends_on": [
+   9
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M2 · Core pipelines · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #21). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] tag PHI-like columns (`GOV.PII` tag)\n- [ ] masking policy: name and phone are masked except for `KAVACH_PHARMACIST` and `KAVACH_CLINICIAN`\n- [ ] row access policy by `store_id` for pharmacist users\n- [ ] `KAVACH_JUDGE_RO` sees masked data only.\n\nShow all of this in the MVP doc: the data is synthetic, but the product is built for real patient data.\n\n## Snowflake features\n- Object tagging, masking & row access policies\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Querying as the judge role shows masked values.\n\n## Depends on\n- #9"
+ },
+ {
+  "id": 22,
+  "title": "[A] Cortex Search service over alerts + CDSCO guidance (citations)",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ai",
+   "P0",
+   "coco"
+  ],
+  "priority": "P0",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   10
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M3 · Intelligence & App · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #22). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] chunk `RAW.NSQ_PAGES` and the parsed reference docs (recall guideline, guidance document, Rule 65) into `CORE.SEARCH_CHUNKS`, with `source_file, page_index, doc_type`\n- [ ] create a Cortex Search service with attributes for filtering (`doc_type, alert_month`).\n\n## Snowflake features\n- Cortex Search\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] The query \"what must a hospital do when a batch is declared NSQ\" returns the recall-guideline chunk with its page number.\n\n## Depends on\n- #10"
+ },
+ {
+  "id": 23,
+  "title": "[B] Semantic view KAVACH_SV (built with CoCo CLI)",
+  "owner": "B",
+  "assignees": [
+   "@PERSON_B"
+  ],
+  "labels": [
+   "owner:B",
+   "area:ai",
+   "P0",
+   "coco"
+  ],
+  "priority": "P0",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   17,
+   19,
+   20
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person B (B: Intelligence) · **Milestone:** M3 · Intelligence & App · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #23). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\nUse CoCo's semantic-view skill to build `KAVACH_SV`:\n- [ ] **entities:** alerts, batches, stock, dispensing, patients, wards, exposures, flags, actions\n- [ ] **metrics:** `exposed_patients`, `critical_matches`, `open_callbacks`, `blank_batch_rate`, `nsq_by_manufacturer`, `repeat_offender_count`\n- [ ] **synonyms:** e.g. \"bad batch\" = NSQ, \"syrup\" = oral liquid\n- [ ] **verified queries:** at least 10.\n\n## Snowflake features\n- Semantic Views + Cortex Analyst\n- CoCo CLI\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] All 10 verified queries answer correctly in Cortex Analyst; the CoCo session is logged.\n\n## Depends on\n- #17\n- #19\n- #20"
+ },
+ {
+  "id": 24,
+  "title": "[B] Cortex Agent \"Kavach Assistant\" + evaluation set",
+  "owner": "B",
+  "assignees": [
+   "@PERSON_B"
+  ],
+  "labels": [
+   "owner:B",
+   "area:ai",
+   "P0",
+   "coco"
+  ],
+  "priority": "P0",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   22,
+   23
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person B (B: Intelligence) · **Milestone:** M3 · Intelligence & App · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #24). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\nBuild the agent via CoCo's agent-studio skill, with tools:\n- [ ] Cortex Analyst (`KAVACH_SV`)\n- [ ] Cortex Search (#22)\n- [ ] one custom tool: stored procedure `GET_PATIENT_TIMELINE(patient_id)`.\n\nThe system prompt enforces three rules: cite sources, use \"needs review\" language, refuse diagnosis. Write `tests/agent_questions.yaml` with 15 questions and expected answers, e.g. \"Which children got a failed syrup in the last 90 days?\" or \"Why was batch X flagged critical?\".\n\n## Snowflake features\n- Cortex Search\n- Semantic Views + Cortex Analyst\n- Cortex Agents\n- Stored procedures\n- CoCo CLI\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] ≥13 of 15 correct, with citations; results in `docs/eval_report.md`.\n\n## Depends on\n- #22\n- #23"
+ },
+ {
+  "id": 25,
+  "title": "[A] Monthly alert brief (AI_AGG / AI_SUMMARIZE_AGG) + email Alert",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ai",
+   "P1"
+  ],
+  "priority": "P1",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   15,
+   17
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M3 · Intelligence & App · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #25). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] a view producing a one-paragraph \"this month\" brief for the pharmacy head: counts, critical items, top failure types, repeat manufacturers\n- [ ] a Snowflake `ALERT` object that fires when new exact or probable matches appear and sends the brief via `SYSTEM$SEND_EMAIL` (notification integration, verified team emails).\n\n## Snowflake features\n- AI_AGG / AI_SUMMARIZE_AGG\n- Snowflake Alerts + SYSTEM$SEND_EMAIL\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] A test email is received after the #15 demo upload.\n\n## Depends on\n- #15\n- #17"
+ },
+ {
+  "id": 26,
+  "title": "[A] Regulator insights views",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:ai",
+   "P1"
+  ],
+  "priority": "P1",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   12
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M3 · Intelligence & App · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #26). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\nViews for:\n- [ ] NSQ counts by state, manufacturer and failure type over time\n- [ ] repeat-offender manufacturers\n- [ ] **states not reporting** each month, parsed from the state-alert header notes\n- [ ] time from manufacture to alert (how long bad batches circulate).\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Data powers screen 5.\n\n## Depends on\n- #12"
+ },
+ {
+  "id": 27,
+  "title": "[C] Streamlit in Snowflake scaffold (multi-page) + shared data layer",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:app",
+   "P0",
+   "coco"
+  ],
+  "priority": "P0",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   7
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M3 · Intelligence & App · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #27). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] SiS app with pages 1–5, a shared `lib/queries.py`, and a theme\n- [ ] the same code must run on Streamlit Community Cloud: branch on the environment to get the session (`get_active_session()` in SiS, a key-pair connection elsewhere).\n\n## Snowflake features\n- Streamlit in Snowflake\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] The app deploys in SiS and all pages load with placeholder queries.\n\n## Depends on\n- #7"
+ },
+ {
+  "id": 28,
+  "title": "[C] Screens 1 & 2: Alert Inbox + Batch Detail (with PDF citation)",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:app",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   17,
+   20,
+   27
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M3 · Intelligence & App · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #28). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] **Inbox:** month selector; cards for \"N batches in alert, X match your stock, Y patients exposed, Z critical\"; the monthly brief (#25).\n- [ ] **Batch Detail:** alert fields, severity and rationale, match tier and reasons, stock locations to quarantine, exposed patient list, and an **\"Open source PDF (page n)\"** button using `GET_PRESIGNED_URL`.\n\n## Snowflake features\n- GET_PRESIGNED_URL\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] A click-through from inbox to batch to PDF page works.\n\n## Depends on\n- #17\n- #20\n- #27"
+ },
+ {
+  "id": 29,
+  "title": "[C] Screen 3: Patient Card + Action workflow",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:app",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   19,
+   20,
+   27
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M3 · Intelligence & App · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #29). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] medication timeline with batch numbers, with the flagged dose highlighted\n- [ ] lab trend chart with the flag window shaded\n- [ ] callback script in the patient's language\n- [ ] action buttons (done / not reachable / escalate) that write back to `APP.ACTION_ITEMS`\n- [ ] masked view for non-clinical roles.\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Completing a callback updates the status and the inbox counts.\n\n## Depends on\n- #19\n- #20\n- #27"
+ },
+ {
+  "id": 30,
+  "title": "[C] Screen 4: Ask Kavach (agent chat)",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:app",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   24,
+   27
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M3 · Intelligence & App · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #30). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] Chat UI calling the Cortex Agent (via the Agents REST API from SiS; check the current Snowflake docs for the supported call). Render tables, citations and follow-up suggestions. Provide 5 starter questions.\n\n## Snowflake features\n- Cortex Agents\n- Streamlit in Snowflake\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] The 5 starter questions work live, with citations shown.\n\n## Depends on\n- #24\n- #27"
+ },
+ {
+  "id": 31,
+  "title": "[C] Screen 5: Regulator view + \"How accurate is Kavach?\" page",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:app",
+   "P1"
+  ],
+  "priority": "P1",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   13,
+   18,
+   26,
+   27
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M3 · Intelligence & App · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #31). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] state heatmap / bar charts, repeat offenders, non-reporting states (#26)\n- [ ] an accuracy page showing extraction metrics (#13) and matching metrics (#18) honestly.\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Numbers match `docs/eval_report.md`.\n\n## Depends on\n- #13\n- #18\n- #26\n- #27"
+ },
+ {
+  "id": 32,
+  "title": "[C] Public deployment for judges",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:app",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M3 · Intelligence & App",
+  "milestone_due": "2026-10-02",
+  "depends_on": [
+   21,
+   28,
+   29,
+   30
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M3 · Intelligence & App · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #32). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] mirror the app to Streamlit Community Cloud\n- [ ] key-pair auth for a service user holding `KAVACH_JUDGE_RO` and `WH_APP`\n- [ ] secrets stored only in Streamlit secrets\n- [ ] rate-limit the agent calls\n- [ ] put a \"synthetic data\" banner on every page.\n\nFallback: a judge login to the SiS app, documented in the submission.\n\n## Snowflake features\n- Cortex Agents\n- Streamlit in Snowflake\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] The public URL works in an incognito window on a phone; no credentials in the repo.\n\n## Depends on\n- #21\n- #28\n- #29\n- #30"
+ },
+ {
+  "id": 33,
+  "title": "[A] One-command rebuild + fresh-account test",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A"
+  ],
+  "labels": [
+   "owner:A",
+   "area:platform",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M4 · Ship",
+  "milestone_due": "2026-10-04",
+  "depends_on": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A (A: Data & Pipeline) · **Milestone:** M4 · Ship · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #33). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] `make deploy` (or `scripts/deploy.sh`) runs `snowflake/*.sql` in order, uploads the data, and creates Search, Semantic View, Agent and the app\n- [ ] test it into a **zero-copy clone or a fresh schema set**\n- [ ] write `99_teardown.sql`.\n\n## Snowflake features\n- Zero-copy clone\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] The README's rebuild steps work first time for another team member.\n\n## Depends on\n- #10\n- #11\n- #12\n- #13\n- #14\n- #15\n- #16\n- #17\n- #18\n- #19\n- #20\n- #21\n- #22\n- #23\n- #24\n- #25\n- #26\n- #27\n- #28\n- #29\n- #30\n- #31\n- #32\n\n_Note: most of M2/M3_"
+ },
+ {
+  "id": 34,
+  "title": "[C] End-to-end demo run-through (Coldrif-style story)",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:docs",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M4 · Ship",
+  "milestone_due": "2026-10-04",
+  "depends_on": [
+   15,
+   25,
+   28,
+   29,
+   30,
+   31
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M4 · Ship · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #34). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\nFinalize `docs/demo_script.md` and do 2 full dry runs. The story:\n1. \"A new CDSCO month drops.\"\n2. Upload the PDF, and the task processes it (#15).\n3. The email alert arrives (#25).\n4. Inbox → critical syrup batch → 6 children exposed → 3 flagged kidney values → callback scripts in Malayalam.\n5. Ask Kavach a question.\n6. Show the accuracy page.\n\nTime the whole run at under 4 minutes.\n\n## Snowflake features\n- Tasks / task graphs\n- Snowflake Alerts + SYSTEM$SEND_EMAIL\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Two clean dry runs; every step works without manual SQL.\n\n## Depends on\n- #15\n- #25\n- #28\n- #29\n- #30\n- #31"
+ },
+ {
+  "id": 35,
+  "title": "[C] MVP / prototype documentation (mandatory submission)",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:docs",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M4 · Ship",
+  "milestone_due": "2026-10-04",
+  "depends_on": [
+   13,
+   18,
+   24
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M4 · Ship · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #35). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\nWrite `docs/MVP.md` (also export it to PDF) covering:\n- [ ] problem, with sources\n- [ ] how it differs from existing tools (MedicineWatch India = consumer lookup; ECRI = US inventory recalls)\n- [ ] users\n- [ ] architecture diagram\n- [ ] the Snowflake feature list with *why each is used*\n- [ ] CoCo CLI usage (from `coco_log.md`) and the custom skill\n- [ ] accuracy results\n- [ ] governance\n- [ ] limitations: synthetic patients, state reporting gaps, missing batch capture in real pharmacies\n- [ ] roadmap: QR scan at dispensing, pharmacy chains, state drug controllers.\n\nA and B contribute their sections as PRs.\n\n## Snowflake features\n- CoCo CLI\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Reviewed by all three; exported PDF committed.\n\n## Depends on\n- #13\n- #18\n- #24"
+ },
+ {
+  "id": 36,
+  "title": "[C] Demo video (3–5 min)",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:docs",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M4 · Ship",
+  "milestone_due": "2026-10-04",
+  "depends_on": [
+   34
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M4 · Ship · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #36). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] Record the demo script with narration; upload it (YouTube unlisted or Drive); link it in the README and MVP doc.\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Video link works, and the video is under 5 minutes.\n\n## Depends on\n- #34"
+ },
+ {
+  "id": 37,
+  "title": "[A+B+C] CoCo CLI evidence pack",
+  "owner": "A",
+  "assignees": [
+   "@PERSON_A",
+   "@PERSON_B",
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:A",
+   "area:docs",
+   "P1",
+   "coco"
+  ],
+  "priority": "P1",
+  "milestone": "M4 · Ship",
+  "milestone_due": "2026-10-04",
+  "depends_on": [],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person A + B + C (A: Data & Pipeline, B: Intelligence, C: Platform & Product) · **Milestone:** M4 · Ship · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #37). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] each member adds at least 3 meaningful entries to `docs/coco_log.md` (prompt → generated → edited)\n- [ ] finish the custom skill in `.cortex/skills/kavach-monthly-run/`\n- [ ] add a short \"How we used CoCo CLI\" section to the MVP doc.\n\n## Snowflake features\n- CoCo CLI\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] At least 9 log entries; the skill runs.\n\n## Depends on\n_None_"
+ },
+ {
+  "id": 38,
+  "title": "[C] Trial safety & finale readiness",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:platform",
+   "P1"
+  ],
+  "priority": "P1",
+  "milestone": "M4 · Ship",
+  "milestone_due": "2026-10-04",
+  "depends_on": [],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M4 · Ship · **Priority:** P1\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #38). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] suspend idle warehouses and check resource-monitor usage daily\n- [ ] before the trial expires, unload key tables to the stage and download them (backup)\n- [ ] plan for the finale (27–30 Oct), since the trial ends at about that time: either add paid usage or have the video plus a rebuild path\n- [ ] keep the public app working through judging (5–22 Oct).\n\n## Snowflake features\n- Internal stages (SSE) + directory tables\n- Object tagging, masking & row access policies\n- Warehouses + resource monitors\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] The backup exists in the repo release assets; the finale plan is written in the README.\n\n## Depends on\n_None_"
+ },
+ {
+  "id": 39,
+  "title": "[C] Final submission on Hack2skill portal (due 4 Oct)",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "area:docs",
+   "P0"
+  ],
+  "priority": "P0",
+  "milestone": "M4 · Ship",
+  "milestone_due": "2026-10-04",
+  "depends_on": [
+   32,
+   35,
+   36
+  ],
+  "status_note": "",
+  "body": "## Context\n**Owner:** Person C (C: Platform & Product) · **Milestone:** M4 · Ship · **Priority:** P0\n\nPart of **Kavach** — see `CLAUDE_CODE_TEAM_PLAN.md` §8 (plan item #39). Principles: Snowflake-first, everything as code under `snowflake/`, cite `source_file + page`, \"needs clinician review\" wording, protect the credits.\n\n## Tasks\n- [ ] Submit the GitHub repo link, the deployed app link and the MVP documentation; double-check every link in incognito; screenshot the confirmation.\n\n## Snowflake features\n_None (outside Snowflake)_\n\n## CoCo CLI\n_Optional — log any notable CoCo session in `docs/coco_log.md`._\n\n## Acceptance criteria\n- [ ] Submission confirmed before the deadline.\n\n## Depends on\n- #32\n- #35\n- #36"
+ },
+ {
+  "id": 40,
+  "title": "[C] EPIC: Kavach — tracking issue",
+  "owner": "C",
+  "assignees": [
+   "@PERSON_C"
+  ],
+  "labels": [
+   "owner:C",
+   "epic"
+  ],
+  "priority": "P1",
+  "milestone": "M4 · Ship",
+  "milestone_due": "2026-10-04",
+  "depends_on": [],
+  "status_note": "",
+  "body": "_(Generated at creation time: task list of every issue grouped by milestone, owner table, key dates.)_"
+ }
+]
