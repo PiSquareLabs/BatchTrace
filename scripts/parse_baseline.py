@@ -302,9 +302,11 @@ def to_rows(recs: list[dict], path: Path, category: str) -> list[dict]:
         }
         group = f"{path.stem}-p{r['page_no']}-r{n}"
         for b in batches or [""]:
-            rows.append({**base, "batch_no_raw": b, "batch_no_norm": norm_batch(b),
+            bn = norm_batch(b)
+            # "-", blank etc.: the source prints no batch number -> flag, never guess
+            rows.append({**base, "batch_no_raw": b, "batch_no_norm": bn,
                          "batch_group_id": group if len(batches) > 1 else "",
-                         "parse_confidence": round(conf, 2)})
+                         "parse_confidence": round(conf if bn else min(conf, 0.2), 2)})
     return rows
 
 

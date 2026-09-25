@@ -1,0 +1,46 @@
+== manifest
+[PASS] 110 manifest entries exist on disk
+[PASS] sha256 matches for every file
+[PASS] 55 PDFs open with pdfplumber and page counts match
+[PASS] 52 CDSCO alert PDFs (plan expects ~45-55)
+
+== baseline NSQ parse (data/interim/nsq_baseline_parsed.csv)
+[INFO] 1914 rows, 1908 records
+[PASS] no unexplained empty batch_no_norm in NSQ rows (1 row(s) have no batch printed in the PDF and are flagged parse_confidence<=0.2)
+[PASS] alert_month within 2023-12..2025-07
+[PASS] June 2025 central: 55 records / 57 rows (published ~55)
+[PASS] records per month within ±8% of the portal's count for 18 months
+[INFO] parse_confidence: {'0.2': 1, '0.3': 5, '0.7': 145, '0.8': 9, '1.0': 1754}
+
+== synthetic hospital
+[INFO] patients: 5000 rows
+[PASS] patients: CSV and Parquet row counts agree
+[INFO] wards: 12 rows
+[PASS] wards: CSV and Parquet row counts agree
+[INFO] encounters: 20000 rows
+[INFO] products: 1590 rows
+[INFO] stock_batches: 6100 rows
+[PASS] stock_batches: CSV and Parquet row counts agree
+[INFO] prescriptions: 60018 rows
+[INFO] dispensing: 60018 rows
+[INFO] labs: 40117 rows
+[PASS] foreign keys resolve
+[PASS] dispensing.patient_id matches its prescription
+[PASS] dispensed_ts inside batch validity for all 24777 batch-linked dispenses (QR scans + every seeded/decoy dispense)
+[PASS] blank-batch share 14.9% (13-17%)
+[PASS] blank/manual rows carry no batch_uid
+[PASS] QR-scanned rows record the exact batch number
+[PASS] seeded NSQ batch share 5.6% of stock_batches (4-6%)
+[PASS] 204 near-miss decoy batches present
+[PASS] every seeded batch belongs to an is_nsq_seeded product
+[INFO] ground truth match_type: {'exact': 500, 'decoy': 494, 'noisy': 191, 'blank_batch': 124} (191 noisy)
+[PASS] scenario A: 6 exposed (expect 6), 3 with signal (expect 3); all children=True; creatinine >2x baseline in 3-10 d for 3/3
+[PASS] scenario B: 12 exposed (expect 12), 4 with signal (expect 4); fever >38.5 C + WBC rise within 48 h for 4/4
+
+== git hygiene
+[PASS] no tracked file > 50 MB (163 tracked files)
+[INFO] largest tracked file: data/reference/cdsco_guidance_document_2022.pdf (16.4 MB)
+[PASS] no .env / key / secret / token files tracked (.env.example placeholders only)
+[PASS] .env.example contains placeholders only
+
+ALL CHECKS PASSED
