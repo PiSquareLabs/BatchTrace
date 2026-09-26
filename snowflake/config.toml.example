@@ -1,0 +1,24 @@
+# Copy to snowflake/config.toml and fill in your own values.
+# NEVER commit config.toml or any *.p8 private key — see .gitignore.
+#
+# Point the snow CLI at this file, e.g.:
+#   export SNOWFLAKE_HOME="$(pwd)/snowflake"          (macOS/Linux)
+#   $env:SNOWFLAKE_HOME = "$PWD\snowflake"             (Windows PowerShell)
+
+default_connection_name = "kavach"
+
+[connections.kavach]
+account = "your-account-identifier"        # e.g. abcd-xy12345
+user = "your_username"
+role = "KAVACH_ENGINEER"                   # KAVACH_ADMIN | KAVACH_ENGINEER | KAVACH_APP | KAVACH_JUDGE_RO
+warehouse = "WH_BUILD"
+database = "KAVACH"
+schema = "RAW"
+
+# Password auth (trial default) — leave the key-pair lines commented out.
+# authenticator = "snowflake"
+# password is NOT stored here; the CLI will prompt, or read SNOWFLAKE_PASSWORD from your shell env.
+
+# Key-pair auth (preferred for service users / CI) — uncomment and point at your local key.
+# authenticator = "SNOWFLAKE_JWT"
+# private_key_path = "/absolute/path/to/your_key.p8"

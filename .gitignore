@@ -7,5 +7,10 @@ __pycache__/
 data/tmp/
 .kaggle/
 kaggle.json
+
+# Snowflake / CoCo CLI credentials — never commit
+snowflake/config.toml
+*.p8
+.streamlit/secrets.toml
 # full upstream drug master (licence unclear -> only the subset is committed; see docs/DATA_SOURCES.md)
 data/raw/drug_master/indian_medicine_data.csv
