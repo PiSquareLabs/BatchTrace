@@ -1,0 +1,22 @@
+line_id,appointment_id,patient_id,dispense_date,batch_id,batch_no_recorded,brand_name,manufacturer,dose,frequency,route,duration_days,qty,unit
+L900001,A900001,P90001,2025-03-03,B02632,24460967,Taxim-O 200 Tablet,Alkem Laboratories Ltd,1 tab,BD,Oral,14,28,tab
+L900002,A900003,P90001,2025-03-09,B00019,TP24F986,Maxizon 1gm Injection,Torrent Pharmaceuticals Ltd,2 g,OD,IV,7,14,vial/amp
+L900003,A900005,P90002,2025-01-27,B00834,SIF2736A,Rosuvas F 20 Tablet,Sun Pharmaceutical Industries Ltd,1 tab,OD (night),Oral,30,30,tab
+L900004,A900006,P90002,2025-02-26,B00834,SIF2736A,Rosuvas F 20 Tablet,Sun Pharmaceutical Industries Ltd,1 tab,OD (night),Oral,30,30,tab
+L900005,A900007,P90002,2025-03-28,B00834,SIF2736A,Rosuvas F 20 Tablet,Sun Pharmaceutical Industries Ltd,1 tab,OD (night),Oral,30,30,tab
+L900006,A900008,P90002,2025-04-28,B00834,SIF2736A,Rosuvas F 20 Tablet,Sun Pharmaceutical Industries Ltd,1 tab,OD (night),Oral,30,30,tab
+L900007,A900009,P90002,2025-05-28,B00834,SIF2736A,Rosuvas F 20 Tablet,Sun Pharmaceutical Industries Ltd,1 tab,OD (night),Oral,30,30,tab
+L900008,A900010,P90002,2025-06-27,B00834,SIF2736A,Rosuvas F 20 Tablet,Sun Pharmaceutical Industries Ltd,1 tab,OD (night),Oral,30,30,tab
+L900009,A900012,P90003,2025-02-12,B00640,L0372321C,Irolink Injection,Protech Telelinks,200 mg in 100 ml NS,Single dose,IV,1,2,vial/amp
+L900010,A900015,P90004,2025-01-20,B00713,TS24047,Telmisartan Tablets IP 40 mg,Eurokem Laboratories Pvt. Ltd.,1 tab,OD,Oral,30,30,tab
+L900011,A900016,P90004,2025-02-20,B00713,TS24047,Telmisartan Tablets IP 40 mg,Eurokem Laboratories Pvt. Ltd.,1 tab,OD,Oral,30,30,tab
+L900012,A900017,P90004,2025-03-24,B00713,TS24047,Telmisartan Tablets IP 40 mg,Eurokem Laboratories Pvt. Ltd.,1 tab,OD,Oral,60,60,tab
+L900013,A900017,P90004,2025-03-24,B00287,MP25J308,Amlogift 5mg Tablet,Mankind Pharma Ltd,1 tab,OD,Oral,60,60,tab
+L900014,A900018,P90004,2025-05-26,B00713,TS24047,Telmisartan Tablets IP 40 mg,Eurokem Laboratories Pvt. Ltd.,1 tab,OD,Oral,60,60,tab
+L900015,A900018,P90004,2025-05-26,B00287,MP25J308,Amlogift 5mg Tablet,Mankind Pharma Ltd,1 tab,OD,Oral,60,60,tab
+L900016,A900019,P90005,2024-11-04,B00453,3305,Lorazepam Tablets IP 1 mg,Reliance Formulation Pvt. Ltd.,1 tab,HS,Oral,28,28,tab
+L900017,A900020,P90005,2024-12-02,B00453,3305,Lorazepam Tablets IP 1 mg,Reliance Formulation Pvt. Ltd.,2 tab,HS,Oral,35,70,tab
+L900018,A900021,P90005,2025-01-06,B00453,3305,Lorazepam Tablets IP 1 mg,Reliance Formulation Pvt. Ltd.,2 tab,HS,Oral,60,120,tab
+L900019,A900022,P90005,2025-03-07,B00453,3305,Lorazepam Tablets IP 1 mg,Reliance Formulation Pvt. Ltd.,2 tab,HS,Oral,60,120,tab
+L900020,A900023,P90005,2025-05-08,B00453,3305,Lorazepam Tablets IP 1 mg,Reliance Formulation Pvt. Ltd.,2 tab,HS,Oral,42,84,tab
+L900021,A900024,P90005,2025-06-20,B00656,TPT259325,Loracalm 1mg Tablet,Torrent Pharmaceuticals Ltd,2 tab,HS,Oral,60,120,tab

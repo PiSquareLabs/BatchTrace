@@ -1,60 +1,61 @@
-# Bad Batch Tracer
+# BatchTrace
 
-Every month, India's drug regulator (CDSCO) publishes lists of drug batches that failed quality testing: "Not of Standard Quality" (NSQ) and spurious drugs. Hospitals rarely check these lists against what they have already dispensed. **Bad Batch Tracer** reads the monthly CDSCO alerts, extracts each failed batch, and matches it against a hospital's dispensing records. It also handles hand-typed and missing batch numbers. It then lists exposed patients and flags those whose labs suggest harm, for clinical follow-up.
+**Hospital drug-batch safety tracker powered by Snowflake Cortex AI.**
 
-Built for the Snowflake CoCo CLI Hackathon 2026 (GCC Edition), Track 4: Patient 360 & Clinical/Regulatory Copilot.
+BatchTrace ingests CDSCO (Central Drugs Standard Control Organisation) drug-safety alert PDFs, extracts failed-batch information using Cortex AI functions, matches them against a hospital's inventory, identifies exposed patients, triages by clinical severity, and generates actionable reports for pharmacy and clinical staff.
 
-This repo currently contains the **data layer**:
-- real public CDSCO alerts, as PDFs and portal JSON;
-- a drug master subset;
-- regulatory reference documents;
-- a baseline parse with a gold template for accuracy evaluation;
-- a fully **synthetic** hospital with an answer key.
+## Architecture
 
-> **No real patient data is used.** See `docs/DATA_SOURCES.md` for provenance, licences and known gaps.
+```
+CDSCO PDF  ──▶  @RAW.CDSCO_PDFS  ──▶  SP_INGEST  ──▶  ALERT_INGESTION / PAGES / ROWS_RAW
+                                       SP_MATCH   ──▶  ALERT_ITEMS / MATCHES
+                                       SP_TRIAGE  ──▶  ALERT_TRIAGE / EXPOSURES view
+                                       SP_REPORT  ──▶  ALERT_REPORTS / REPORT_BATCHES / REPORT_PATIENTS
+```
+
+## Database layout
+
+| Schema | Purpose |
+|--------|---------|
+| `RAW`  | Stages (`CDSCO_PDFS`, `SEED_DATA`) and file formats |
+| `CORE` | 16 tables + 2 views: hospital data, alert pipeline, reports, audit |
+| `APP`  | Streamlit app objects (future) |
 
 ## Quick start
 
-```bash
-make install                        # creates .venv and installs pinned requirements
-cp .env.example .env                # set CONTACT_EMAIL (sent in the polite User-Agent)
-make fetch && make synth && make validate
+```sql
+-- 1. Run setup, tables, load, config in order:
+--    sql/01_setup.sql
+--    sql/02_tables.sql
+--    sql/03_load_data.sql
+--    sql/04_app_config.sql
 ```
 
-The `make` targets:
+## Data
 
-| Target | What it does |
-|---|---|
-| `make fetch` | CDSCO alert PDFs, the CDSCO portal JSON, the drug master and the reference docs. Idempotent: files already present with a matching sha256 are skipped. |
-| `make gold` | Baseline PDF parse, then the gold template (`make parse` runs the parse alone). |
-| `make synth` | Synthetic hospital, seed 42, deterministic. |
-| `make validate` | All checks. Writes `docs/validation_report.txt`. |
+- **data/load/**: Main hospital seed data (3,184 batches, 2,190 patients, 5,711 appointments, 8,805 drug lines)
+- **data/demo/**: 5 demo patients (P90001–P90005) with 25 appointments and 21 drug lines that tell specific clinical stories
+- **data/md/**: Source markdown files with embedded CSV and loading instructions
+- **pdfs/**: CDSCO alert PDFs for ingestion testing
 
-All the data is already committed, so `make validate` works straight after `make install`.
+## Row counts after loading
 
-## Repo map
+| Table | Rows |
+|-------|------|
+| BAT_BATCHES | 3,184 |
+| PAT_PATIENTS | 2,195 |
+| PAT_APPOINTMENTS | 5,736 |
+| PAT_APPOINTMENT_DRUGS | 8,826 |
 
-```
-├── CLAUDE_CODE_DATA_PLAN.md       data acquisition plan (phases A–H)
-├── Makefile, requirements.txt, .env.example
-├── docs/
-│   ├── DATA_SOURCES.md            sources, licences, coverage, known gaps
-│   └── validation_report.txt      output of scripts/validate_data.py
-├── data/
-│   ├── manifest.csv               every fetched/derived file: URL, sha256, bytes, fetched_at, status, pages
-│   ├── raw/cdsco_alerts/          central/ state/ spurious/ combined/ other/ PDFs (+ listing index)
-│   ├── raw/cdsco_portal/          portal JSON per month + portal_nsq.csv (2025-07..2026-08) + backfill CSV
-│   ├── raw/drug_master/           drug_master_subset.csv.gz (full upstream CSV is gitignored)
-│   ├── reference/                 CDSCO recall guideline, guidance document, D&C Act+Rules, Rule 65 extract
-│   ├── interim/                   nsq_baseline_parsed.csv (pdfplumber baseline, not the product)
-│   ├── gold/                      nsq_2025-06_central_gold.csv (to be hand-verified)
-│   └── synthetic/
-│       ├── hospital/              patients, wards, encounters, products, stock_batches,
-│       │                          prescriptions, dispensing, labs (Parquet + CSV)
-│       └── ground_truth/          exposures answer key — evaluation only, NEVER load into app tables
-├── scripts/                       common.py + one script per phase (fetch_*, parse_baseline,
-│                                  build_gold_template, generate_synthetic_hospital, validate_data)
-└── snowflake/README.md            load plan (after trial activation, 27 Sept)
-```
+All data is synthetic except for real CDSCO batch numbers, product names, and manufacturer names.
 
-`data/synthetic/ground_truth/` is the answer key used to score the matcher. Keep it out of every Snowflake schema the app can read.
+## CoCo Skills
+
+Four pipeline skills in `.cortex/skills/` (CLI) and `.snowflake/cortex/skills/` (Snowsight):
+
+| Skill | Purpose |
+|-------|---------|
+| `ingest` | Parse and extract rows from CDSCO alert PDFs |
+| `match` | Match extracted alert items to hospital batch inventory |
+| `triage` | Identify exposed patients and assign clinical priority |
+| `report` | Generate summary reports with batch and patient details |

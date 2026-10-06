@@ -1,0 +1,6 @@
+patient_id,patient_name,sex,date_of_birth,age,blood_group,phone,district,known_allergies,registered_on
+P90001,Arun Pillai,M,1991-02-14,34,B+,+91-00000-90001,Thiruvananthapuram,None known,2025-03-03
+P90002,Leela Menon,F,1969-05-09,56,O+,+91-00000-90002,Kollam,None known,2025-01-27
+P90003,Anjali Nair,F,1998-08-21,26,A+,+91-00000-90003,Alappuzha,None known,2024-06-02
+P90004,Joseph Varghese,M,1964-03-30,61,AB+,+91-00000-90004,Kottayam,Sulfa drugs,2025-01-20
+P90005,Saraswathi Amma,F,1957-01-12,68,O-,+91-00000-90005,Thiruvananthapuram,None known,2024-11-04
